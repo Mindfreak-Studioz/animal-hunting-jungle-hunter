@@ -135,7 +135,10 @@ public class YodoAdsManager : MonoBehaviour
 
             Yodo1U3dMas.SetAdBuildConfig(buildConfig);
         }
-
+        Yodo1U3dInterstitialAd.GetInstance().autoDelayIfLoadFail = true;
+        Yodo1U3dRewardAd.GetInstance().autoDelayIfLoadFail = true;
+        Yodo1U3dAppOpenAd.GetInstance().autoDelayIfLoadFail = true;
+        Yodo1U3dRewardedInterstitialAd.GetInstance().autoDelayIfLoadFail = true;
         if (!isInitialized)
         {
             Yodo1U3dMas.InitializeMasSdk();

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using GameAnalyticsSDK;
 
 public class LogoSplash : MonoBehaviour {
 
@@ -18,7 +19,7 @@ public class LogoSplash : MonoBehaviour {
 		if (!GameManager.Instance.Initialized) {
 			InitializeGame();
 		}
-
+		GameAnalytics.Initialize();
 		StartCoroutine (StartGame ());
 	}
 

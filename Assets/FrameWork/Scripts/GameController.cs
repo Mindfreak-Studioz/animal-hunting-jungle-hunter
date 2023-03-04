@@ -2,6 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using GameAnalyticsSDK;
 
 public class GameController : MonoBehaviour {
 
@@ -125,6 +126,7 @@ public class GameController : MonoBehaviour {
 			InvokeRepeating("GameTimer", 0, 1);
 
 		//AdsManager.HideBanner ();
+		GameAnalytics.NewProgressionEvent(GAProgressionStatus.Start, GameManager.Instance.CurrentLevel.ToString());
 	}
 
 	void InitializeGame() {
@@ -347,6 +349,8 @@ public class GameController : MonoBehaviour {
 					SFX_Elements.CountDown.SetActive (false);
 				}
 			} else if (LevelTime == 0.0f && GameManager.Instance.GameStatus != "Loose" && GameManager.Instance.Objectives > 0) {
+
+				GameAnalytics.NewProgressionEvent(GAProgressionStatus.Fail, GameManager.Instance.CurrentLevel.ToString());
 				SFX_Elements.CountDown.SetActive (false);
 				GameManager.Instance.GameLoose ();
 			}
@@ -426,10 +430,13 @@ public class GameController : MonoBehaviour {
 		GameManager.Instance.PauseTimer ();
 		SFX_Elements.CountDown.SetActive(false);
 		if (GameManager.Instance.GameStatus == "Loose") {
+			GameAnalytics.NewProgressionEvent(GAProgressionStatus.Start, GameManager.Instance.CurrentLevel.ToString());
+
 			yield return new WaitForSeconds(GameLooseDelay); 
 			Game_Elements.LevelFailed.SetActive(true);
 		}
 		else {
+			GameAnalytics.NewProgressionEvent(GAProgressionStatus.Complete, GameManager.Instance.CurrentLevel.ToString());
 			UpdateLevel();
 			yield return new WaitForSeconds(GameWinDelay); 
 			if (currentLevel == PlayableLevels) {
