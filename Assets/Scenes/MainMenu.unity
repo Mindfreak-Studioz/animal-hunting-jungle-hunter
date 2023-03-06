@@ -1431,7 +1431,7 @@ MonoBehaviour:
   bannerSize: 2
   VerticalAlignment: 0
   HorizontalAlignment: 0
-  bannerOnAllScenes: 1
+  bannerOnAllScenes: 0
   PlacementID: 
   OnBannerLoaded:
     m_PersistentCalls:
