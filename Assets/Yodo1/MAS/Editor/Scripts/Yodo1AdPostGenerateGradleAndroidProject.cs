@@ -22,7 +22,10 @@ namespace Yodo1.MAS
             Yodo1ValidateManifest(path);
             Yodo1ValidateGradleProperties(path);
 
-            AddAdReview(path);
+            if (!IsFamily())
+            {
+                AddAdReview(path);
+            }
 
 #if UNITY_2022_2_OR_NEWER
             var rootSettingsGradleFilePath = Path.Combine(path, "../settings.gradle");

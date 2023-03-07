@@ -269,10 +269,6 @@ struct MulticastDelegate_t;
 struct NativeAdButtonEditorAction_t14AAC361356201A9157A333CBEC08AB9548C8E87;
 // System.NotSupportedException
 struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
-// Assets.SimpleAndroidNotifications.NotificationExample
-struct NotificationExample_tB7891619176E47307219AC9DB1866E7EEB654B35;
-// Assets.SimpleAndroidNotifications.NotificationParams
-struct NotificationParams_t76A96CCA32DDCA13DBF660FE91F14B5CFDE6E0DD;
 // UnityEngine.Object
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
 // UnityEngine.Events.PersistentCallGroup
@@ -409,6 +405,8 @@ struct U3CreadInfoU3Ed__188_tB6C0E3C630EDAD7F9F2E9257C1999F635E0E1F9E;
 struct Log_tEFAA9A1AD2F50AFCED92F4A900B0DAEC818186CA;
 // Reporter/Sample
 struct Sample_tA0F20D9048C0485C62396A4BE062C4AB5EC279A3;
+// Yodo1AdsTest/<>c
+struct U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7;
 // Yodo1.MAS.Yodo1JSON/Parser
 struct Parser_t471FC08CDAF45085216681B8DD84D7B0F478B623;
 // Yodo1.MAS.Yodo1JSON/Serializer
@@ -473,7 +471,6 @@ IL2CPP_EXTERN_C RuntimeClass* List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_i
 IL2CPP_EXTERN_C RuntimeClass* List_1_tE653FBF4379EAD189D54C8FAC55B34273A0593FB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Log_tEFAA9A1AD2F50AFCED92F4A900B0DAEC818186CA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* NotificationParams_t76A96CCA32DDCA13DBF660FE91F14B5CFDE6E0DD_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Parser_t471FC08CDAF45085216681B8DD84D7B0F478B623_il2cpp_TypeInfo_var;
@@ -489,9 +486,9 @@ IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9
 IL2CPP_EXTERN_C RuntimeClass* String_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var;
@@ -515,7 +512,6 @@ IL2CPP_EXTERN_C RuntimeClass* Yodo1U3dMas_t5FD42041FA9A44F15241DE2BAEF5D4A2CFAA6
 IL2CPP_EXTERN_C RuntimeClass* Yodo1U3dNativeAdPositionU5BU5D_t93F6165359E70524C268431DB2AFC05D4A9A8BC8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Yodo1U3dNativeAdView_t88CBFA48151A8D8113CA3526DE5E6EC3634F0448_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Yodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Yodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* YodoAdsManager_tD057F2EA2B0D876D699DBDADFAFD1CD44E7F9198_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____1C44884CF68478613962F6D577A99B33A15DF781948F0C78B8E7C859CC87126B_1_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____546A1CF4CDF70DBFD7CB48204B6DC0EE9C6DB1943D35F9E74D1811A8961D2475_2_FieldInfo_var;
@@ -529,7 +525,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral02F93DE17168BFCC6F904FAF81C45BE59BCCEDB0
 IL2CPP_EXTERN_C String_t* _stringLiteral03E447399474E104AE41AE7513CB5829E296E301;
 IL2CPP_EXTERN_C String_t* _stringLiteral062DB096C728515E033CF8C48A1C1F0B9A79384B;
 IL2CPP_EXTERN_C String_t* _stringLiteral063FB4FDFE8C6015D609F19762BF9588B7348F54;
-IL2CPP_EXTERN_C String_t* _stringLiteral08AF3FC9A97D6ECB916A0568BBBE8173CD484EB7;
 IL2CPP_EXTERN_C String_t* _stringLiteral0948800BF34E02AF357A1BCE0EE826E8FA475276;
 IL2CPP_EXTERN_C String_t* _stringLiteral0A4398ACB4FFC7ED635CFD45A3A2AD745A11EF38;
 IL2CPP_EXTERN_C String_t* _stringLiteral0B0FEB3147CE20EB2C90076367F895C59BCD14B3;
@@ -559,7 +554,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral1E55AC277E5F78A35E136717AAA2EEC452747B58
 IL2CPP_EXTERN_C String_t* _stringLiteral216030F9D9B80E9ADBA361F7508A5B73E3A92020;
 IL2CPP_EXTERN_C String_t* _stringLiteral2172B7D475278EB976890C1E0A59165F7B7FB08B;
 IL2CPP_EXTERN_C String_t* _stringLiteral218F5A08519088A96BE3C1074984C53EA49F1CCA;
-IL2CPP_EXTERN_C String_t* _stringLiteral23740F0179D5AD3FCD79D44AAD0D2FE852CA5BAD;
 IL2CPP_EXTERN_C String_t* _stringLiteral2446EC5DA03B0595960795994148378A7B2D7A6F;
 IL2CPP_EXTERN_C String_t* _stringLiteral2541034B373E602BE598AA71BABCAA3833931C32;
 IL2CPP_EXTERN_C String_t* _stringLiteral276CE93AD63409C122D483063DE4E4322B26CE49;
@@ -569,18 +563,18 @@ IL2CPP_EXTERN_C String_t* _stringLiteral2A756F3B72C8937F9224DC29DFFB2A6CF84D26D6
 IL2CPP_EXTERN_C String_t* _stringLiteral2C69BA38D67EAA2FB07DA441AF6B9445DD0FBAE2;
 IL2CPP_EXTERN_C String_t* _stringLiteral2C9E3B95872CBEDC3BD3845E4E40665C555F1FD8;
 IL2CPP_EXTERN_C String_t* _stringLiteral2DE460C78578CA58364FD9B9248BC75A8CE2D99C;
-IL2CPP_EXTERN_C String_t* _stringLiteral2ED5EA7EB05BCF56C07D3201BB3B444646B3BC70;
 IL2CPP_EXTERN_C String_t* _stringLiteral2FA286F00A35638DFF040F282CE949AC77E5E97D;
-IL2CPP_EXTERN_C String_t* _stringLiteral31D935CF336AAD2678C47B313F4809E59BD9B7AF;
+IL2CPP_EXTERN_C String_t* _stringLiteral31F13659D4C72397B711D75529EC95FC160A6647;
 IL2CPP_EXTERN_C String_t* _stringLiteral346AFC771C0A073421BB31C4C58E331015FC9EB7;
-IL2CPP_EXTERN_C String_t* _stringLiteral3828858EDDADFB2AEC895F54A3E3F0586C7AC85C;
 IL2CPP_EXTERN_C String_t* _stringLiteral388E2F20CDC13BB9665CA5679FB0FB9E5E0B9A21;
 IL2CPP_EXTERN_C String_t* _stringLiteral3CE16B3F79BFEFB1EE1F73D6BD00B4ECFDFCFD33;
 IL2CPP_EXTERN_C String_t* _stringLiteral3F8030E0506B79107B6EEE63437D596A2593D761;
 IL2CPP_EXTERN_C String_t* _stringLiteral4354EF3BE94DEADFE8790808386607EF45D2C8FC;
 IL2CPP_EXTERN_C String_t* _stringLiteral4464AE8AE5FA4916CE0C0CA012033BE9A0667339;
+IL2CPP_EXTERN_C String_t* _stringLiteral46470BDE9853A98F379350F5AD906D85C7BE2AB9;
 IL2CPP_EXTERN_C String_t* _stringLiteral47F274C5B4CE309D815FE994BE27F26ABE69D1D8;
 IL2CPP_EXTERN_C String_t* _stringLiteral493FC044D92442E7FD68A230DCA09A398D10994F;
+IL2CPP_EXTERN_C String_t* _stringLiteral494003C7DA6803BA571191806A3EB90B6FC06489;
 IL2CPP_EXTERN_C String_t* _stringLiteral499AFD64C0BAB47984A17BFCD6409ABD563CED9F;
 IL2CPP_EXTERN_C String_t* _stringLiteral49BE15D7A2F6957D8967D349EFEE7C6CA8001B80;
 IL2CPP_EXTERN_C String_t* _stringLiteral4B5D8EEE6318453360DE824AFE875EBBD4CD1E1D;
@@ -611,6 +605,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral5D03811ECB772E37FB36C239BA22F378208B567E
 IL2CPP_EXTERN_C String_t* _stringLiteral5D08F7C1B259530ED46D90B3F0BD1CA69B5791A4;
 IL2CPP_EXTERN_C String_t* _stringLiteral5D0B5185A005ABFBB9F1C0398E42D9A6E776EE7F;
 IL2CPP_EXTERN_C String_t* _stringLiteral5E1C0FFC98136A165A007131C10F7E842431D89E;
+IL2CPP_EXTERN_C String_t* _stringLiteral5E9E7A0AA8605A6B9E8E8E47FF1B5379A52AB15D;
 IL2CPP_EXTERN_C String_t* _stringLiteral5ECCA8A3D46715EDC7CF60E48B9AA204F0B36D37;
 IL2CPP_EXTERN_C String_t* _stringLiteral5F7B3C3BEBB3045217D62EA8549944643799359F;
 IL2CPP_EXTERN_C String_t* _stringLiteral5F8B03D92767E17530B3423B85C9CF2BD2C14C62;
@@ -661,7 +656,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral8F44C8C38454576829AEC105F093AB9DC26045D9
 IL2CPP_EXTERN_C String_t* _stringLiteral8FD5A1066614F377F8BB227B01BBC27A575BA9BD;
 IL2CPP_EXTERN_C String_t* _stringLiteral900951EEAE594D7A652B78C574260E472C9D4AB5;
 IL2CPP_EXTERN_C String_t* _stringLiteral903A6BBED2E3FB5A26185D195C78824A23034E82;
-IL2CPP_EXTERN_C String_t* _stringLiteral911AF9541126A842E768DC536E6C3514A6DA3E3A;
 IL2CPP_EXTERN_C String_t* _stringLiteral913F1A21597BD71F4001153FCAE991B66315C93D;
 IL2CPP_EXTERN_C String_t* _stringLiteral92BD6BE469BA1B2E8BDD430321EF04219ABCCB0E;
 IL2CPP_EXTERN_C String_t* _stringLiteral92F1F0239533D411A2C639B17303B2B829958511;
@@ -669,9 +663,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1
 IL2CPP_EXTERN_C String_t* _stringLiteral93A43CEC484193BA95CF2A64C900A05AA6FA9237;
 IL2CPP_EXTERN_C String_t* _stringLiteral940001A3359780D6AC10E3D43CEEA0A100327613;
 IL2CPP_EXTERN_C String_t* _stringLiteral948A888DBFDB36A194CBE194820CF899F38D9363;
-IL2CPP_EXTERN_C String_t* _stringLiteral95EDAA0E0E7E735C8AAC91DBD728C6D66D4E5090;
 IL2CPP_EXTERN_C String_t* _stringLiteral996077074BDEE2F96EF738E0382B76CDCFBB10F8;
-IL2CPP_EXTERN_C String_t* _stringLiteral9B850A03952CDBCC170C393B2A85CCA5764E310C;
 IL2CPP_EXTERN_C String_t* _stringLiteral9F0FFBB965E63B8ECC6411BA7CDC87FB4302990B;
 IL2CPP_EXTERN_C String_t* _stringLiteral9FF2349623DEADF1F05E446DA0FBB9C6ED84877C;
 IL2CPP_EXTERN_C String_t* _stringLiteralA0DE8DB597B5850F1C1BEF9F3E123CB63233D1C2;
@@ -739,7 +731,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralDB339EC20352050163D3E78E03A5FACAB44214EB
 IL2CPP_EXTERN_C String_t* _stringLiteralDB437809E61B5D9D5F5E0595FEFCCA54C0607EA6;
 IL2CPP_EXTERN_C String_t* _stringLiteralDB5395A25460FAD0DF71966EAC3DC6FFCE2BFF50;
 IL2CPP_EXTERN_C String_t* _stringLiteralDC4B0220E7329FA027D6CAB8E787E502C584315A;
-IL2CPP_EXTERN_C String_t* _stringLiteralDD69906C033EAE593802B1DFCC0F21B39DE44AC7;
 IL2CPP_EXTERN_C String_t* _stringLiteralE0089BB3F817617D1D01E5BD8AA7BD9995F10974;
 IL2CPP_EXTERN_C String_t* _stringLiteralE0985FD03EE510EEAD8B65BC2E61810DEBC89A2B;
 IL2CPP_EXTERN_C String_t* _stringLiteralE2540A6707E29532812C1BCE90A399395EB7AFA9;
@@ -753,6 +744,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralE93687473A39A94111CD9F2E75255AE1F5846B0B
 IL2CPP_EXTERN_C String_t* _stringLiteralE9BDF01F485C8ED84C239FEC56AB4F1B1C463252;
 IL2CPP_EXTERN_C String_t* _stringLiteralEBC658B067B5C785A3F0BB67D73755F6FEE7F70C;
 IL2CPP_EXTERN_C String_t* _stringLiteralEBF5FE0CBF3EEA67902EEA700B7216E3DB0D8E84;
+IL2CPP_EXTERN_C String_t* _stringLiteralECC64243513DE08B663A29DBF29850E1F64434BA;
 IL2CPP_EXTERN_C String_t* _stringLiteralED83643EA5BCFD0995F4BD7B25E43F9CCA02AA90;
 IL2CPP_EXTERN_C String_t* _stringLiteralED972B6C1932585460676FB3B697DC6E8B26A8FB;
 IL2CPP_EXTERN_C String_t* _stringLiteralEDCAF8B4CA1CB47191CB8674079F3CE3979188A3;
@@ -774,8 +766,8 @@ IL2CPP_EXTERN_C String_t* _stringLiteralFB4AE4F77150C3A8E8E4F8B23E734E0C7277B7D9
 IL2CPP_EXTERN_C String_t* _stringLiteralFC7AE22A331CF411CCA1109A20B1F3ADF36E64A5;
 IL2CPP_EXTERN_C String_t* _stringLiteralFC83D23DF528A2475B837377F50E451A955938AD;
 IL2CPP_EXTERN_C String_t* _stringLiteralFCA74A9060DDEE6A3ECAE73E6AB96086770BE7E2;
-IL2CPP_EXTERN_C String_t* _stringLiteralFCDD2B74D05B6F82B1EBE6231E7F207CED0623F8;
 IL2CPP_EXTERN_C String_t* _stringLiteralFCF2DE3FFA7B627C1224D396BD513F90A1652D8F;
+IL2CPP_EXTERN_C String_t* _stringLiteralFD4706B02823C71252FBF63A74CF03433A8DADF0;
 IL2CPP_EXTERN_C String_t* _stringLiteralFE14104285FC58F5AC47E8B37BCC3FE3CF253431;
 IL2CPP_EXTERN_C String_t* _stringLiteralFE1BAC42D0040C7316C847046DABAB5340AF6D47;
 IL2CPP_EXTERN_C String_t* _stringLiteralFE244FA338E82026C25D1B945E7DF4EF729E92E7;
@@ -868,6 +860,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* TemplateNativeAd_U3CStartU3Eb__19_0_m02E79C
 IL2CPP_EXTERN_C const RuntimeMethod* TemplateNativeAd_U3CStartU3Eb__19_1_m2223F2A604B69168424AF42E7D8B0953834F9314_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TemplateNativeAd_U3CStartU3Eb__19_2_m02290DF938BE2AF68D49F113B705919EE7E13639_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TestReporter_threadLogTest_m770ED19CDCF1906DA5B44F3E6D0E1C54644BDBE3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CStartU3Eb__6_0_mF79A8306DB69A054C9BA218969069180EDAF4702_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CreadInfoU3Ed__188_System_Collections_IEnumerator_Reset_mEB09690D6F41312D7EED5B9FE4BF1320E88099D6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnAdReceivedRewardEvent_m88B1CC4C744267701C0DA4DF5FEF23F6C7D8506C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnAppOpenAdClosedEvent_mB3B668DDB0E92ABFC93C36CD54FA8398037AE714_RuntimeMethod_var;
@@ -875,6 +868,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnAppOpenAdLoadFailedEvent_m26
 IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnAppOpenAdLoadedEvent_mF66FCE3C3AC13716305A0150852965705A1686E9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnAppOpenAdOpenFailedEvent_m291F147418C17B899A4DE374A4E8A31C73D4C0AC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnAppOpenAdOpenedEvent_mC469078175597D9995CEE547039C61EFA1473D73_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnAppOpenAdOpeningEvent_mCBE9F9AAA54A1C338237E66828372918B39626F0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnBannerAdClosedEvent_m67FC80DE5367BF6614378ABEFAA9033AB33FE4C5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnBannerAdFailedToLoadEvent_mD8D513B799CCBC3D56EE27FAEAAA83C9D2ED67C4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnBannerAdFailedToOpenEvent_m82D574C230397A811414C05497C874401340A5E3_RuntimeMethod_var;
@@ -888,6 +882,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnInterstitialAdLoadedEvent_mC
 IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnInterstitialAdOpenFailedEvent_m2B1B59BFB7B3E30D708353FDDA111B20FD48FE21_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnInterstitialAdOpenedEvent_mD6A5B1EDE9B0BBE947B5289D2265F97F76F0BB75_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnInterstitialAdOpenedEvent_mDE917C4D218D90BA971F89797B3BB8FA9D6EB13D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnInterstitialAdOpeningEvent_m91CFDAFE08FD03C6EFB90C73E8B0A8C0EC2F5B17_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnNativeAdFailedToLoadEvent_m4FDF0FB0C763F2F147B57710EA209564C6986FD3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnNativeAdLoadedEvent_mF6E7F207EC55D9523AEAD05200BE086F5272C4C5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnRewardAdClosedEvent_m367C2F19FD25F31B8A99D8A030A521F32479415E_RuntimeMethod_var;
@@ -896,6 +891,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnRewardAdLoadFailedEvent_m296
 IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnRewardAdLoadedEvent_m2EAB9C988B245750065F2488060D173792B6C252_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnRewardAdOpenFailedEvent_m2464393AD5710EC81A47F6D3B728937EC8E9CC6C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnRewardAdOpenedEvent_mBFE1755147B9D9B6573B7882674F80F186150C8A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnRewardAdOpeningEvent_m7D72B793E770F2CD535F111AAD0EF5CC2DB26F16_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnRewardedAdClosedEvent_m00A422A386F52EF0B3988460C4705B14D1244900_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnRewardedAdErorEvent_m17BE2A670AFBE6E0568085F42A5BED958BBDF68B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnRewardedAdOpenedEvent_mB8ABA7A1067E6AB79F8A39C504FE9D2F5C86FE29_RuntimeMethod_var;
@@ -905,7 +901,8 @@ IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnRewardedInterstitialAdLoadFa
 IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnRewardedInterstitialAdLoadedEvent_mE8E0740A38A25CA0D03E2190202F7A6ABE154BF0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnRewardedInterstitialAdOpenFailedEvent_m443BF209314C2EC184E5584156A4EE2776114C63_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnRewardedInterstitialAdOpenedEvent_m675C5CCF8FF89978C49F1C30BD620EA757AE8B31_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_U3CStartU3Eb__6_0_mB93A9737281ADE4366EF7AC816688596E59B476D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_OnRewardedInterstitialAdOpeningEvent_mC613805EF2CDA3308236742DAE681E9454BD90B1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Yodo1AdsTest_U3CStartU3Eb__6_1_m976171B39AFA2201CD54E5BA4EF03675F28309FD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Yodo1U3dMasCallback_InvokeEvent_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m30A177B9B62D5CA468AA9764F9FE1A4527CB33B1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m32C30FFE93145447AF7F02E485E2DAF912CD7AFB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m39710027434EBD9A5A3D4B6356AE0DA57CDB1143_RuntimeMethod_var;
@@ -1233,14 +1230,16 @@ struct Yodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C  : public Run
 	Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* ____onAppOpenAdLoadedEvent_1;
 	// System.Action`2<Yodo1.MAS.Yodo1U3dAppOpenAd,Yodo1.MAS.Yodo1U3dAdError> Yodo1.MAS.Yodo1U3dAppOpenAd::_onAppOpenAdLoadFailedEvent
 	Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483* ____onAppOpenAdLoadFailedEvent_2;
+	// System.Action`1<Yodo1.MAS.Yodo1U3dAppOpenAd> Yodo1.MAS.Yodo1U3dAppOpenAd::_onAppOpenAdOpeningdEvent
+	Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* ____onAppOpenAdOpeningdEvent_3;
 	// System.Action`1<Yodo1.MAS.Yodo1U3dAppOpenAd> Yodo1.MAS.Yodo1U3dAppOpenAd::_onAppOpenAdOpenedEvent
-	Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* ____onAppOpenAdOpenedEvent_3;
+	Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* ____onAppOpenAdOpenedEvent_4;
 	// System.Action`2<Yodo1.MAS.Yodo1U3dAppOpenAd,Yodo1.MAS.Yodo1U3dAdError> Yodo1.MAS.Yodo1U3dAppOpenAd::_onAppOpenAdOpenFailedEvent
-	Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483* ____onAppOpenAdOpenFailedEvent_4;
+	Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483* ____onAppOpenAdOpenFailedEvent_5;
 	// System.Action`1<Yodo1.MAS.Yodo1U3dAppOpenAd> Yodo1.MAS.Yodo1U3dAppOpenAd::_onAppOpenAdClosedEvent
-	Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* ____onAppOpenAdClosedEvent_5;
+	Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* ____onAppOpenAdClosedEvent_6;
 	// System.Boolean Yodo1.MAS.Yodo1U3dAppOpenAd::autoDelayIfLoadFail
-	bool ___autoDelayIfLoadFail_6;
+	bool ___autoDelayIfLoadFail_7;
 };
 
 // Yodo1.MAS.Yodo1U3dAttrackingStatus
@@ -1325,14 +1324,16 @@ struct Yodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327  : publi
 	Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* ____onInterstitialAdLoadedEvent_1;
 	// System.Action`2<Yodo1.MAS.Yodo1U3dInterstitialAd,Yodo1.MAS.Yodo1U3dAdError> Yodo1.MAS.Yodo1U3dInterstitialAd::_onInterstitialAdLoadFailedEvent
 	Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B* ____onInterstitialAdLoadFailedEvent_2;
+	// System.Action`1<Yodo1.MAS.Yodo1U3dInterstitialAd> Yodo1.MAS.Yodo1U3dInterstitialAd::_onInterstitialAdOpeningEvent
+	Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* ____onInterstitialAdOpeningEvent_3;
 	// System.Action`1<Yodo1.MAS.Yodo1U3dInterstitialAd> Yodo1.MAS.Yodo1U3dInterstitialAd::_onInterstitialAdOpenedEvent
-	Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* ____onInterstitialAdOpenedEvent_3;
+	Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* ____onInterstitialAdOpenedEvent_4;
 	// System.Action`2<Yodo1.MAS.Yodo1U3dInterstitialAd,Yodo1.MAS.Yodo1U3dAdError> Yodo1.MAS.Yodo1U3dInterstitialAd::_onInterstitialAdOpenFailedEvent
-	Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B* ____onInterstitialAdOpenFailedEvent_4;
+	Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B* ____onInterstitialAdOpenFailedEvent_5;
 	// System.Action`1<Yodo1.MAS.Yodo1U3dInterstitialAd> Yodo1.MAS.Yodo1U3dInterstitialAd::_onInterstitialAdClosedEvent
-	Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* ____onInterstitialAdClosedEvent_5;
+	Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* ____onInterstitialAdClosedEvent_6;
 	// System.Boolean Yodo1.MAS.Yodo1U3dInterstitialAd::autoDelayIfLoadFail
-	bool ___autoDelayIfLoadFail_6;
+	bool ___autoDelayIfLoadFail_7;
 };
 
 // Yodo1.MAS.Yodo1U3dMas
@@ -1355,16 +1356,18 @@ struct Yodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF  : public Runt
 	Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* ____onRewardAdLoadedEvent_1;
 	// System.Action`2<Yodo1.MAS.Yodo1U3dRewardAd,Yodo1.MAS.Yodo1U3dAdError> Yodo1.MAS.Yodo1U3dRewardAd::_onRewardAdLoadFailedEvent
 	Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0* ____onRewardAdLoadFailedEvent_2;
+	// System.Action`1<Yodo1.MAS.Yodo1U3dRewardAd> Yodo1.MAS.Yodo1U3dRewardAd::_onRewardAdOpeningEvent
+	Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* ____onRewardAdOpeningEvent_3;
 	// System.Action`1<Yodo1.MAS.Yodo1U3dRewardAd> Yodo1.MAS.Yodo1U3dRewardAd::_onRewardAdOpenedEvent
-	Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* ____onRewardAdOpenedEvent_3;
+	Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* ____onRewardAdOpenedEvent_4;
 	// System.Action`2<Yodo1.MAS.Yodo1U3dRewardAd,Yodo1.MAS.Yodo1U3dAdError> Yodo1.MAS.Yodo1U3dRewardAd::_onRewardAdOpenFailedEvent
-	Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0* ____onRewardAdOpenFailedEvent_4;
+	Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0* ____onRewardAdOpenFailedEvent_5;
 	// System.Action`1<Yodo1.MAS.Yodo1U3dRewardAd> Yodo1.MAS.Yodo1U3dRewardAd::_onRewardAdClosedEvent
-	Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* ____onRewardAdClosedEvent_5;
+	Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* ____onRewardAdClosedEvent_6;
 	// System.Action`1<Yodo1.MAS.Yodo1U3dRewardAd> Yodo1.MAS.Yodo1U3dRewardAd::_onRewardAdEarnedEvent
-	Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* ____onRewardAdEarnedEvent_6;
+	Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* ____onRewardAdEarnedEvent_7;
 	// System.Boolean Yodo1.MAS.Yodo1U3dRewardAd::autoDelayIfLoadFail
-	bool ___autoDelayIfLoadFail_7;
+	bool ___autoDelayIfLoadFail_8;
 };
 
 // Yodo1.MAS.Yodo1U3dRewardedInterstitialAd
@@ -1376,16 +1379,18 @@ struct Yodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524 
 	Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* ____onRewardedInterstitialAdLoadedEvent_1;
 	// System.Action`2<Yodo1.MAS.Yodo1U3dRewardedInterstitialAd,Yodo1.MAS.Yodo1U3dAdError> Yodo1.MAS.Yodo1U3dRewardedInterstitialAd::_onRewardedInterstitialAdLoadFailedEvent
 	Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2* ____onRewardedInterstitialAdLoadFailedEvent_2;
+	// System.Action`1<Yodo1.MAS.Yodo1U3dRewardedInterstitialAd> Yodo1.MAS.Yodo1U3dRewardedInterstitialAd::_onRewardedInterstitialAdOpeningEvent
+	Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* ____onRewardedInterstitialAdOpeningEvent_3;
 	// System.Action`1<Yodo1.MAS.Yodo1U3dRewardedInterstitialAd> Yodo1.MAS.Yodo1U3dRewardedInterstitialAd::_onRewardedInterstitialAdOpenedEvent
-	Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* ____onRewardedInterstitialAdOpenedEvent_3;
+	Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* ____onRewardedInterstitialAdOpenedEvent_4;
 	// System.Action`2<Yodo1.MAS.Yodo1U3dRewardedInterstitialAd,Yodo1.MAS.Yodo1U3dAdError> Yodo1.MAS.Yodo1U3dRewardedInterstitialAd::_onRewardedInterstitialAdOpenFailedEvent
-	Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2* ____onRewardedInterstitialAdOpenFailedEvent_4;
+	Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2* ____onRewardedInterstitialAdOpenFailedEvent_5;
 	// System.Action`1<Yodo1.MAS.Yodo1U3dRewardedInterstitialAd> Yodo1.MAS.Yodo1U3dRewardedInterstitialAd::_onRewardedInterstitialAdClosedEvent
-	Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* ____onRewardedInterstitialAdClosedEvent_5;
+	Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* ____onRewardedInterstitialAdClosedEvent_6;
 	// System.Action`1<Yodo1.MAS.Yodo1U3dRewardedInterstitialAd> Yodo1.MAS.Yodo1U3dRewardedInterstitialAd::_onRewardedInterstitialAdEarnedEvent
-	Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* ____onRewardedInterstitialAdEarnedEvent_6;
+	Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* ____onRewardedInterstitialAdEarnedEvent_7;
 	// System.Boolean Yodo1.MAS.Yodo1U3dRewardedInterstitialAd::autoDelayIfLoadFail
-	bool ___autoDelayIfLoadFail_7;
+	bool ___autoDelayIfLoadFail_8;
 };
 
 // Reporter/<readInfo>d__188
@@ -1429,6 +1434,19 @@ struct Sample_tA0F20D9048C0485C62396A4BE062C4AB5EC279A3  : public RuntimeObject
 	float ___fps_3;
 	// System.String Reporter/Sample::fpsText
 	String_t* ___fpsText_4;
+};
+
+// Yodo1AdsTest/<>c
+struct U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7  : public RuntimeObject
+{
+};
+
+struct U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7_StaticFields
+{
+	// Yodo1AdsTest/<>c Yodo1AdsTest/<>c::<>9
+	U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7* ___U3CU3E9_0;
+	// System.Action Yodo1AdsTest/<>c::<>9__6_0
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___U3CU3E9__6_0_1;
 };
 
 // Yodo1.MAS.Yodo1JSON/Parser
@@ -1916,23 +1934,6 @@ struct Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F_ThreadStaticFields
 	Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* ___current_thread_9;
 };
 
-// System.TimeSpan
-struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A 
-{
-	// System.Int64 System.TimeSpan::_ticks
-	int64_t ____ticks_22;
-};
-
-struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
-{
-	// System.TimeSpan System.TimeSpan::Zero
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___Zero_19;
-	// System.TimeSpan System.TimeSpan::MaxValue
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MaxValue_20;
-	// System.TimeSpan System.TimeSpan::MinValue
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MinValue_21;
-};
-
 // System.UInt16
 struct UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455 
 {
@@ -2315,33 +2316,6 @@ struct GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95_marshaled_com
 {
 	intptr_t ___m_Ptr_0;
 	GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580_marshaled_com* ___m_SourceStyle_1;
-};
-
-// Assets.SimpleAndroidNotifications.NotificationParams
-struct NotificationParams_t76A96CCA32DDCA13DBF660FE91F14B5CFDE6E0DD  : public RuntimeObject
-{
-	// System.Int32 Assets.SimpleAndroidNotifications.NotificationParams::Id
-	int32_t ___Id_0;
-	// System.TimeSpan Assets.SimpleAndroidNotifications.NotificationParams::Delay
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___Delay_1;
-	// System.String Assets.SimpleAndroidNotifications.NotificationParams::Title
-	String_t* ___Title_2;
-	// System.String Assets.SimpleAndroidNotifications.NotificationParams::Message
-	String_t* ___Message_3;
-	// System.String Assets.SimpleAndroidNotifications.NotificationParams::Ticker
-	String_t* ___Ticker_4;
-	// System.Boolean Assets.SimpleAndroidNotifications.NotificationParams::Sound
-	bool ___Sound_5;
-	// System.Boolean Assets.SimpleAndroidNotifications.NotificationParams::Vibrate
-	bool ___Vibrate_6;
-	// System.Boolean Assets.SimpleAndroidNotifications.NotificationParams::Light
-	bool ___Light_7;
-	// Assets.SimpleAndroidNotifications.NotificationIcon Assets.SimpleAndroidNotifications.NotificationParams::SmallIcon
-	int32_t ___SmallIcon_8;
-	// UnityEngine.Color Assets.SimpleAndroidNotifications.NotificationParams::SmallIconColor
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___SmallIconColor_9;
-	// System.String Assets.SimpleAndroidNotifications.NotificationParams::LargeIcon
-	String_t* ___LargeIcon_10;
 };
 
 // UnityEngine.Object
@@ -2972,11 +2946,6 @@ struct NativeAdButtonEditorAction_t14AAC361356201A9157A333CBEC08AB9548C8E87  : p
 {
 };
 
-// Assets.SimpleAndroidNotifications.NotificationExample
-struct NotificationExample_tB7891619176E47307219AC9DB1866E7EEB654B35  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-};
-
 // Reporter
 struct Reporter_t20D0BBBD3FF82E01FE9A566B09967F3A87BECE65  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -3465,41 +3434,45 @@ struct Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66  : public M
 struct Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields
 {
 	// System.Boolean Yodo1.MAS.Yodo1U3dMasCallback::_initialized
-	bool ____initialized_8;
+	bool ____initialized_10;
 	// Yodo1.MAS.Yodo1U3dMasCallback Yodo1.MAS.Yodo1U3dMasCallback::<Instance>k__BackingField
-	Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* ___U3CInstanceU3Ek__BackingField_9;
+	Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* ___U3CInstanceU3Ek__BackingField_11;
 	// Yodo1.MAS.Yodo1U3dMas/InitializeDelegate Yodo1.MAS.Yodo1U3dMasCallback::_initializeDelegate
-	InitializeDelegate_tDB367E899DE21E679559F5F9B1A728BA926C9DAF* ____initializeDelegate_10;
+	InitializeDelegate_tDB367E899DE21E679559F5F9B1A728BA926C9DAF* ____initializeDelegate_12;
 	// Yodo1.MAS.Yodo1U3dMas/InterstitialAdDelegate Yodo1.MAS.Yodo1U3dMasCallback::_interstitialAdDelegate
-	InterstitialAdDelegate_t9A58C80EFA634B99C1042C5A636AAD8FC5B74BE2* ____interstitialAdDelegate_11;
+	InterstitialAdDelegate_t9A58C80EFA634B99C1042C5A636AAD8FC5B74BE2* ____interstitialAdDelegate_13;
 	// Yodo1.MAS.Yodo1U3dMas/BannerdAdDelegate Yodo1.MAS.Yodo1U3dMasCallback::_bannerDelegate
-	BannerdAdDelegate_t351AD8A5885B2463C615B4D8C92471491162C44C* ____bannerDelegate_12;
+	BannerdAdDelegate_t351AD8A5885B2463C615B4D8C92471491162C44C* ____bannerDelegate_14;
 	// Yodo1.MAS.Yodo1U3dMas/RewardedAdDelegate Yodo1.MAS.Yodo1U3dMasCallback::_rewardedAdDelegate
-	RewardedAdDelegate_t5F177772172D2BB2EA6F2505DF4398547127ABD4* ____rewardedAdDelegate_13;
+	RewardedAdDelegate_t5F177772172D2BB2EA6F2505DF4398547127ABD4* ____rewardedAdDelegate_15;
 	// System.Action`2<System.Boolean,Yodo1.MAS.Yodo1U3dAdError> Yodo1.MAS.Yodo1U3dMasCallback::_onSdkInitializedEvent
-	Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB* ____onSdkInitializedEvent_14;
+	Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB* ____onSdkInitializedEvent_16;
+	// System.Action Yodo1.MAS.Yodo1U3dMasCallback::_onAppEnterForegroundEvent
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onAppEnterForegroundEvent_17;
 	// System.Action Yodo1.MAS.Yodo1U3dMasCallback::_onBannerAdOpenedEvent
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onBannerAdOpenedEvent_15;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onBannerAdOpenedEvent_18;
 	// System.Action`1<Yodo1.MAS.Yodo1U3dAdError> Yodo1.MAS.Yodo1U3dMasCallback::_onBannerAdErrorEvent
-	Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* ____onBannerAdErrorEvent_16;
+	Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* ____onBannerAdErrorEvent_19;
 	// System.Action Yodo1.MAS.Yodo1U3dMasCallback::_onBannerAdClosedEvent
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onBannerAdClosedEvent_17;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onBannerAdClosedEvent_20;
+	// System.Action Yodo1.MAS.Yodo1U3dMasCallback::_onInterstitialAdOpeningEvent
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onInterstitialAdOpeningEvent_21;
 	// System.Action Yodo1.MAS.Yodo1U3dMasCallback::_onInterstitialAdOpenedEvent
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onInterstitialAdOpenedEvent_18;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onInterstitialAdOpenedEvent_22;
 	// System.Action Yodo1.MAS.Yodo1U3dMasCallback::_onInterstitialAdClosedEvent
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onInterstitialAdClosedEvent_19;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onInterstitialAdClosedEvent_23;
 	// System.Action`1<Yodo1.MAS.Yodo1U3dAdError> Yodo1.MAS.Yodo1U3dMasCallback::_onInterstitialAdErrorEvent
-	Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* ____onInterstitialAdErrorEvent_20;
+	Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* ____onInterstitialAdErrorEvent_24;
 	// System.Action Yodo1.MAS.Yodo1U3dMasCallback::_onRewardedAdOpenedEvent
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onRewardedAdOpenedEvent_21;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onRewardedAdOpenedEvent_25;
 	// System.Action Yodo1.MAS.Yodo1U3dMasCallback::_onRewardedAdClosedEvent
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onRewardedAdClosedEvent_22;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onRewardedAdClosedEvent_26;
 	// System.Action Yodo1.MAS.Yodo1U3dMasCallback::_onRewardedAdReceivedRewardEvent
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onRewardedAdReceivedRewardEvent_23;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onRewardedAdReceivedRewardEvent_27;
 	// System.Action`1<Yodo1.MAS.Yodo1U3dAdError> Yodo1.MAS.Yodo1U3dMasCallback::_onRewardedAdErrorEvent
-	Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* ____onRewardedAdErrorEvent_24;
+	Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* ____onRewardedAdErrorEvent_28;
 	// System.Boolean Yodo1.MAS.Yodo1U3dMasCallback::_autoPauseGame
-	bool ____autoPauseGame_25;
+	bool ____autoPauseGame_29;
 };
 
 // Yodo1UIHolders
@@ -4192,8 +4165,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GUI_Button_m92B7A836FB5463F20951B6BD9DB8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_m7237839058F581BFCA0A79BB96F6F931469E43CF (String_t* ___sceneName0, const RuntimeMethod* method) ;
 // System.String System.Single::ToString(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D (float* __this, String_t* ___format0, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Application::OpenURL(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_OpenURL_m9F74228B576891156330C84B72218C08BEB9F564 (String_t* ___url0, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponent<UnityEngine.UI.Button>()
 inline Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
@@ -4249,6 +4220,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dAppOpenAd_remove_OnAdOpenedEvent
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dAppOpenAd_remove_OnAdOpenFailedEvent_mA3EDBFEAB3D92FD938797F150F09ED1C07C39C22 (Yodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C* __this, Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483* ___value0, const RuntimeMethod* method) ;
 // System.Void Yodo1.MAS.Yodo1U3dAppOpenAd::remove_OnAdClosedEvent(System.Action`1<Yodo1.MAS.Yodo1U3dAppOpenAd>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dAppOpenAd_remove_OnAdClosedEvent_m59AAA63B98482E12DD3330DBEF73B188A9D5738B (Yodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C* __this, Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Application::OpenURL(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_OpenURL_m9F74228B576891156330C84B72218C08BEB9F564 (String_t* ___url0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.MonoBehaviour::Invoke(System.String,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_Invoke_mF724350C59362B0F1BFE26383209A274A29A63FB (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, String_t* ___methodName0, float ___time1, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
@@ -4535,6 +4508,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dMas_InitializeMasSdk_m0E4C3A7F7D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Boolean_ToString_m6646C8026B1DF381A1EE8CD13549175E9703CC63 (bool* __this, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m6B0734B65813C8EA093D78E5C2D16534EB6FE8C0 (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___values0, const RuntimeMethod* method) ;
+// System.Void System.Action::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Void Yodo1.MAS.Yodo1U3dMasCallback::add_OnAppEnterForegroundEvent(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dMasCallback_add_OnAppEnterForegroundEvent_mA6AA6A843220C49CECF46AF076A38F09175CA129 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
 // UnityEngine.Color UnityEngine.Color::get_green()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_green_m336EB73DD4A5B11B7F405CF4BC7F37A466FB4FF7_inline (const RuntimeMethod* method) ;
 // UnityEngine.Color UnityEngine.Color::get_blue()
@@ -4563,8 +4540,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputField_get_text_m6E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_ShowInterstitialAdsV1_m3824E8532E0DDD5D98B901125FA36188B3E76134 (Yodo1AdsTest_t13AED4A96AD27E4537A0B01BA1538B66E5E31B11* __this, String_t* ___adPlacement0, const RuntimeMethod* method) ;
 // System.Void Yodo1AdsTest::ShowInterstitialAdsV2(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_ShowInterstitialAdsV2_mDF548DFAFAD1E79C66DF7F1A0A0709FC28824EF8 (Yodo1AdsTest_t13AED4A96AD27E4537A0B01BA1538B66E5E31B11* __this, String_t* ___adPlacement0, const RuntimeMethod* method) ;
-// System.Void System.Action::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.Void Yodo1.MAS.Yodo1U3dMasCallback/Interstitial::add_OnAdOpenedEvent(System.Action)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Interstitial_add_OnAdOpenedEvent_mBDF5820E6EB9C7D433D88A1AED401F686ECDFB7F (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
 // System.Void Yodo1.MAS.Yodo1U3dMasCallback/Interstitial::add_OnAdClosedEvent(System.Action)
@@ -4582,6 +4557,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Yodo1U3dMas_IsInterstitialAdLoaded_m2A9D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dMas_ShowInterstitialAd_m0B63AA5E91934245ED2963795947A4C45B204069 (const RuntimeMethod* method) ;
 // System.Void Yodo1.MAS.Yodo1U3dMas::ShowInterstitialAd(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dMas_ShowInterstitialAd_m73CCBA579A4650ECCC7B58C7424C4EAF2AAF80F7 (String_t* ___placementId0, const RuntimeMethod* method) ;
+// System.Void Yodo1.MAS.Yodo1U3dInterstitialAd::add_OnAdOpeningEvent(System.Action`1<Yodo1.MAS.Yodo1U3dInterstitialAd>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dInterstitialAd_add_OnAdOpeningEvent_mB80A405B6766D76537C41CE885B86538D3829DD1 (Yodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327* __this, Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* ___value0, const RuntimeMethod* method) ;
 // System.Void Yodo1AdsTest::InitializeRewardedAdsV1()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_InitializeRewardedAdsV1_mD3DD0200F67529713FA4C6C006F54C4B29A8FFCC (Yodo1AdsTest_t13AED4A96AD27E4537A0B01BA1538B66E5E31B11* __this, const RuntimeMethod* method) ;
 // System.Void Yodo1AdsTest::InitializeRewardedAdsV2()
@@ -4604,12 +4581,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Yodo1U3dMas_IsRewardedAdLoaded_m5E79CEDD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dMas_ShowRewardedAd_m7A898A916272C5F36C9B23D1AA81AFA673D1CAFA (const RuntimeMethod* method) ;
 // System.Void Yodo1.MAS.Yodo1U3dMas::ShowRewardedAd(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dMas_ShowRewardedAd_m33EC0F14B7F627D9715B819503E62D771F28A71B (String_t* ___palcementId0, const RuntimeMethod* method) ;
+// System.Void Yodo1.MAS.Yodo1U3dRewardAd::add_OnAdOpeningEvent(System.Action`1<Yodo1.MAS.Yodo1U3dRewardAd>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardAd_add_OnAdOpeningEvent_mEF1948C650A7216AC3A8F76B7D4C4F76C32E8636 (Yodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF* __this, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* ___value0, const RuntimeMethod* method) ;
 // UnityEngine.Color UnityEngine.Color::get_grey()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_grey_mBCECB7841257253597D826AB06E678DA43CC4298_inline (const RuntimeMethod* method) ;
+// System.Void Yodo1.MAS.Yodo1U3dRewardedInterstitialAd::add_OnAdOpeningEvent(System.Action`1<Yodo1.MAS.Yodo1U3dRewardedInterstitialAd>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardedInterstitialAd_add_OnAdOpeningEvent_mD09A88BBBCD475B5AA912E32598BDCE5A8967E76 (Yodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524* __this, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* ___value0, const RuntimeMethod* method) ;
 // System.Void Yodo1AdsTest::ShowRewardedInterstitialAds(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_ShowRewardedInterstitialAds_mB7DB38ABDB24A593A6DA273FB93DC20C5C9B8C1A (Yodo1AdsTest_t13AED4A96AD27E4537A0B01BA1538B66E5E31B11* __this, String_t* ___adPlacement0, const RuntimeMethod* method) ;
 // System.Void Yodo1AdsTest::LoadRewardedInterstitialAds()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_LoadRewardedInterstitialAds_mA5C912FCFD4A777C122F876D4E470EC9DFF5893D (Yodo1AdsTest_t13AED4A96AD27E4537A0B01BA1538B66E5E31B11* __this, const RuntimeMethod* method) ;
+// System.Void Yodo1.MAS.Yodo1U3dAppOpenAd::add_OnAdOpeningEvent(System.Action`1<Yodo1.MAS.Yodo1U3dAppOpenAd>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dAppOpenAd_add_OnAdOpeningEvent_m26F7A772835689211A674BF691D153F9EB551E37 (Yodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C* __this, Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* ___value0, const RuntimeMethod* method) ;
 // System.Void Yodo1AdsTest::ShowAppOpenAds(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_ShowAppOpenAds_m1DE25E0B71A700CDD2EFC4CFEDA6B1487C0DD261 (Yodo1AdsTest_t13AED4A96AD27E4537A0B01BA1538B66E5E31B11* __this, String_t* ___adPlacement0, const RuntimeMethod* method) ;
 // System.Void Yodo1AdsTest::LoadAppOpenAds()
@@ -4628,6 +4611,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_InitializeNativeAds_m6A761F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_InitializeRewardedInterstitialAds_mBD73DDE5F3599AE40690C49A1F59ED4D26AD311D (Yodo1AdsTest_t13AED4A96AD27E4537A0B01BA1538B66E5E31B11* __this, const RuntimeMethod* method) ;
 // System.Void Yodo1AdsTest::InitializeAppOpenAds()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_InitializeAppOpenAds_mB7589E1697F4DB775A691AED1F4EAA2C68BBAFC9 (Yodo1AdsTest_t13AED4A96AD27E4537A0B01BA1538B66E5E31B11* __this, const RuntimeMethod* method) ;
+// System.Void Yodo1AdsTest/<>c::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mEB85D754D44EA99391180BA75C608F6044DCF3A7 (U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::.ctor()
 inline void Dictionary_2__ctor_mC4F3DF292BAD88F4BF193C49CD689FAEBC4570A9 (Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* __this, const RuntimeMethod* method)
 {
@@ -4747,6 +4732,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Yodo1U3dAdsAndroid_IsAdLoadedV2_m33BCCBA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dAppOpenAd_AppOpen_m3532982B2C848ACA85C29046E3D06FCE8FFC0521 (Yodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C* __this, String_t* ___methodName0, const RuntimeMethod* method) ;
 // System.Boolean Yodo1.MAS.Yodo1U3dAppOpenAd::IsAdLoaded(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Yodo1U3dAppOpenAd_IsAdLoaded_mADBAC29EFCE80EEA8498A874B4DFE7A1539B488F (Yodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C* __this, String_t* ___methodName0, const RuntimeMethod* method) ;
+// System.Void Yodo1.MAS.Yodo1U3dAppOpenAd::handleOpningEvent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dAppOpenAd_handleOpningEvent_mFA6005ABE079FC2C64CA85FABA7CB27E261A5506 (Yodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C* __this, const RuntimeMethod* method) ;
+// System.Void Yodo1.MAS.Yodo1U3dAppOpenAd::CallbcksEvent(Yodo1.MAS.Yodo1U3dAdEvent,Yodo1.MAS.Yodo1U3dAdError)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dAppOpenAd_CallbcksEvent_mC88D3B10086419DF626F5D02E2188E484943437E (int32_t ___adEvent0, Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* ___adError1, const RuntimeMethod* method) ;
 // System.Void Yodo1.MAS.Yodo1U3dAppOpenAd::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dAppOpenAd__ctor_m537C2C1059C40164EDE7BC8E9A868DE5B7DD6D17 (Yodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C* __this, const RuntimeMethod* method) ;
 // System.Int32 Yodo1.MAS.Yodo1U3dBannerAdSize::GetWidth(System.Int32)
@@ -4845,8 +4834,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dAdsAndroid_InterstitialV2_m2C43D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dInterstitialAd_InterstitialV2_m03AAE0529DF7FB495F31B0AE7E8A8D99D157EC71 (Yodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327* __this, String_t* ___methodName0, const RuntimeMethod* method) ;
 // System.Boolean Yodo1.MAS.Yodo1U3dInterstitialAd::IsAdLoadedV2(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Yodo1U3dInterstitialAd_IsAdLoadedV2_m9598654AB85C4A03E38512C9D5EFD25D23EB45EE (Yodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327* __this, String_t* ___methodName0, const RuntimeMethod* method) ;
+// System.Void Yodo1.MAS.Yodo1U3dInterstitialAd::handleOpningEvent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dInterstitialAd_handleOpningEvent_mA61560158053580E693F19F50DE940EF508EC57A (Yodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327* __this, const RuntimeMethod* method) ;
 // System.Void Yodo1.MAS.Yodo1U3dInterstitialAd::SetAdPlacement(System.String)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Yodo1U3dInterstitialAd_SetAdPlacement_m7A1830AC4E61EE338DC20FA8ECF0134A5BF1BC64_inline (Yodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327* __this, String_t* ___adPlacement0, const RuntimeMethod* method) ;
+// System.Void Yodo1.MAS.Yodo1U3dInterstitialAd::CallbcksEvent(Yodo1.MAS.Yodo1U3dAdEvent,Yodo1.MAS.Yodo1U3dAdError)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dInterstitialAd_CallbcksEvent_mF86A86F14AA9745A6827A6CA51870486C548351C (int32_t ___adEvent0, Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* ___adError1, const RuntimeMethod* method) ;
 // System.Void Yodo1.MAS.Yodo1U3dInterstitialAd::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dInterstitialAd__ctor_m1230EBB2B439028CDE156A5BF75F52A3B5D26DFE (Yodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327* __this, const RuntimeMethod* method) ;
 // System.Object Yodo1.MAS.Yodo1JSON/Parser::Parse(System.String)
@@ -5048,8 +5041,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardAd_CallbcksEvent_m1BD8EFCE
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InterstitialAdDelegate_Invoke_m52879D7F8D8B3437BDC5629B116974EB93652EBA_inline (InterstitialAdDelegate_t9A58C80EFA634B99C1042C5A636AAD8FC5B74BE2* __this, int32_t ___adEvent0, Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* ___adError1, const RuntimeMethod* method) ;
 // System.Void Yodo1.MAS.Yodo1U3dMasCallback::InterstitialCallbacksEvent(Yodo1.MAS.Yodo1U3dAdEvent,Yodo1.MAS.Yodo1U3dAdError)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dMasCallback_InterstitialCallbacksEvent_m791EF2311F96DDB4ABB55BA41EFADE6DBA06A780 (Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* __this, int32_t ___adEvent0, Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* ___adError1, const RuntimeMethod* method) ;
-// System.Void Yodo1.MAS.Yodo1U3dInterstitialAd::CallbcksEvent(Yodo1.MAS.Yodo1U3dAdEvent,Yodo1.MAS.Yodo1U3dAdError)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dInterstitialAd_CallbcksEvent_mF86A86F14AA9745A6827A6CA51870486C548351C (int32_t ___adEvent0, Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* ___adError1, const RuntimeMethod* method) ;
 // System.Void Yodo1.MAS.Yodo1U3dMas/BannerdAdDelegate::Invoke(Yodo1.MAS.Yodo1U3dAdEvent,Yodo1.MAS.Yodo1U3dAdError)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BannerdAdDelegate_Invoke_m188D4C76026F738BCEE75FDB1E54F9B2B228C01A_inline (BannerdAdDelegate_t351AD8A5885B2463C615B4D8C92471491162C44C* __this, int32_t ___adEvent0, Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* ___error1, const RuntimeMethod* method) ;
 // System.Void Yodo1.MAS.Yodo1U3dMasCallback::BannerCallbacksEvent(Yodo1.MAS.Yodo1U3dAdEvent,Yodo1.MAS.Yodo1U3dAdError)
@@ -5060,15 +5051,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dBannerAdView_CallbcksEvent_mBA6F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dNativeAdView_CallbcksEvent_mFC5B9F728FC0AFA85FB59AE9A4D06829C5406892 (int32_t ___adEvent0, Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* ___adError1, String_t* ___indexId2, const RuntimeMethod* method) ;
 // System.Void Yodo1.MAS.Yodo1U3dRewardedInterstitialAd::CallbcksEvent(Yodo1.MAS.Yodo1U3dAdEvent,Yodo1.MAS.Yodo1U3dAdError)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardedInterstitialAd_CallbcksEvent_mAB896EBA7D01F2076A77E2A2EE555473F07E2012 (int32_t ___adEvent0, Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* ___adError1, const RuntimeMethod* method) ;
-// System.Void Yodo1.MAS.Yodo1U3dAppOpenAd::CallbcksEvent(Yodo1.MAS.Yodo1U3dAdEvent,Yodo1.MAS.Yodo1U3dAdError)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dAppOpenAd_CallbcksEvent_mC88D3B10086419DF626F5D02E2188E484943437E (int32_t ___adEvent0, Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* ___adError1, const RuntimeMethod* method) ;
+// System.Void Yodo1.MAS.Yodo1U3dMasCallback::InvokeEvent(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dMasCallback_InvokeEvent_m2ECDE734AE0194AFDA83E9EE37D8749B121F2126 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___evt0, const RuntimeMethod* method) ;
 // System.Void Yodo1.MAS.Yodo1U3dMasCallback::InvokeEvent<Yodo1.MAS.Yodo1U3dAdError>(System.Action`1<T>,T)
 inline void Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m32C30FFE93145447AF7F02E485E2DAF912CD7AFB (Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* ___evt0, Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* ___param1, const RuntimeMethod* method)
 {
 	((  void (*) (Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552*, Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B*, const RuntimeMethod*))Yodo1U3dMasCallback_InvokeEvent_TisRuntimeObject_mFBC7F409898AF271C401A4FA9FB9A179090C2871_gshared)(___evt0, ___param1, method);
 }
-// System.Void Yodo1.MAS.Yodo1U3dMasCallback::InvokeEvent(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dMasCallback_InvokeEvent_m2ECDE734AE0194AFDA83E9EE37D8749B121F2126 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___evt0, const RuntimeMethod* method) ;
 // System.Boolean System.String::Equals(System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_Equals_m7DE16FCF923076866D20D9053B774E67F2AF8D09 (String_t* ___a0, String_t* ___b1, const RuntimeMethod* method) ;
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<Yodo1.MAS.Yodo1U3dNativeAdView>::GetEnumerator()
@@ -5151,6 +5140,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dAdsAndroid_RewardV2_m04967B99AC3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardAd_RewardV2_m4313543BAE785B3B59CBD01E194BFB66D231088A (Yodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF* __this, String_t* ___methodName0, const RuntimeMethod* method) ;
 // System.Boolean Yodo1.MAS.Yodo1U3dRewardAd::IsAdLoadedV2(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Yodo1U3dRewardAd_IsAdLoadedV2_m99D0293844FF67F7EB5277B085164C898199C892 (Yodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF* __this, String_t* ___methodName0, const RuntimeMethod* method) ;
+// System.Void Yodo1.MAS.Yodo1U3dRewardAd::handleOpningEvent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardAd_handleOpningEvent_mE055E9E6933351E5C64F5EA84B5BAA88AE636340 (Yodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF* __this, const RuntimeMethod* method) ;
 // System.Void Yodo1.MAS.Yodo1U3dRewardAd::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardAd__ctor_mB0483E77266CEA5EB52FFC19B9D8183A0A790F75 (Yodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF* __this, const RuntimeMethod* method) ;
 // System.Void Yodo1.MAS.Yodo1U3dRewardedInterstitialAd::Callbacks(Yodo1.MAS.Yodo1U3dAdEvent,Yodo1.MAS.Yodo1U3dAdError)
@@ -5173,24 +5164,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dAdsAndroid_RewardedInterstitial_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardedInterstitialAd_RewardedInterstitial_m4AEBEA1B90B6993A3D1B0095612EA0B8014F9B29 (Yodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524* __this, String_t* ___methodName0, const RuntimeMethod* method) ;
 // System.Boolean Yodo1.MAS.Yodo1U3dRewardedInterstitialAd::IsAdLoaded(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Yodo1U3dRewardedInterstitialAd_IsAdLoaded_m5D5F03A0D7AA80D4C812CD7748CE81AE5410F3A9 (Yodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524* __this, String_t* ___methodName0, const RuntimeMethod* method) ;
-// System.Void Yodo1.MAS.Yodo1U3dRewardedInterstitialAd::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardedInterstitialAd__ctor_m43A20FA9326BE453F346B7B664B62D818120D7CA (Yodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524* __this, const RuntimeMethod* method) ;
-// System.TimeSpan System.TimeSpan::FromSeconds(System.Double)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A TimeSpan_FromSeconds_mE585CC8180040ED064DC8B6546E6C94A129BFFC5 (double ___value0, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Color::.ctor(System.Single,System.Single,System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___r0, float ___g1, float ___b2, const RuntimeMethod* method) ;
-// System.Int32 Assets.SimpleAndroidNotifications.NotificationManager::Send(System.TimeSpan,System.String,System.String,UnityEngine.Color,Assets.SimpleAndroidNotifications.NotificationIcon)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NotificationManager_Send_m2F055CA2CA22B20DC6B667E98DE3430659969DAD (TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___delay0, String_t* ___title1, String_t* ___message2, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___smallIconColor3, int32_t ___smallIcon4, const RuntimeMethod* method) ;
-// System.Int32 Assets.SimpleAndroidNotifications.NotificationManager::SendWithAppIcon(System.TimeSpan,System.String,System.String,UnityEngine.Color,Assets.SimpleAndroidNotifications.NotificationIcon)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NotificationManager_SendWithAppIcon_m91C27E567E89A417D7214B8AD755ABF3E8564DBF (TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___delay0, String_t* ___title1, String_t* ___message2, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___smallIconColor3, int32_t ___smallIcon4, const RuntimeMethod* method) ;
-// System.Void Assets.SimpleAndroidNotifications.NotificationParams::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationParams__ctor_m210BCC63F4CD6F1055F8A15A6F8200ECBB2FC029 (NotificationParams_t76A96CCA32DDCA13DBF660FE91F14B5CFDE6E0DD* __this, const RuntimeMethod* method) ;
-// System.Int32 UnityEngine.Random::Range(System.Int32,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Random_Range_mD4D2DEE3D2E75D07740C9A6F93B3088B03BBB8F8 (int32_t ___minInclusive0, int32_t ___maxExclusive1, const RuntimeMethod* method) ;
-// System.Int32 Assets.SimpleAndroidNotifications.NotificationManager::SendCustom(Assets.SimpleAndroidNotifications.NotificationParams)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NotificationManager_SendCustom_m88883723190696CEB5CE5C35C644D0D06EFE56CE (NotificationParams_t76A96CCA32DDCA13DBF660FE91F14B5CFDE6E0DD* ___notificationParams0, const RuntimeMethod* method) ;
-// System.Void Assets.SimpleAndroidNotifications.NotificationManager::CancelAll()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationManager_CancelAll_m5C1EA4F421D2C7CB53A7F9AAE0A5B0188E3F5AF5 (const RuntimeMethod* method) ;
+// System.Void Yodo1.MAS.Yodo1U3dRewardedInterstitialAd::handleOpningEvent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardedInterstitialAd_handleOpningEvent_mACFD78E820CB8981E76FD9227F648FDAAE57BE61 (Yodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524* __this, const RuntimeMethod* method) ;
 // System.Boolean System.Single::Equals(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Single_Equals_m97C79E2B80F39214DB3F7E714FF2BCA45A0A8BF9 (float* __this, float ___obj0, const RuntimeMethod* method) ;
 #ifdef __clang__
@@ -6289,46 +6264,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestReporter__ctor_mA5EDF9AD6D70A294B65B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void AppOpenSampleAds::CloseAppOpenAds()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppOpenSampleAds_CloseAppOpenAds_m8E8577032495DAD7D25DB71DB2DE3714086F041E (AppOpenSampleAds_t0B8551901EA8410E8ADEB961A9590E2D4EF00E08* __this, const RuntimeMethod* method) 
-{
-	{
-		// }
-		return;
-	}
-}
-// System.Void AppOpenSampleAds::Onclick()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppOpenSampleAds_Onclick_mC917402A3842223D966338D02D8C7C27388F30CA (AppOpenSampleAds_t0B8551901EA8410E8ADEB961A9590E2D4EF00E08* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFF4D37BA0ACC9DEEC82597781C4243368EECB649);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// Application.OpenURL("https://developers.yodo1.com/");
-		Application_OpenURL_m9F74228B576891156330C84B72218C08BEB9F564(_stringLiteralFF4D37BA0ACC9DEEC82597781C4243368EECB649, NULL);
-		// }
-		return;
-	}
-}
-// System.Void AppOpenSampleAds::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppOpenSampleAds__ctor_mB013A583CF2C81F63836A74EE00A098612FDA17D (AppOpenSampleAds_t0B8551901EA8410E8ADEB961A9590E2D4EF00E08* __this, const RuntimeMethod* method) 
-{
-	{
-		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 // System.Void AppOpenAd::Awake()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppOpenAd_Awake_m9F3D146E32B7C630230AAC884991058F3DCF1FE2 (AppOpenAd_t3288795DD70E1A3189D2F1AF07FA05957AAA0589* __this, const RuntimeMethod* method) 
 {
@@ -6696,6 +6631,46 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppOpenAd_OnAppOpenAdClosedEvent_mE19B9F
 }
 // System.Void AppOpenAd::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppOpenAd__ctor_m972AD0AD9F1B470C6F909C752EC517A0AE4C2C67 (AppOpenAd_t3288795DD70E1A3189D2F1AF07FA05957AAA0589* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void AppOpenSampleAds::CloseAppOpenAds()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppOpenSampleAds_CloseAppOpenAds_m8E8577032495DAD7D25DB71DB2DE3714086F041E (AppOpenSampleAds_t0B8551901EA8410E8ADEB961A9590E2D4EF00E08* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void AppOpenSampleAds::Onclick()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppOpenSampleAds_Onclick_mC917402A3842223D966338D02D8C7C27388F30CA (AppOpenSampleAds_t0B8551901EA8410E8ADEB961A9590E2D4EF00E08* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFF4D37BA0ACC9DEEC82597781C4243368EECB649);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Application.OpenURL("https://developers.yodo1.com/");
+		Application_OpenURL_m9F74228B576891156330C84B72218C08BEB9F564(_stringLiteralFF4D37BA0ACC9DEEC82597781C4243368EECB649, NULL);
+		// }
+		return;
+	}
+}
+// System.Void AppOpenSampleAds::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppOpenSampleAds__ctor_mB013A583CF2C81F63836A74EE00A098612FDA17D (AppOpenSampleAds_t0B8551901EA8410E8ADEB961A9590E2D4EF00E08* __this, const RuntimeMethod* method) 
 {
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
@@ -10525,31 +10500,11 @@ IL_0126:
 
 IL_012c:
 	{
-		// Yodo1U3dInterstitialAd.GetInstance().autoDelayIfLoadFail = true;
-		Yodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327* L_55;
-		L_55 = Yodo1U3dInterstitialAd_GetInstance_m2D71B1DEABD867F5A66ED40DAC7F279BACCE4AC6_inline(NULL);
-		NullCheck(L_55);
-		L_55->___autoDelayIfLoadFail_6 = (bool)1;
-		// Yodo1U3dRewardAd.GetInstance().autoDelayIfLoadFail = true;
-		Yodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF* L_56;
-		L_56 = Yodo1U3dRewardAd_GetInstance_m7BD8B04A5276DEDE8B2BDD6C3551731CD671F561_inline(NULL);
-		NullCheck(L_56);
-		L_56->___autoDelayIfLoadFail_7 = (bool)1;
-		// Yodo1U3dAppOpenAd.GetInstance().autoDelayIfLoadFail = true;
-		Yodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C* L_57;
-		L_57 = Yodo1U3dAppOpenAd_GetInstance_m9945A4838F06DA4C2365222610917A8A8A663D3E_inline(NULL);
-		NullCheck(L_57);
-		L_57->___autoDelayIfLoadFail_6 = (bool)1;
-		// Yodo1U3dRewardedInterstitialAd.GetInstance().autoDelayIfLoadFail = true;
-		Yodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524* L_58;
-		L_58 = Yodo1U3dRewardedInterstitialAd_GetInstance_m5B633D5C0CC7921B9D5E4BF6A31AACA857913E2D_inline(NULL);
-		NullCheck(L_58);
-		L_58->___autoDelayIfLoadFail_7 = (bool)1;
 		// if (!isInitialized)
-		bool L_59 = __this->___isInitialized_17;
-		if (L_59)
+		bool L_55 = __this->___isInitialized_17;
+		if (L_55)
 		{
-			goto IL_0165;
+			goto IL_0139;
 		}
 	}
 	{
@@ -10558,7 +10513,7 @@ IL_012c:
 		Yodo1U3dMas_InitializeMasSdk_m0E4C3A7F7DD9A1704A15DBE566419E30E13875C8(NULL);
 	}
 
-IL_0165:
+IL_0139:
 	{
 		// }
 		return;
@@ -10680,15 +10635,50 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_Start_m6A972B6D743B679784A7
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CStartU3Eb__6_0_mF79A8306DB69A054C9BA218969069180EDAF4702_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1AdBuildConfig_t35022B8EE57C87662A193FAEB3462D4D61E812CA_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1AdsTest_U3CStartU3Eb__6_0_mB93A9737281ADE4366EF7AC816688596E59B476D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1AdsTest_U3CStartU3Eb__6_1_m976171B39AFA2201CD54E5BA4EF03675F28309FD_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1MasUserPrivacyConfig_tC7062DFFC10A1105F51A47040F5B7F05EA1F2E8E_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1U3dMas_t5FD42041FA9A44F15241DE2BAEF5D4A2CFAA61F8_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	Yodo1MasUserPrivacyConfig_tC7062DFFC10A1105F51A47040F5B7F05EA1F2E8E* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B2_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B1_0 = NULL;
 	{
+		// Yodo1U3dMasCallback.OnAppEnterForegroundEvent += ()=>
+		// {
+		//     Debug.Log(Yodo1U3dMas.TAG + ": The game has entered the foreground");
+		// };
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7_il2cpp_TypeInfo_var))->___U3CU3E9__6_0_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = L_0;
+		G_B1_0 = L_1;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_001f;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7_il2cpp_TypeInfo_var);
+		U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7* L_2 = ((U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3CStartU3Eb__6_0_mF79A8306DB69A054C9BA218969069180EDAF4702_RuntimeMethod_var), NULL);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_4 = L_3;
+		((U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7_il2cpp_TypeInfo_var))->___U3CU3E9__6_0_1 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7_il2cpp_TypeInfo_var))->___U3CU3E9__6_0_1), (void*)L_4);
+		G_B2_0 = L_4;
+	}
+
+IL_001f:
+	{
+		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
+		Yodo1U3dMasCallback_add_OnAppEnterForegroundEvent_mA6AA6A843220C49CECF46AF076A38F09175CA129(G_B2_0, NULL);
 		// Yodo1U3dMasCallback.OnSdkInitializedEvent += (success, error) =>
 		// {
 		//     Debug.Log(Yodo1U3dMas.TAG + "OnSdkInitializedEvent, success:" + success + ", error: " + error.ToString());
@@ -10703,11 +10693,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_Start_m6A972B6D743B679784A7
 		//         InitializeAppOpenAds();
 		//     }
 		// };
-		Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB* L_0 = (Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB*)il2cpp_codegen_object_new(Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		Action_2__ctor_mAD12795BB4E561686822F51A2097D4F2977FA884(L_0, __this, (intptr_t)((void*)Yodo1AdsTest_U3CStartU3Eb__6_0_mB93A9737281ADE4366EF7AC816688596E59B476D_RuntimeMethod_var), NULL);
-		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Yodo1U3dMasCallback_add_OnSdkInitializedEvent_mF4F3511A49324AE7937D03D5F53BA520DE257AF8(L_0, NULL);
+		Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB* L_5 = (Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB*)il2cpp_codegen_object_new(Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		Action_2__ctor_mAD12795BB4E561686822F51A2097D4F2977FA884(L_5, __this, (intptr_t)((void*)Yodo1AdsTest_U3CStartU3Eb__6_1_m976171B39AFA2201CD54E5BA4EF03675F28309FD_RuntimeMethod_var), NULL);
+		Yodo1U3dMasCallback_add_OnSdkInitializedEvent_mF4F3511A49324AE7937D03D5F53BA520DE257AF8(L_5, NULL);
 		// Yodo1MasUserPrivacyConfig userPrivacyConfig = new Yodo1MasUserPrivacyConfig()
 		//     .titleBackgroundColor(Color.green)
 		//     .titleTextColor(Color.blue)
@@ -10715,60 +10704,60 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_Start_m6A972B6D743B679784A7
 		//     .contentTextColor(Color.white)
 		//     .buttonBackgroundColor(Color.red)
 		//     .buttonTextColor(Color.green);
-		Yodo1MasUserPrivacyConfig_tC7062DFFC10A1105F51A47040F5B7F05EA1F2E8E* L_1 = (Yodo1MasUserPrivacyConfig_tC7062DFFC10A1105F51A47040F5B7F05EA1F2E8E*)il2cpp_codegen_object_new(Yodo1MasUserPrivacyConfig_tC7062DFFC10A1105F51A47040F5B7F05EA1F2E8E_il2cpp_TypeInfo_var);
-		NullCheck(L_1);
-		Yodo1MasUserPrivacyConfig__ctor_m0E9C5ED7B62291B4ED397400CEC6360F4A364D84(L_1, NULL);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
-		L_2 = Color_get_green_m336EB73DD4A5B11B7F405CF4BC7F37A466FB4FF7_inline(NULL);
-		NullCheck(L_1);
-		Yodo1MasUserPrivacyConfig_tC7062DFFC10A1105F51A47040F5B7F05EA1F2E8E* L_3;
-		L_3 = Yodo1MasUserPrivacyConfig_titleBackgroundColor_mD8884D7AF259D1FDF029B7A31B019523D176662A(L_1, L_2, NULL);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4;
-		L_4 = Color_get_blue_m0D04554379CB8606EF48E3091CDC3098B81DD86D_inline(NULL);
-		NullCheck(L_3);
-		Yodo1MasUserPrivacyConfig_tC7062DFFC10A1105F51A47040F5B7F05EA1F2E8E* L_5;
-		L_5 = Yodo1MasUserPrivacyConfig_titleTextColor_mCDC1DF71393F4C5EB6A89D17DF6E7D4D662B0A78(L_3, L_4, NULL);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6;
-		L_6 = Color_get_black_mBF96B603B41BED9BAFAA10CE8D946D24260F9729_inline(NULL);
-		NullCheck(L_5);
-		Yodo1MasUserPrivacyConfig_tC7062DFFC10A1105F51A47040F5B7F05EA1F2E8E* L_7;
-		L_7 = Yodo1MasUserPrivacyConfig_contentBackgroundColor_mF92B8EB501A07B0817F174C37A4732A326AB2F85(L_5, L_6, NULL);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_8;
-		L_8 = Color_get_white_m28BB6E19F27D4EE6858D3021A44F62BC74E20C43_inline(NULL);
-		NullCheck(L_7);
-		Yodo1MasUserPrivacyConfig_tC7062DFFC10A1105F51A47040F5B7F05EA1F2E8E* L_9;
-		L_9 = Yodo1MasUserPrivacyConfig_contentTextColor_m46D51BC7FEE5B4DFCCC1C35223A2548CFEEBC732(L_7, L_8, NULL);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_10;
-		L_10 = Color_get_red_m27D04C1E5FE794AD933B7B9364F3D34B9EA25109_inline(NULL);
-		NullCheck(L_9);
-		Yodo1MasUserPrivacyConfig_tC7062DFFC10A1105F51A47040F5B7F05EA1F2E8E* L_11;
-		L_11 = Yodo1MasUserPrivacyConfig_buttonBackgroundColor_m57202B58CF1898B55A18AA96B533116360BEB134(L_9, L_10, NULL);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_12;
-		L_12 = Color_get_green_m336EB73DD4A5B11B7F405CF4BC7F37A466FB4FF7_inline(NULL);
-		NullCheck(L_11);
-		Yodo1MasUserPrivacyConfig_tC7062DFFC10A1105F51A47040F5B7F05EA1F2E8E* L_13;
-		L_13 = Yodo1MasUserPrivacyConfig_buttonTextColor_m649C21832DFADBEAA05B5B67041F3D13764D5837(L_11, L_12, NULL);
-		V_0 = L_13;
+		Yodo1MasUserPrivacyConfig_tC7062DFFC10A1105F51A47040F5B7F05EA1F2E8E* L_6 = (Yodo1MasUserPrivacyConfig_tC7062DFFC10A1105F51A47040F5B7F05EA1F2E8E*)il2cpp_codegen_object_new(Yodo1MasUserPrivacyConfig_tC7062DFFC10A1105F51A47040F5B7F05EA1F2E8E_il2cpp_TypeInfo_var);
+		NullCheck(L_6);
+		Yodo1MasUserPrivacyConfig__ctor_m0E9C5ED7B62291B4ED397400CEC6360F4A364D84(L_6, NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_7;
+		L_7 = Color_get_green_m336EB73DD4A5B11B7F405CF4BC7F37A466FB4FF7_inline(NULL);
+		NullCheck(L_6);
+		Yodo1MasUserPrivacyConfig_tC7062DFFC10A1105F51A47040F5B7F05EA1F2E8E* L_8;
+		L_8 = Yodo1MasUserPrivacyConfig_titleBackgroundColor_mD8884D7AF259D1FDF029B7A31B019523D176662A(L_6, L_7, NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9;
+		L_9 = Color_get_blue_m0D04554379CB8606EF48E3091CDC3098B81DD86D_inline(NULL);
+		NullCheck(L_8);
+		Yodo1MasUserPrivacyConfig_tC7062DFFC10A1105F51A47040F5B7F05EA1F2E8E* L_10;
+		L_10 = Yodo1MasUserPrivacyConfig_titleTextColor_mCDC1DF71393F4C5EB6A89D17DF6E7D4D662B0A78(L_8, L_9, NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_11;
+		L_11 = Color_get_black_mBF96B603B41BED9BAFAA10CE8D946D24260F9729_inline(NULL);
+		NullCheck(L_10);
+		Yodo1MasUserPrivacyConfig_tC7062DFFC10A1105F51A47040F5B7F05EA1F2E8E* L_12;
+		L_12 = Yodo1MasUserPrivacyConfig_contentBackgroundColor_mF92B8EB501A07B0817F174C37A4732A326AB2F85(L_10, L_11, NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_13;
+		L_13 = Color_get_white_m28BB6E19F27D4EE6858D3021A44F62BC74E20C43_inline(NULL);
+		NullCheck(L_12);
+		Yodo1MasUserPrivacyConfig_tC7062DFFC10A1105F51A47040F5B7F05EA1F2E8E* L_14;
+		L_14 = Yodo1MasUserPrivacyConfig_contentTextColor_m46D51BC7FEE5B4DFCCC1C35223A2548CFEEBC732(L_12, L_13, NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_15;
+		L_15 = Color_get_red_m27D04C1E5FE794AD933B7B9364F3D34B9EA25109_inline(NULL);
+		NullCheck(L_14);
+		Yodo1MasUserPrivacyConfig_tC7062DFFC10A1105F51A47040F5B7F05EA1F2E8E* L_16;
+		L_16 = Yodo1MasUserPrivacyConfig_buttonBackgroundColor_m57202B58CF1898B55A18AA96B533116360BEB134(L_14, L_15, NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_17;
+		L_17 = Color_get_green_m336EB73DD4A5B11B7F405CF4BC7F37A466FB4FF7_inline(NULL);
+		NullCheck(L_16);
+		Yodo1MasUserPrivacyConfig_tC7062DFFC10A1105F51A47040F5B7F05EA1F2E8E* L_18;
+		L_18 = Yodo1MasUserPrivacyConfig_buttonTextColor_m649C21832DFADBEAA05B5B67041F3D13764D5837(L_16, L_17, NULL);
+		V_0 = L_18;
 		// Yodo1AdBuildConfig config = new Yodo1AdBuildConfig()
 		//     .enableAdaptiveBanner(true)
 		//     .enableUserPrivacyDialog(true)
 		//     .userPrivacyConfig(userPrivacyConfig);
-		Yodo1AdBuildConfig_t35022B8EE57C87662A193FAEB3462D4D61E812CA* L_14 = (Yodo1AdBuildConfig_t35022B8EE57C87662A193FAEB3462D4D61E812CA*)il2cpp_codegen_object_new(Yodo1AdBuildConfig_t35022B8EE57C87662A193FAEB3462D4D61E812CA_il2cpp_TypeInfo_var);
-		NullCheck(L_14);
-		Yodo1AdBuildConfig__ctor_mC0E805C87438C9BC6240594599B2EEFF8AD6C918(L_14, NULL);
-		NullCheck(L_14);
-		Yodo1AdBuildConfig_t35022B8EE57C87662A193FAEB3462D4D61E812CA* L_15;
-		L_15 = Yodo1AdBuildConfig_enableAdaptiveBanner_mD1495F0E41FD5E0CB391A1C1B0797D743D7A6EFD(L_14, (bool)1, NULL);
-		NullCheck(L_15);
-		Yodo1AdBuildConfig_t35022B8EE57C87662A193FAEB3462D4D61E812CA* L_16;
-		L_16 = Yodo1AdBuildConfig_enableUserPrivacyDialog_mF659CE846912120467C1F2700D3878B4F9ACDD6F(L_15, (bool)1, NULL);
-		Yodo1MasUserPrivacyConfig_tC7062DFFC10A1105F51A47040F5B7F05EA1F2E8E* L_17 = V_0;
-		NullCheck(L_16);
-		Yodo1AdBuildConfig_t35022B8EE57C87662A193FAEB3462D4D61E812CA* L_18;
-		L_18 = Yodo1AdBuildConfig_userPrivacyConfig_m595641CCD08ED014D9083E1EBE2DF5C7A532342D(L_16, L_17, NULL);
+		Yodo1AdBuildConfig_t35022B8EE57C87662A193FAEB3462D4D61E812CA* L_19 = (Yodo1AdBuildConfig_t35022B8EE57C87662A193FAEB3462D4D61E812CA*)il2cpp_codegen_object_new(Yodo1AdBuildConfig_t35022B8EE57C87662A193FAEB3462D4D61E812CA_il2cpp_TypeInfo_var);
+		NullCheck(L_19);
+		Yodo1AdBuildConfig__ctor_mC0E805C87438C9BC6240594599B2EEFF8AD6C918(L_19, NULL);
+		NullCheck(L_19);
+		Yodo1AdBuildConfig_t35022B8EE57C87662A193FAEB3462D4D61E812CA* L_20;
+		L_20 = Yodo1AdBuildConfig_enableAdaptiveBanner_mD1495F0E41FD5E0CB391A1C1B0797D743D7A6EFD(L_19, (bool)1, NULL);
+		NullCheck(L_20);
+		Yodo1AdBuildConfig_t35022B8EE57C87662A193FAEB3462D4D61E812CA* L_21;
+		L_21 = Yodo1AdBuildConfig_enableUserPrivacyDialog_mF659CE846912120467C1F2700D3878B4F9ACDD6F(L_20, (bool)1, NULL);
+		Yodo1MasUserPrivacyConfig_tC7062DFFC10A1105F51A47040F5B7F05EA1F2E8E* L_22 = V_0;
+		NullCheck(L_21);
+		Yodo1AdBuildConfig_t35022B8EE57C87662A193FAEB3462D4D61E812CA* L_23;
+		L_23 = Yodo1AdBuildConfig_userPrivacyConfig_m595641CCD08ED014D9083E1EBE2DF5C7A532342D(L_21, L_22, NULL);
 		// Yodo1U3dMas.SetAdBuildConfig(config);
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMas_t5FD42041FA9A44F15241DE2BAEF5D4A2CFAA61F8_il2cpp_TypeInfo_var);
-		Yodo1U3dMas_SetAdBuildConfig_m2B36A0768FF25AD4BB4FEEDF103A0E6CA9DB054E(L_18, NULL);
+		Yodo1U3dMas_SetAdBuildConfig_m2B36A0768FF25AD4BB4FEEDF103A0E6CA9DB054E(L_23, NULL);
 		// Yodo1U3dMas.InitializeMasSdk();
 		Yodo1U3dMas_InitializeMasSdk_m0E4C3A7F7DD9A1704A15DBE566419E30E13875C8(NULL);
 		// }
@@ -11962,6 +11951,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_InitializeInterstitialAdsV2
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1AdsTest_OnInterstitialAdLoadedEvent_mC73B5E4A1AE7D59E88FC9297CF96D6FFBF3542D5_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1AdsTest_OnInterstitialAdOpenFailedEvent_m2B1B59BFB7B3E30D708353FDDA111B20FD48FE21_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1AdsTest_OnInterstitialAdOpenedEvent_mD6A5B1EDE9B0BBE947B5289D2265F97F76F0BB75_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1AdsTest_OnInterstitialAdOpeningEvent_m91CFDAFE08FD03C6EFB90C73E8B0A8C0EC2F5B17_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -11981,30 +11971,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_InitializeInterstitialAdsV2
 		Action_2__ctor_m1A426AE9CFDE990F7FEA1AC3EDCDFEDBB8433D3E(L_3, __this, (intptr_t)((void*)Yodo1AdsTest_OnInterstitialAdLoadFailedEvent_m86B7D35BD40DE280A1F0A20C93DF6E7E3527BF41_RuntimeMethod_var), NULL);
 		NullCheck(L_2);
 		Yodo1U3dInterstitialAd_add_OnAdLoadFailedEvent_mBB8D197F1039728D9F06F3CC609E9A7AE1CD37D6(L_2, L_3, NULL);
-		// Yodo1U3dInterstitialAd.GetInstance().OnAdOpenedEvent += OnInterstitialAdOpenedEvent;
+		// Yodo1U3dInterstitialAd.GetInstance().OnAdOpeningEvent += OnInterstitialAdOpeningEvent;
 		Yodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327* L_4;
 		L_4 = Yodo1U3dInterstitialAd_GetInstance_m2D71B1DEABD867F5A66ED40DAC7F279BACCE4AC6_inline(NULL);
 		Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* L_5 = (Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427*)il2cpp_codegen_object_new(Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427_il2cpp_TypeInfo_var);
 		NullCheck(L_5);
-		Action_1__ctor_mB3E99F15DC6517B09CE83C44B8603CDD32CBD81A(L_5, __this, (intptr_t)((void*)Yodo1AdsTest_OnInterstitialAdOpenedEvent_mD6A5B1EDE9B0BBE947B5289D2265F97F76F0BB75_RuntimeMethod_var), NULL);
+		Action_1__ctor_mB3E99F15DC6517B09CE83C44B8603CDD32CBD81A(L_5, __this, (intptr_t)((void*)Yodo1AdsTest_OnInterstitialAdOpeningEvent_m91CFDAFE08FD03C6EFB90C73E8B0A8C0EC2F5B17_RuntimeMethod_var), NULL);
 		NullCheck(L_4);
-		Yodo1U3dInterstitialAd_add_OnAdOpenedEvent_m48405DBE5CFCDD7F24472572728BBE5206AB68FF(L_4, L_5, NULL);
-		// Yodo1U3dInterstitialAd.GetInstance().OnAdOpenFailedEvent += OnInterstitialAdOpenFailedEvent;
+		Yodo1U3dInterstitialAd_add_OnAdOpeningEvent_mB80A405B6766D76537C41CE885B86538D3829DD1(L_4, L_5, NULL);
+		// Yodo1U3dInterstitialAd.GetInstance().OnAdOpenedEvent += OnInterstitialAdOpenedEvent;
 		Yodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327* L_6;
 		L_6 = Yodo1U3dInterstitialAd_GetInstance_m2D71B1DEABD867F5A66ED40DAC7F279BACCE4AC6_inline(NULL);
-		Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B* L_7 = (Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B*)il2cpp_codegen_object_new(Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B_il2cpp_TypeInfo_var);
+		Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* L_7 = (Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427*)il2cpp_codegen_object_new(Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427_il2cpp_TypeInfo_var);
 		NullCheck(L_7);
-		Action_2__ctor_m1A426AE9CFDE990F7FEA1AC3EDCDFEDBB8433D3E(L_7, __this, (intptr_t)((void*)Yodo1AdsTest_OnInterstitialAdOpenFailedEvent_m2B1B59BFB7B3E30D708353FDDA111B20FD48FE21_RuntimeMethod_var), NULL);
+		Action_1__ctor_mB3E99F15DC6517B09CE83C44B8603CDD32CBD81A(L_7, __this, (intptr_t)((void*)Yodo1AdsTest_OnInterstitialAdOpenedEvent_mD6A5B1EDE9B0BBE947B5289D2265F97F76F0BB75_RuntimeMethod_var), NULL);
 		NullCheck(L_6);
-		Yodo1U3dInterstitialAd_add_OnAdOpenFailedEvent_m7660785288D96C9D8A3A2354D7BBA1AEBA872CDB(L_6, L_7, NULL);
-		// Yodo1U3dInterstitialAd.GetInstance().OnAdClosedEvent += OnInterstitialAdClosedEvent;
+		Yodo1U3dInterstitialAd_add_OnAdOpenedEvent_m48405DBE5CFCDD7F24472572728BBE5206AB68FF(L_6, L_7, NULL);
+		// Yodo1U3dInterstitialAd.GetInstance().OnAdOpenFailedEvent += OnInterstitialAdOpenFailedEvent;
 		Yodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327* L_8;
 		L_8 = Yodo1U3dInterstitialAd_GetInstance_m2D71B1DEABD867F5A66ED40DAC7F279BACCE4AC6_inline(NULL);
-		Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* L_9 = (Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427*)il2cpp_codegen_object_new(Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427_il2cpp_TypeInfo_var);
+		Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B* L_9 = (Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B*)il2cpp_codegen_object_new(Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B_il2cpp_TypeInfo_var);
 		NullCheck(L_9);
-		Action_1__ctor_mB3E99F15DC6517B09CE83C44B8603CDD32CBD81A(L_9, __this, (intptr_t)((void*)Yodo1AdsTest_OnInterstitialAdClosedEvent_m3945390B4952EF3B2D725AA2F836C5F2BC770BC7_RuntimeMethod_var), NULL);
+		Action_2__ctor_m1A426AE9CFDE990F7FEA1AC3EDCDFEDBB8433D3E(L_9, __this, (intptr_t)((void*)Yodo1AdsTest_OnInterstitialAdOpenFailedEvent_m2B1B59BFB7B3E30D708353FDDA111B20FD48FE21_RuntimeMethod_var), NULL);
 		NullCheck(L_8);
-		Yodo1U3dInterstitialAd_add_OnAdClosedEvent_mC55AB232876F6326877E0B24F04001F22CED7F40(L_8, L_9, NULL);
+		Yodo1U3dInterstitialAd_add_OnAdOpenFailedEvent_m7660785288D96C9D8A3A2354D7BBA1AEBA872CDB(L_8, L_9, NULL);
+		// Yodo1U3dInterstitialAd.GetInstance().OnAdClosedEvent += OnInterstitialAdClosedEvent;
+		Yodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327* L_10;
+		L_10 = Yodo1U3dInterstitialAd_GetInstance_m2D71B1DEABD867F5A66ED40DAC7F279BACCE4AC6_inline(NULL);
+		Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* L_11 = (Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427*)il2cpp_codegen_object_new(Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427_il2cpp_TypeInfo_var);
+		NullCheck(L_11);
+		Action_1__ctor_mB3E99F15DC6517B09CE83C44B8603CDD32CBD81A(L_11, __this, (intptr_t)((void*)Yodo1AdsTest_OnInterstitialAdClosedEvent_m3945390B4952EF3B2D725AA2F836C5F2BC770BC7_RuntimeMethod_var), NULL);
+		NullCheck(L_10);
+		Yodo1U3dInterstitialAd_add_OnAdClosedEvent_mC55AB232876F6326877E0B24F04001F22CED7F40(L_10, L_11, NULL);
 		// }
 		return;
 	}
@@ -12082,6 +12080,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_OnInterstitialAdLoadFailedE
 		L_3 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(L_0, _stringLiteralD8ED31E07F3CAC5AF7AB66F01D7D9E7E26CB8319, L_2, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(L_3, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Yodo1AdsTest::OnInterstitialAdOpeningEvent(Yodo1.MAS.Yodo1U3dInterstitialAd)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_OnInterstitialAdOpeningEvent_m91CFDAFE08FD03C6EFB90C73E8B0A8C0EC2F5B17 (Yodo1AdsTest_t13AED4A96AD27E4537A0B01BA1538B66E5E31B11* __this, Yodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327* ___ad0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1U3dMas_t5FD42041FA9A44F15241DE2BAEF5D4A2CFAA61F8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralECC64243513DE08B663A29DBF29850E1F64434BA);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Debug.Log(Yodo1U3dMas.TAG + "OnInterstitialAdOpeningEvent event received");
+		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMas_t5FD42041FA9A44F15241DE2BAEF5D4A2CFAA61F8_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((Yodo1U3dMas_t5FD42041FA9A44F15241DE2BAEF5D4A2CFAA61F8_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMas_t5FD42041FA9A44F15241DE2BAEF5D4A2CFAA61F8_il2cpp_TypeInfo_var))->___TAG_0;
+		String_t* L_1;
+		L_1 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(L_0, _stringLiteralECC64243513DE08B663A29DBF29850E1F64434BA, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(L_1, NULL);
 		// }
 		return;
 	}
@@ -12498,6 +12519,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_InitializeRewardedAdsV2_mB8
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1AdsTest_OnRewardAdLoadedEvent_m2EAB9C988B245750065F2488060D173792B6C252_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1AdsTest_OnRewardAdOpenFailedEvent_m2464393AD5710EC81A47F6D3B728937EC8E9CC6C_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1AdsTest_OnRewardAdOpenedEvent_mBFE1755147B9D9B6573B7882674F80F186150C8A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1AdsTest_OnRewardAdOpeningEvent_m7D72B793E770F2CD535F111AAD0EF5CC2DB26F16_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -12517,38 +12539,46 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_InitializeRewardedAdsV2_mB8
 		Action_2__ctor_m9713009C7833178FAE9EFABEA3B20AAF6D0B4AA2(L_3, __this, (intptr_t)((void*)Yodo1AdsTest_OnRewardAdLoadFailedEvent_m296BE0482C13EB25511ED7FC87423A37537E03E5_RuntimeMethod_var), NULL);
 		NullCheck(L_2);
 		Yodo1U3dRewardAd_add_OnAdLoadFailedEvent_mA269621005E9E335AAA368924B35652077B011A6(L_2, L_3, NULL);
-		// Yodo1U3dRewardAd.GetInstance().OnAdOpenedEvent += OnRewardAdOpenedEvent;
+		// Yodo1U3dRewardAd.GetInstance().OnAdOpeningEvent += OnRewardAdOpeningEvent;
 		Yodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF* L_4;
 		L_4 = Yodo1U3dRewardAd_GetInstance_m7BD8B04A5276DEDE8B2BDD6C3551731CD671F561_inline(NULL);
 		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_5 = (Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)il2cpp_codegen_object_new(Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var);
 		NullCheck(L_5);
-		Action_1__ctor_m1CAEB6842EEE19720E6BD3E74004DDEF3C764289(L_5, __this, (intptr_t)((void*)Yodo1AdsTest_OnRewardAdOpenedEvent_mBFE1755147B9D9B6573B7882674F80F186150C8A_RuntimeMethod_var), NULL);
+		Action_1__ctor_m1CAEB6842EEE19720E6BD3E74004DDEF3C764289(L_5, __this, (intptr_t)((void*)Yodo1AdsTest_OnRewardAdOpeningEvent_m7D72B793E770F2CD535F111AAD0EF5CC2DB26F16_RuntimeMethod_var), NULL);
 		NullCheck(L_4);
-		Yodo1U3dRewardAd_add_OnAdOpenedEvent_m7B1E250847128953135717CF164E67403C399541(L_4, L_5, NULL);
-		// Yodo1U3dRewardAd.GetInstance().OnAdOpenFailedEvent += OnRewardAdOpenFailedEvent;
+		Yodo1U3dRewardAd_add_OnAdOpeningEvent_mEF1948C650A7216AC3A8F76B7D4C4F76C32E8636(L_4, L_5, NULL);
+		// Yodo1U3dRewardAd.GetInstance().OnAdOpenedEvent += OnRewardAdOpenedEvent;
 		Yodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF* L_6;
 		L_6 = Yodo1U3dRewardAd_GetInstance_m7BD8B04A5276DEDE8B2BDD6C3551731CD671F561_inline(NULL);
-		Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0* L_7 = (Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0*)il2cpp_codegen_object_new(Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0_il2cpp_TypeInfo_var);
+		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_7 = (Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)il2cpp_codegen_object_new(Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var);
 		NullCheck(L_7);
-		Action_2__ctor_m9713009C7833178FAE9EFABEA3B20AAF6D0B4AA2(L_7, __this, (intptr_t)((void*)Yodo1AdsTest_OnRewardAdOpenFailedEvent_m2464393AD5710EC81A47F6D3B728937EC8E9CC6C_RuntimeMethod_var), NULL);
+		Action_1__ctor_m1CAEB6842EEE19720E6BD3E74004DDEF3C764289(L_7, __this, (intptr_t)((void*)Yodo1AdsTest_OnRewardAdOpenedEvent_mBFE1755147B9D9B6573B7882674F80F186150C8A_RuntimeMethod_var), NULL);
 		NullCheck(L_6);
-		Yodo1U3dRewardAd_add_OnAdOpenFailedEvent_mFC63AF11B7DAD40503D5FAF8354A8526361586BB(L_6, L_7, NULL);
-		// Yodo1U3dRewardAd.GetInstance().OnAdClosedEvent += OnRewardAdClosedEvent;
+		Yodo1U3dRewardAd_add_OnAdOpenedEvent_m7B1E250847128953135717CF164E67403C399541(L_6, L_7, NULL);
+		// Yodo1U3dRewardAd.GetInstance().OnAdOpenFailedEvent += OnRewardAdOpenFailedEvent;
 		Yodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF* L_8;
 		L_8 = Yodo1U3dRewardAd_GetInstance_m7BD8B04A5276DEDE8B2BDD6C3551731CD671F561_inline(NULL);
-		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_9 = (Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)il2cpp_codegen_object_new(Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var);
+		Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0* L_9 = (Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0*)il2cpp_codegen_object_new(Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0_il2cpp_TypeInfo_var);
 		NullCheck(L_9);
-		Action_1__ctor_m1CAEB6842EEE19720E6BD3E74004DDEF3C764289(L_9, __this, (intptr_t)((void*)Yodo1AdsTest_OnRewardAdClosedEvent_m367C2F19FD25F31B8A99D8A030A521F32479415E_RuntimeMethod_var), NULL);
+		Action_2__ctor_m9713009C7833178FAE9EFABEA3B20AAF6D0B4AA2(L_9, __this, (intptr_t)((void*)Yodo1AdsTest_OnRewardAdOpenFailedEvent_m2464393AD5710EC81A47F6D3B728937EC8E9CC6C_RuntimeMethod_var), NULL);
 		NullCheck(L_8);
-		Yodo1U3dRewardAd_add_OnAdClosedEvent_m9E5F2131F442CD251E71FBE6B071FB883665315C(L_8, L_9, NULL);
-		// Yodo1U3dRewardAd.GetInstance().OnAdEarnedEvent += OnRewardAdEarnedEvent;
+		Yodo1U3dRewardAd_add_OnAdOpenFailedEvent_mFC63AF11B7DAD40503D5FAF8354A8526361586BB(L_8, L_9, NULL);
+		// Yodo1U3dRewardAd.GetInstance().OnAdClosedEvent += OnRewardAdClosedEvent;
 		Yodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF* L_10;
 		L_10 = Yodo1U3dRewardAd_GetInstance_m7BD8B04A5276DEDE8B2BDD6C3551731CD671F561_inline(NULL);
 		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_11 = (Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)il2cpp_codegen_object_new(Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var);
 		NullCheck(L_11);
-		Action_1__ctor_m1CAEB6842EEE19720E6BD3E74004DDEF3C764289(L_11, __this, (intptr_t)((void*)Yodo1AdsTest_OnRewardAdEarnedEvent_m9F57B545A0D4329C2554C5C98573AD79B21DD518_RuntimeMethod_var), NULL);
+		Action_1__ctor_m1CAEB6842EEE19720E6BD3E74004DDEF3C764289(L_11, __this, (intptr_t)((void*)Yodo1AdsTest_OnRewardAdClosedEvent_m367C2F19FD25F31B8A99D8A030A521F32479415E_RuntimeMethod_var), NULL);
 		NullCheck(L_10);
-		Yodo1U3dRewardAd_add_OnAdEarnedEvent_mCD809BD74414047EB700EEF7AC536D371DD469F8(L_10, L_11, NULL);
+		Yodo1U3dRewardAd_add_OnAdClosedEvent_m9E5F2131F442CD251E71FBE6B071FB883665315C(L_10, L_11, NULL);
+		// Yodo1U3dRewardAd.GetInstance().OnAdEarnedEvent += OnRewardAdEarnedEvent;
+		Yodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF* L_12;
+		L_12 = Yodo1U3dRewardAd_GetInstance_m7BD8B04A5276DEDE8B2BDD6C3551731CD671F561_inline(NULL);
+		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_13 = (Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)il2cpp_codegen_object_new(Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var);
+		NullCheck(L_13);
+		Action_1__ctor_m1CAEB6842EEE19720E6BD3E74004DDEF3C764289(L_13, __this, (intptr_t)((void*)Yodo1AdsTest_OnRewardAdEarnedEvent_m9F57B545A0D4329C2554C5C98573AD79B21DD518_RuntimeMethod_var), NULL);
+		NullCheck(L_12);
+		Yodo1U3dRewardAd_add_OnAdEarnedEvent_mCD809BD74414047EB700EEF7AC536D371DD469F8(L_12, L_13, NULL);
 		// }
 		return;
 	}
@@ -12626,6 +12656,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_OnRewardAdLoadFailedEvent_m
 		L_3 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(L_0, _stringLiteralE93687473A39A94111CD9F2E75255AE1F5846B0B, L_2, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(L_3, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Yodo1AdsTest::OnRewardAdOpeningEvent(Yodo1.MAS.Yodo1U3dRewardAd)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_OnRewardAdOpeningEvent_m7D72B793E770F2CD535F111AAD0EF5CC2DB26F16 (Yodo1AdsTest_t13AED4A96AD27E4537A0B01BA1538B66E5E31B11* __this, Yodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF* ___ad0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1U3dMas_t5FD42041FA9A44F15241DE2BAEF5D4A2CFAA61F8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral31F13659D4C72397B711D75529EC95FC160A6647);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Debug.Log(Yodo1U3dMas.TAG + "OnRewardAdOpeningEvent event received");
+		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMas_t5FD42041FA9A44F15241DE2BAEF5D4A2CFAA61F8_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((Yodo1U3dMas_t5FD42041FA9A44F15241DE2BAEF5D4A2CFAA61F8_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMas_t5FD42041FA9A44F15241DE2BAEF5D4A2CFAA61F8_il2cpp_TypeInfo_var))->___TAG_0;
+		String_t* L_1;
+		L_1 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(L_0, _stringLiteral31F13659D4C72397B711D75529EC95FC160A6647, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(L_1, NULL);
 		// }
 		return;
 	}
@@ -13049,6 +13102,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_InitializeRewardedInterstit
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1AdsTest_OnRewardedInterstitialAdLoadedEvent_mE8E0740A38A25CA0D03E2190202F7A6ABE154BF0_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1AdsTest_OnRewardedInterstitialAdOpenFailedEvent_m443BF209314C2EC184E5584156A4EE2776114C63_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1AdsTest_OnRewardedInterstitialAdOpenedEvent_m675C5CCF8FF89978C49F1C30BD620EA757AE8B31_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1AdsTest_OnRewardedInterstitialAdOpeningEvent_mC613805EF2CDA3308236742DAE681E9454BD90B1_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -13071,38 +13125,46 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_InitializeRewardedInterstit
 		Action_2__ctor_m45C42E78B869AC8329609FD2225171B5BA3A4D27(L_4, __this, (intptr_t)((void*)Yodo1AdsTest_OnRewardedInterstitialAdLoadFailedEvent_m548D161D89FF80C162A9E493C51FC10D6134A9F9_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		Yodo1U3dRewardedInterstitialAd_add_OnAdLoadFailedEvent_mCC7B54F5E78FFA55104C4E14B919A928C8C1FE17(L_3, L_4, NULL);
-		// Yodo1U3dRewardedInterstitialAd.GetInstance().OnAdOpenedEvent += OnRewardedInterstitialAdOpenedEvent;
+		// Yodo1U3dRewardedInterstitialAd.GetInstance().OnAdOpeningEvent += OnRewardedInterstitialAdOpeningEvent;
 		Yodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524* L_5;
 		L_5 = Yodo1U3dRewardedInterstitialAd_GetInstance_m5B633D5C0CC7921B9D5E4BF6A31AACA857913E2D_inline(NULL);
 		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_6 = (Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)il2cpp_codegen_object_new(Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var);
 		NullCheck(L_6);
-		Action_1__ctor_m51D0E022A2284B3CB748F43F500AC28139C84D0B(L_6, __this, (intptr_t)((void*)Yodo1AdsTest_OnRewardedInterstitialAdOpenedEvent_m675C5CCF8FF89978C49F1C30BD620EA757AE8B31_RuntimeMethod_var), NULL);
+		Action_1__ctor_m51D0E022A2284B3CB748F43F500AC28139C84D0B(L_6, __this, (intptr_t)((void*)Yodo1AdsTest_OnRewardedInterstitialAdOpeningEvent_mC613805EF2CDA3308236742DAE681E9454BD90B1_RuntimeMethod_var), NULL);
 		NullCheck(L_5);
-		Yodo1U3dRewardedInterstitialAd_add_OnAdOpenedEvent_m84AD39579138C10093CC58E5CB9B3E4FBE25D174(L_5, L_6, NULL);
-		// Yodo1U3dRewardedInterstitialAd.GetInstance().OnAdOpenFailedEvent += OnRewardedInterstitialAdOpenFailedEvent;
+		Yodo1U3dRewardedInterstitialAd_add_OnAdOpeningEvent_mD09A88BBBCD475B5AA912E32598BDCE5A8967E76(L_5, L_6, NULL);
+		// Yodo1U3dRewardedInterstitialAd.GetInstance().OnAdOpenedEvent += OnRewardedInterstitialAdOpenedEvent;
 		Yodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524* L_7;
 		L_7 = Yodo1U3dRewardedInterstitialAd_GetInstance_m5B633D5C0CC7921B9D5E4BF6A31AACA857913E2D_inline(NULL);
-		Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2* L_8 = (Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2*)il2cpp_codegen_object_new(Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2_il2cpp_TypeInfo_var);
+		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_8 = (Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)il2cpp_codegen_object_new(Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var);
 		NullCheck(L_8);
-		Action_2__ctor_m45C42E78B869AC8329609FD2225171B5BA3A4D27(L_8, __this, (intptr_t)((void*)Yodo1AdsTest_OnRewardedInterstitialAdOpenFailedEvent_m443BF209314C2EC184E5584156A4EE2776114C63_RuntimeMethod_var), NULL);
+		Action_1__ctor_m51D0E022A2284B3CB748F43F500AC28139C84D0B(L_8, __this, (intptr_t)((void*)Yodo1AdsTest_OnRewardedInterstitialAdOpenedEvent_m675C5CCF8FF89978C49F1C30BD620EA757AE8B31_RuntimeMethod_var), NULL);
 		NullCheck(L_7);
-		Yodo1U3dRewardedInterstitialAd_add_OnAdOpenFailedEvent_mC4BA8D92EC13FC0EFE2F87DDE1A0044734D4CB28(L_7, L_8, NULL);
-		// Yodo1U3dRewardedInterstitialAd.GetInstance().OnAdClosedEvent += OnRewardedInterstitialAdClosedEvent;
+		Yodo1U3dRewardedInterstitialAd_add_OnAdOpenedEvent_m84AD39579138C10093CC58E5CB9B3E4FBE25D174(L_7, L_8, NULL);
+		// Yodo1U3dRewardedInterstitialAd.GetInstance().OnAdOpenFailedEvent += OnRewardedInterstitialAdOpenFailedEvent;
 		Yodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524* L_9;
 		L_9 = Yodo1U3dRewardedInterstitialAd_GetInstance_m5B633D5C0CC7921B9D5E4BF6A31AACA857913E2D_inline(NULL);
-		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_10 = (Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)il2cpp_codegen_object_new(Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var);
+		Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2* L_10 = (Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2*)il2cpp_codegen_object_new(Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2_il2cpp_TypeInfo_var);
 		NullCheck(L_10);
-		Action_1__ctor_m51D0E022A2284B3CB748F43F500AC28139C84D0B(L_10, __this, (intptr_t)((void*)Yodo1AdsTest_OnRewardedInterstitialAdClosedEvent_mE5128B38BE1505ED49C0BA969E244FB5E971C661_RuntimeMethod_var), NULL);
+		Action_2__ctor_m45C42E78B869AC8329609FD2225171B5BA3A4D27(L_10, __this, (intptr_t)((void*)Yodo1AdsTest_OnRewardedInterstitialAdOpenFailedEvent_m443BF209314C2EC184E5584156A4EE2776114C63_RuntimeMethod_var), NULL);
 		NullCheck(L_9);
-		Yodo1U3dRewardedInterstitialAd_add_OnAdClosedEvent_m54DB7A83463E6724B95D8D01E14CB6A7E3017D23(L_9, L_10, NULL);
-		// Yodo1U3dRewardedInterstitialAd.GetInstance().OnAdEarnedEvent += OnRewardedInterstitialAdEarnedEvent;
+		Yodo1U3dRewardedInterstitialAd_add_OnAdOpenFailedEvent_mC4BA8D92EC13FC0EFE2F87DDE1A0044734D4CB28(L_9, L_10, NULL);
+		// Yodo1U3dRewardedInterstitialAd.GetInstance().OnAdClosedEvent += OnRewardedInterstitialAdClosedEvent;
 		Yodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524* L_11;
 		L_11 = Yodo1U3dRewardedInterstitialAd_GetInstance_m5B633D5C0CC7921B9D5E4BF6A31AACA857913E2D_inline(NULL);
 		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_12 = (Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)il2cpp_codegen_object_new(Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var);
 		NullCheck(L_12);
-		Action_1__ctor_m51D0E022A2284B3CB748F43F500AC28139C84D0B(L_12, __this, (intptr_t)((void*)Yodo1AdsTest_OnRewardedInterstitialAdEarnedEvent_mA942A3E77DC2A042CE04E0AA85C33E104703C7F2_RuntimeMethod_var), NULL);
+		Action_1__ctor_m51D0E022A2284B3CB748F43F500AC28139C84D0B(L_12, __this, (intptr_t)((void*)Yodo1AdsTest_OnRewardedInterstitialAdClosedEvent_mE5128B38BE1505ED49C0BA969E244FB5E971C661_RuntimeMethod_var), NULL);
 		NullCheck(L_11);
-		Yodo1U3dRewardedInterstitialAd_add_OnAdEarnedEvent_mBAAF3BCF34C8E0F5E42BCA1F51728A28CB2A3208(L_11, L_12, NULL);
+		Yodo1U3dRewardedInterstitialAd_add_OnAdClosedEvent_m54DB7A83463E6724B95D8D01E14CB6A7E3017D23(L_11, L_12, NULL);
+		// Yodo1U3dRewardedInterstitialAd.GetInstance().OnAdEarnedEvent += OnRewardedInterstitialAdEarnedEvent;
+		Yodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524* L_13;
+		L_13 = Yodo1U3dRewardedInterstitialAd_GetInstance_m5B633D5C0CC7921B9D5E4BF6A31AACA857913E2D_inline(NULL);
+		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_14 = (Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)il2cpp_codegen_object_new(Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var);
+		NullCheck(L_14);
+		Action_1__ctor_m51D0E022A2284B3CB748F43F500AC28139C84D0B(L_14, __this, (intptr_t)((void*)Yodo1AdsTest_OnRewardedInterstitialAdEarnedEvent_mA942A3E77DC2A042CE04E0AA85C33E104703C7F2_RuntimeMethod_var), NULL);
+		NullCheck(L_13);
+		Yodo1U3dRewardedInterstitialAd_add_OnAdEarnedEvent_mBAAF3BCF34C8E0F5E42BCA1F51728A28CB2A3208(L_13, L_14, NULL);
 		// }
 		return;
 	}
@@ -13248,6 +13310,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_OnRewardedInterstitialAdLoa
 		return;
 	}
 }
+// System.Void Yodo1AdsTest::OnRewardedInterstitialAdOpeningEvent(Yodo1.MAS.Yodo1U3dRewardedInterstitialAd)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_OnRewardedInterstitialAdOpeningEvent_mC613805EF2CDA3308236742DAE681E9454BD90B1 (Yodo1AdsTest_t13AED4A96AD27E4537A0B01BA1538B66E5E31B11* __this, Yodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524* ___ad0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5E9E7A0AA8605A6B9E8E8E47FF1B5379A52AB15D);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Debug.Log("[Yodo1 Mas] OnRewardedInterstitialAdOpeningEvent event received");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral5E9E7A0AA8605A6B9E8E8E47FF1B5379A52AB15D, NULL);
+		// }
+		return;
+	}
+}
 // System.Void Yodo1AdsTest::OnRewardedInterstitialAdOpenedEvent(Yodo1.MAS.Yodo1U3dRewardedInterstitialAd)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_OnRewardedInterstitialAdOpenedEvent_m675C5CCF8FF89978C49F1C30BD620EA757AE8B31 (Yodo1AdsTest_t13AED4A96AD27E4537A0B01BA1538B66E5E31B11* __this, Yodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524* ___ad0, const RuntimeMethod* method) 
 {
@@ -13343,6 +13423,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_InitializeAppOpenAds_mB7589
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1AdsTest_OnAppOpenAdLoadedEvent_mF66FCE3C3AC13716305A0150852965705A1686E9_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1AdsTest_OnAppOpenAdOpenFailedEvent_m291F147418C17B899A4DE374A4E8A31C73D4C0AC_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1AdsTest_OnAppOpenAdOpenedEvent_mC469078175597D9995CEE547039C61EFA1473D73_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1AdsTest_OnAppOpenAdOpeningEvent_mCBE9F9AAA54A1C338237E66828372918B39626F0_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -13365,35 +13446,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_InitializeAppOpenAds_mB7589
 		Action_2__ctor_m0B67B93A458AE219CE23953B74832B3C7264B8DC(L_4, __this, (intptr_t)((void*)Yodo1AdsTest_OnAppOpenAdLoadFailedEvent_m26900937C8A7524EEB61BC4F56B9AFCB6552EF3C_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		Yodo1U3dAppOpenAd_add_OnAdLoadFailedEvent_m8983EFFADE910D5E3D4D2CB1A087FBBCF47D4F4B(L_3, L_4, NULL);
-		// Yodo1U3dAppOpenAd.GetInstance().OnAdOpenedEvent += OnAppOpenAdOpenedEvent;
+		// Yodo1U3dAppOpenAd.GetInstance().OnAdOpeningEvent += OnAppOpenAdOpeningEvent;
 		Yodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C* L_5;
 		L_5 = Yodo1U3dAppOpenAd_GetInstance_m9945A4838F06DA4C2365222610917A8A8A663D3E_inline(NULL);
 		Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* L_6 = (Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0*)il2cpp_codegen_object_new(Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0_il2cpp_TypeInfo_var);
 		NullCheck(L_6);
-		Action_1__ctor_m96870B971B60F7763E21890A5ACD37E09C409C7D(L_6, __this, (intptr_t)((void*)Yodo1AdsTest_OnAppOpenAdOpenedEvent_mC469078175597D9995CEE547039C61EFA1473D73_RuntimeMethod_var), NULL);
+		Action_1__ctor_m96870B971B60F7763E21890A5ACD37E09C409C7D(L_6, __this, (intptr_t)((void*)Yodo1AdsTest_OnAppOpenAdOpeningEvent_mCBE9F9AAA54A1C338237E66828372918B39626F0_RuntimeMethod_var), NULL);
 		NullCheck(L_5);
-		Yodo1U3dAppOpenAd_add_OnAdOpenedEvent_mCB77A05CE881A2EFC7D456BA9203EE8B59ABE54F(L_5, L_6, NULL);
-		// Yodo1U3dAppOpenAd.GetInstance().OnAdOpenFailedEvent += OnAppOpenAdOpenFailedEvent;
+		Yodo1U3dAppOpenAd_add_OnAdOpeningEvent_m26F7A772835689211A674BF691D153F9EB551E37(L_5, L_6, NULL);
+		// Yodo1U3dAppOpenAd.GetInstance().OnAdOpenedEvent += OnAppOpenAdOpenedEvent;
 		Yodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C* L_7;
 		L_7 = Yodo1U3dAppOpenAd_GetInstance_m9945A4838F06DA4C2365222610917A8A8A663D3E_inline(NULL);
-		Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483* L_8 = (Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483*)il2cpp_codegen_object_new(Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483_il2cpp_TypeInfo_var);
+		Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* L_8 = (Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0*)il2cpp_codegen_object_new(Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0_il2cpp_TypeInfo_var);
 		NullCheck(L_8);
-		Action_2__ctor_m0B67B93A458AE219CE23953B74832B3C7264B8DC(L_8, __this, (intptr_t)((void*)Yodo1AdsTest_OnAppOpenAdOpenFailedEvent_m291F147418C17B899A4DE374A4E8A31C73D4C0AC_RuntimeMethod_var), NULL);
+		Action_1__ctor_m96870B971B60F7763E21890A5ACD37E09C409C7D(L_8, __this, (intptr_t)((void*)Yodo1AdsTest_OnAppOpenAdOpenedEvent_mC469078175597D9995CEE547039C61EFA1473D73_RuntimeMethod_var), NULL);
 		NullCheck(L_7);
-		Yodo1U3dAppOpenAd_add_OnAdOpenFailedEvent_m6A72C6D199AC1659431A8784045A53AC5D1F292C(L_7, L_8, NULL);
-		// Yodo1U3dAppOpenAd.GetInstance().OnAdClosedEvent += OnAppOpenAdClosedEvent;
+		Yodo1U3dAppOpenAd_add_OnAdOpenedEvent_mCB77A05CE881A2EFC7D456BA9203EE8B59ABE54F(L_7, L_8, NULL);
+		// Yodo1U3dAppOpenAd.GetInstance().OnAdOpenFailedEvent += OnAppOpenAdOpenFailedEvent;
 		Yodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C* L_9;
 		L_9 = Yodo1U3dAppOpenAd_GetInstance_m9945A4838F06DA4C2365222610917A8A8A663D3E_inline(NULL);
-		Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* L_10 = (Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0*)il2cpp_codegen_object_new(Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0_il2cpp_TypeInfo_var);
+		Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483* L_10 = (Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483*)il2cpp_codegen_object_new(Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483_il2cpp_TypeInfo_var);
 		NullCheck(L_10);
-		Action_1__ctor_m96870B971B60F7763E21890A5ACD37E09C409C7D(L_10, __this, (intptr_t)((void*)Yodo1AdsTest_OnAppOpenAdClosedEvent_mB3B668DDB0E92ABFC93C36CD54FA8398037AE714_RuntimeMethod_var), NULL);
+		Action_2__ctor_m0B67B93A458AE219CE23953B74832B3C7264B8DC(L_10, __this, (intptr_t)((void*)Yodo1AdsTest_OnAppOpenAdOpenFailedEvent_m291F147418C17B899A4DE374A4E8A31C73D4C0AC_RuntimeMethod_var), NULL);
 		NullCheck(L_9);
-		Yodo1U3dAppOpenAd_add_OnAdClosedEvent_m432349841F78F84CAA73B0925F39084EC76EDF60(L_9, L_10, NULL);
-		// Yodo1U3dAppOpenAd.GetInstance().LoadAd();
+		Yodo1U3dAppOpenAd_add_OnAdOpenFailedEvent_m6A72C6D199AC1659431A8784045A53AC5D1F292C(L_9, L_10, NULL);
+		// Yodo1U3dAppOpenAd.GetInstance().OnAdClosedEvent += OnAppOpenAdClosedEvent;
 		Yodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C* L_11;
 		L_11 = Yodo1U3dAppOpenAd_GetInstance_m9945A4838F06DA4C2365222610917A8A8A663D3E_inline(NULL);
+		Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* L_12 = (Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0*)il2cpp_codegen_object_new(Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0_il2cpp_TypeInfo_var);
+		NullCheck(L_12);
+		Action_1__ctor_m96870B971B60F7763E21890A5ACD37E09C409C7D(L_12, __this, (intptr_t)((void*)Yodo1AdsTest_OnAppOpenAdClosedEvent_mB3B668DDB0E92ABFC93C36CD54FA8398037AE714_RuntimeMethod_var), NULL);
 		NullCheck(L_11);
-		Yodo1U3dAppOpenAd_LoadAd_m8632E85791ED17555E8EBAB2A02CD5621DE74D65(L_11, NULL);
+		Yodo1U3dAppOpenAd_add_OnAdClosedEvent_m432349841F78F84CAA73B0925F39084EC76EDF60(L_11, L_12, NULL);
+		// Yodo1U3dAppOpenAd.GetInstance().LoadAd();
+		Yodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C* L_13;
+		L_13 = Yodo1U3dAppOpenAd_GetInstance_m9945A4838F06DA4C2365222610917A8A8A663D3E_inline(NULL);
+		NullCheck(L_13);
+		Yodo1U3dAppOpenAd_LoadAd_m8632E85791ED17555E8EBAB2A02CD5621DE74D65(L_13, NULL);
 		// }
 		return;
 	}
@@ -13539,6 +13628,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_OnAppOpenAdLoadFailedEvent_
 		return;
 	}
 }
+// System.Void Yodo1AdsTest::OnAppOpenAdOpeningEvent(Yodo1.MAS.Yodo1U3dAppOpenAd)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_OnAppOpenAdOpeningEvent_mCBE9F9AAA54A1C338237E66828372918B39626F0 (Yodo1AdsTest_t13AED4A96AD27E4537A0B01BA1538B66E5E31B11* __this, Yodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C* ___ad0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral46470BDE9853A98F379350F5AD906D85C7BE2AB9);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Debug.Log("[Yodo1 Mas] OnAppOpenAdOpeningEvent event received");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral46470BDE9853A98F379350F5AD906D85C7BE2AB9, NULL);
+		// }
+		return;
+	}
+}
 // System.Void Yodo1AdsTest::OnAppOpenAdOpenedEvent(Yodo1.MAS.Yodo1U3dAppOpenAd)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_OnAppOpenAdOpenedEvent_mC469078175597D9995CEE547039C61EFA1473D73 (Yodo1AdsTest_t13AED4A96AD27E4537A0B01BA1538B66E5E31B11* __this, Yodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C* ___ad0, const RuntimeMethod* method) 
 {
@@ -13615,8 +13722,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest__ctor_mF8B6D30BDD8079255B16
 		return;
 	}
 }
-// System.Void Yodo1AdsTest::<Start>b__6_0(System.Boolean,Yodo1.MAS.Yodo1U3dAdError)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_U3CStartU3Eb__6_0_mB93A9737281ADE4366EF7AC816688596E59B476D (Yodo1AdsTest_t13AED4A96AD27E4537A0B01BA1538B66E5E31B11* __this, bool ___success0, Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* ___error1, const RuntimeMethod* method) 
+// System.Void Yodo1AdsTest::<Start>b__6_1(System.Boolean,Yodo1.MAS.Yodo1U3dAdError)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_U3CStartU3Eb__6_1_m976171B39AFA2201CD54E5BA4EF03675F28309FD (Yodo1AdsTest_t13AED4A96AD27E4537A0B01BA1538B66E5E31B11* __this, bool ___success0, Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* ___error1, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -13699,6 +13806,63 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1AdsTest_U3CStartU3Eb__6_0_mB93A9737
 
 IL_0083:
 	{
+		// };
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Yodo1AdsTest/<>c::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m7063EA2A9E06DFC0F993DBD1CC462C723585594A (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7* L_0 = (U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7*)il2cpp_codegen_object_new(U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CU3Ec__ctor_mEB85D754D44EA99391180BA75C608F6044DCF3A7(L_0, NULL);
+		((U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7_il2cpp_TypeInfo_var))->___U3CU3E9_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7_il2cpp_TypeInfo_var))->___U3CU3E9_0), (void*)L_0);
+		return;
+	}
+}
+// System.Void Yodo1AdsTest/<>c::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mEB85D754D44EA99391180BA75C608F6044DCF3A7 (U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.Void Yodo1AdsTest/<>c::<Start>b__6_0()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CStartU3Eb__6_0_mF79A8306DB69A054C9BA218969069180EDAF4702 (U3CU3Ec_t026D6BA6FF4C78B40A7A1C2592CEB3D0E14655E7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1U3dMas_t5FD42041FA9A44F15241DE2BAEF5D4A2CFAA61F8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral494003C7DA6803BA571191806A3EB90B6FC06489);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Debug.Log(Yodo1U3dMas.TAG + ": The game has entered the foreground");
+		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMas_t5FD42041FA9A44F15241DE2BAEF5D4A2CFAA61F8_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((Yodo1U3dMas_t5FD42041FA9A44F15241DE2BAEF5D4A2CFAA61F8_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMas_t5FD42041FA9A44F15241DE2BAEF5D4A2CFAA61F8_il2cpp_TypeInfo_var))->___TAG_0;
+		String_t* L_1;
+		L_1 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(L_0, _stringLiteral494003C7DA6803BA571191806A3EB90B6FC06489, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(L_1, NULL);
 		// };
 		return;
 	}
@@ -16843,6 +17007,48 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dAppOpenAd_remove_OnAdLoadFailedE
 		return;
 	}
 }
+// System.Void Yodo1.MAS.Yodo1U3dAppOpenAd::add_OnAdOpeningEvent(System.Action`1<Yodo1.MAS.Yodo1U3dAppOpenAd>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dAppOpenAd_add_OnAdOpeningEvent_m26F7A772835689211A674BF691D153F9EB551E37 (Yodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C* __this, Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// _onAppOpenAdOpeningdEvent += value;
+		Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* L_0 = __this->____onAppOpenAdOpeningdEvent_3;
+		Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* L_1 = ___value0;
+		Delegate_t* L_2;
+		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
+		__this->____onAppOpenAdOpeningdEvent_3 = ((Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0*)Castclass((RuntimeObject*)L_2, Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onAppOpenAdOpeningdEvent_3), (void*)((Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0*)Castclass((RuntimeObject*)L_2, Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0_il2cpp_TypeInfo_var)));
+		// }
+		return;
+	}
+}
+// System.Void Yodo1.MAS.Yodo1U3dAppOpenAd::remove_OnAdOpeningEvent(System.Action`1<Yodo1.MAS.Yodo1U3dAppOpenAd>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dAppOpenAd_remove_OnAdOpeningEvent_m1EB7EEE59012A57FA7594716F8885A8A932AA449 (Yodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C* __this, Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// _onAppOpenAdOpeningdEvent -= value;
+		Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* L_0 = __this->____onAppOpenAdOpeningdEvent_3;
+		Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* L_1 = ___value0;
+		Delegate_t* L_2;
+		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
+		__this->____onAppOpenAdOpeningdEvent_3 = ((Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0*)Castclass((RuntimeObject*)L_2, Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onAppOpenAdOpeningdEvent_3), (void*)((Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0*)Castclass((RuntimeObject*)L_2, Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0_il2cpp_TypeInfo_var)));
+		// }
+		return;
+	}
+}
 // System.Void Yodo1.MAS.Yodo1U3dAppOpenAd::add_OnAdOpenedEvent(System.Action`1<Yodo1.MAS.Yodo1U3dAppOpenAd>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dAppOpenAd_add_OnAdOpenedEvent_mCB77A05CE881A2EFC7D456BA9203EE8B59ABE54F (Yodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C* __this, Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* ___value0, const RuntimeMethod* method) 
 {
@@ -16854,12 +17060,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dAppOpenAd_add_OnAdOpenedEvent_mC
 	}
 	{
 		// _onAppOpenAdOpenedEvent += value;
-		Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* L_0 = __this->____onAppOpenAdOpenedEvent_3;
+		Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* L_0 = __this->____onAppOpenAdOpenedEvent_4;
 		Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
-		__this->____onAppOpenAdOpenedEvent_3 = ((Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0*)Castclass((RuntimeObject*)L_2, Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onAppOpenAdOpenedEvent_3), (void*)((Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0*)Castclass((RuntimeObject*)L_2, Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0_il2cpp_TypeInfo_var)));
+		__this->____onAppOpenAdOpenedEvent_4 = ((Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0*)Castclass((RuntimeObject*)L_2, Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onAppOpenAdOpenedEvent_4), (void*)((Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0*)Castclass((RuntimeObject*)L_2, Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -16875,12 +17081,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dAppOpenAd_remove_OnAdOpenedEvent
 	}
 	{
 		// _onAppOpenAdOpenedEvent -= value;
-		Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* L_0 = __this->____onAppOpenAdOpenedEvent_3;
+		Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* L_0 = __this->____onAppOpenAdOpenedEvent_4;
 		Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
-		__this->____onAppOpenAdOpenedEvent_3 = ((Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0*)Castclass((RuntimeObject*)L_2, Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onAppOpenAdOpenedEvent_3), (void*)((Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0*)Castclass((RuntimeObject*)L_2, Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0_il2cpp_TypeInfo_var)));
+		__this->____onAppOpenAdOpenedEvent_4 = ((Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0*)Castclass((RuntimeObject*)L_2, Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onAppOpenAdOpenedEvent_4), (void*)((Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0*)Castclass((RuntimeObject*)L_2, Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -16896,12 +17102,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dAppOpenAd_add_OnAdOpenFailedEven
 	}
 	{
 		// _onAppOpenAdOpenFailedEvent += value;
-		Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483* L_0 = __this->____onAppOpenAdOpenFailedEvent_4;
+		Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483* L_0 = __this->____onAppOpenAdOpenFailedEvent_5;
 		Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
-		__this->____onAppOpenAdOpenFailedEvent_4 = ((Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483*)Castclass((RuntimeObject*)L_2, Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onAppOpenAdOpenFailedEvent_4), (void*)((Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483*)Castclass((RuntimeObject*)L_2, Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483_il2cpp_TypeInfo_var)));
+		__this->____onAppOpenAdOpenFailedEvent_5 = ((Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483*)Castclass((RuntimeObject*)L_2, Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onAppOpenAdOpenFailedEvent_5), (void*)((Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483*)Castclass((RuntimeObject*)L_2, Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -16917,12 +17123,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dAppOpenAd_remove_OnAdOpenFailedE
 	}
 	{
 		// _onAppOpenAdOpenFailedEvent -= value;
-		Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483* L_0 = __this->____onAppOpenAdOpenFailedEvent_4;
+		Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483* L_0 = __this->____onAppOpenAdOpenFailedEvent_5;
 		Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
-		__this->____onAppOpenAdOpenFailedEvent_4 = ((Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483*)Castclass((RuntimeObject*)L_2, Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onAppOpenAdOpenFailedEvent_4), (void*)((Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483*)Castclass((RuntimeObject*)L_2, Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483_il2cpp_TypeInfo_var)));
+		__this->____onAppOpenAdOpenFailedEvent_5 = ((Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483*)Castclass((RuntimeObject*)L_2, Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onAppOpenAdOpenFailedEvent_5), (void*)((Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483*)Castclass((RuntimeObject*)L_2, Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -16938,12 +17144,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dAppOpenAd_add_OnAdClosedEvent_m4
 	}
 	{
 		// _onAppOpenAdClosedEvent += value;
-		Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* L_0 = __this->____onAppOpenAdClosedEvent_5;
+		Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* L_0 = __this->____onAppOpenAdClosedEvent_6;
 		Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
-		__this->____onAppOpenAdClosedEvent_5 = ((Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0*)Castclass((RuntimeObject*)L_2, Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onAppOpenAdClosedEvent_5), (void*)((Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0*)Castclass((RuntimeObject*)L_2, Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0_il2cpp_TypeInfo_var)));
+		__this->____onAppOpenAdClosedEvent_6 = ((Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0*)Castclass((RuntimeObject*)L_2, Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onAppOpenAdClosedEvent_6), (void*)((Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0*)Castclass((RuntimeObject*)L_2, Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -16959,12 +17165,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dAppOpenAd_remove_OnAdClosedEvent
 	}
 	{
 		// _onAppOpenAdClosedEvent -= value;
-		Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* L_0 = __this->____onAppOpenAdClosedEvent_5;
+		Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* L_0 = __this->____onAppOpenAdClosedEvent_6;
 		Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
-		__this->____onAppOpenAdClosedEvent_5 = ((Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0*)Castclass((RuntimeObject*)L_2, Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onAppOpenAdClosedEvent_5), (void*)((Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0*)Castclass((RuntimeObject*)L_2, Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0_il2cpp_TypeInfo_var)));
+		__this->____onAppOpenAdClosedEvent_6 = ((Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0*)Castclass((RuntimeObject*)L_2, Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onAppOpenAdClosedEvent_6), (void*)((Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0*)Castclass((RuntimeObject*)L_2, Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -17017,23 +17223,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dAppOpenAd_Callbacks_m2101FAEC776
 		{
 			case 0:
 			{
-				goto IL_003c;
+				goto IL_004d;
 			}
 			case 1:
 			{
-				goto IL_006b;
+				goto IL_007c;
 			}
 			case 2:
 			{
-				goto IL_0021;
+				goto IL_0025;
 			}
 			case 3:
 			{
-				goto IL_002e;
+				goto IL_0032;
 			}
 			case 4:
 			{
-				goto IL_0053;
+				goto IL_0064;
+			}
+			case 5:
+			{
+				goto IL_0040;
 			}
 		}
 	}
@@ -17041,7 +17251,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dAppOpenAd_Callbacks_m2101FAEC776
 		return;
 	}
 
-IL_0021:
+IL_0025:
 	{
 		// Yodo1U3dMasCallback.InvokeEvent(_onAppOpenAdLoadedEvent, this);
 		Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* L_1 = __this->____onAppOpenAdLoadedEvent_1;
@@ -17051,7 +17261,7 @@ IL_0021:
 		return;
 	}
 
-IL_002e:
+IL_0032:
 	{
 		// Yodo1U3dMasCallback.InvokeEvent(_onAppOpenAdLoadFailedEvent, this, adError);
 		Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483* L_2 = __this->____onAppOpenAdLoadFailedEvent_2;
@@ -17062,48 +17272,58 @@ IL_002e:
 		return;
 	}
 
-IL_003c:
+IL_0040:
+	{
+		// Yodo1U3dMasCallback.InvokeEvent(_onAppOpenAdOpeningdEvent, this);
+		Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* L_4 = __this->____onAppOpenAdOpeningdEvent_3;
+		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
+		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C_m3EC9A1B73C21525044C26E0F1CCEA0C277152946(L_4, __this, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C_m3EC9A1B73C21525044C26E0F1CCEA0C277152946_RuntimeMethod_var);
+		// break;
+		return;
+	}
+
+IL_004d:
 	{
 		// Yodo1U3dMasCallback.Instance.Pause();
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_4;
-		L_4 = Yodo1U3dMasCallback_get_Instance_m1E883E5DB6D874121295675A89D705D0C69D06EC_inline(NULL);
-		NullCheck(L_4);
-		Yodo1U3dMasCallback_Pause_m9D7A1DA7B925D5632A261C3274476C5103D53015(L_4, NULL);
+		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_5;
+		L_5 = Yodo1U3dMasCallback_get_Instance_m1E883E5DB6D874121295675A89D705D0C69D06EC_inline(NULL);
+		NullCheck(L_5);
+		Yodo1U3dMasCallback_Pause_m9D7A1DA7B925D5632A261C3274476C5103D53015(L_5, NULL);
 		// Yodo1U3dMasCallback.InvokeEvent(_onAppOpenAdOpenedEvent, this);
-		Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* L_5 = __this->____onAppOpenAdOpenedEvent_3;
-		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C_m3EC9A1B73C21525044C26E0F1CCEA0C277152946(L_5, __this, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C_m3EC9A1B73C21525044C26E0F1CCEA0C277152946_RuntimeMethod_var);
+		Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* L_6 = __this->____onAppOpenAdOpenedEvent_4;
+		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C_m3EC9A1B73C21525044C26E0F1CCEA0C277152946(L_6, __this, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C_m3EC9A1B73C21525044C26E0F1CCEA0C277152946_RuntimeMethod_var);
 		// break;
 		return;
 	}
 
-IL_0053:
+IL_0064:
 	{
 		// Yodo1U3dMasCallback.Instance.UnPause();
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_6;
-		L_6 = Yodo1U3dMasCallback_get_Instance_m1E883E5DB6D874121295675A89D705D0C69D06EC_inline(NULL);
-		NullCheck(L_6);
-		Yodo1U3dMasCallback_UnPause_mA6E98AA61B4A8B597EDB43EAA9411C4007597C47(L_6, NULL);
+		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_7;
+		L_7 = Yodo1U3dMasCallback_get_Instance_m1E883E5DB6D874121295675A89D705D0C69D06EC_inline(NULL);
+		NullCheck(L_7);
+		Yodo1U3dMasCallback_UnPause_mA6E98AA61B4A8B597EDB43EAA9411C4007597C47(L_7, NULL);
 		// Yodo1U3dMasCallback.InvokeEvent(_onAppOpenAdOpenFailedEvent, this, adError);
-		Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483* L_7 = __this->____onAppOpenAdOpenFailedEvent_4;
-		Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* L_8 = ___adError1;
-		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m39710027434EBD9A5A3D4B6356AE0DA57CDB1143(L_7, __this, L_8, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m39710027434EBD9A5A3D4B6356AE0DA57CDB1143_RuntimeMethod_var);
+		Action_2_t2EE11E741596B6F3006E3178D33F256FEB6DF483* L_8 = __this->____onAppOpenAdOpenFailedEvent_5;
+		Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* L_9 = ___adError1;
+		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m39710027434EBD9A5A3D4B6356AE0DA57CDB1143(L_8, __this, L_9, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m39710027434EBD9A5A3D4B6356AE0DA57CDB1143_RuntimeMethod_var);
 		// break;
 		return;
 	}
 
-IL_006b:
+IL_007c:
 	{
 		// Yodo1U3dMasCallback.Instance.UnPause();
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_9;
-		L_9 = Yodo1U3dMasCallback_get_Instance_m1E883E5DB6D874121295675A89D705D0C69D06EC_inline(NULL);
-		NullCheck(L_9);
-		Yodo1U3dMasCallback_UnPause_mA6E98AA61B4A8B597EDB43EAA9411C4007597C47(L_9, NULL);
+		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_10;
+		L_10 = Yodo1U3dMasCallback_get_Instance_m1E883E5DB6D874121295675A89D705D0C69D06EC_inline(NULL);
+		NullCheck(L_10);
+		Yodo1U3dMasCallback_UnPause_mA6E98AA61B4A8B597EDB43EAA9411C4007597C47(L_10, NULL);
 		// Yodo1U3dMasCallback.InvokeEvent(_onAppOpenAdClosedEvent, this);
-		Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* L_10 = __this->____onAppOpenAdClosedEvent_5;
-		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C_m3EC9A1B73C21525044C26E0F1CCEA0C277152946(L_10, __this, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C_m3EC9A1B73C21525044C26E0F1CCEA0C277152946_RuntimeMethod_var);
+		Action_1_tA18193FEE1EAC8944D7F6CC9C71B2F87CD076EA0* L_11 = __this->____onAppOpenAdClosedEvent_6;
+		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C_m3EC9A1B73C21525044C26E0F1CCEA0C277152946(L_11, __this, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C_m3EC9A1B73C21525044C26E0F1CCEA0C277152946_RuntimeMethod_var);
 		// }
 		return;
 	}
@@ -17267,6 +17487,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dAppOpenAd_ShowAd_m7C166302CBCC64
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		// handleOpningEvent();
+		Yodo1U3dAppOpenAd_handleOpningEvent_mFA6005ABE079FC2C64CA85FABA7CB27E261A5506(__this, NULL);
 		// this.adPlacement = string.Empty;
 		String_t* L_0 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty_6;
 		__this->___adPlacement_0 = L_0;
@@ -17287,12 +17509,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dAppOpenAd_ShowAd_mAC03A8A1433437
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		// handleOpningEvent();
+		Yodo1U3dAppOpenAd_handleOpningEvent_mFA6005ABE079FC2C64CA85FABA7CB27E261A5506(__this, NULL);
 		// this.adPlacement = placement;
 		String_t* L_0 = ___placement0;
 		__this->___adPlacement_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___adPlacement_0), (void*)L_0);
 		// AppOpen("showAppOpenAd");
 		Yodo1U3dAppOpenAd_AppOpen_m3532982B2C848ACA85C29046E3D06FCE8FFC0521(__this, _stringLiteralF983CC1D35ACA6379F81DB37979079C5CAF1B808, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Yodo1.MAS.Yodo1U3dAppOpenAd::handleOpningEvent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dAppOpenAd_handleOpningEvent_mFA6005ABE079FC2C64CA85FABA7CB27E261A5506 (Yodo1U3dAppOpenAd_t79D5F188586AEBC4C8F5172435BA0E63F2795A2C* __this, const RuntimeMethod* method) 
+{
+	{
+		// if (IsLoaded())
+		bool L_0;
+		L_0 = Yodo1U3dAppOpenAd_IsLoaded_mC3F42BDDE13D73EC4D93794B40A6E81E231DE32A(__this, NULL);
+		if (!L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// CallbcksEvent(Yodo1U3dAdEvent.AdOpening, null);
+		Yodo1U3dAppOpenAd_CallbcksEvent_mC88D3B10086419DF626F5D02E2188E484943437E(((int32_t)1006), (Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B*)NULL, NULL);
+	}
+
+IL_0013:
+	{
 		// }
 		return;
 	}
@@ -17323,7 +17570,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Yodo1U3dAppOpenAd_ToJsonString_m64C
 		Dictionary_2_Add_m5875DF2ACE933D734119C088B2E7C9C63F49B443(L_1, _stringLiteral11B253593231B96144DF33EEAC720BABB870424D, L_2, Dictionary_2_Add_m5875DF2ACE933D734119C088B2E7C9C63F49B443_RuntimeMethod_var);
 		// dic.Add("autoDelayIfLoadFail", this.autoDelayIfLoadFail);
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_3 = L_1;
-		bool L_4 = __this->___autoDelayIfLoadFail_6;
+		bool L_4 = __this->___autoDelayIfLoadFail_7;
 		bool L_5 = L_4;
 		RuntimeObject* L_6 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_5);
 		NullCheck(L_3);
@@ -18648,6 +18895,48 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dInterstitialAd_remove_OnAdLoadFa
 		return;
 	}
 }
+// System.Void Yodo1.MAS.Yodo1U3dInterstitialAd::add_OnAdOpeningEvent(System.Action`1<Yodo1.MAS.Yodo1U3dInterstitialAd>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dInterstitialAd_add_OnAdOpeningEvent_mB80A405B6766D76537C41CE885B86538D3829DD1 (Yodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327* __this, Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// _onInterstitialAdOpeningEvent += value;
+		Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* L_0 = __this->____onInterstitialAdOpeningEvent_3;
+		Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* L_1 = ___value0;
+		Delegate_t* L_2;
+		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
+		__this->____onInterstitialAdOpeningEvent_3 = ((Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427*)Castclass((RuntimeObject*)L_2, Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onInterstitialAdOpeningEvent_3), (void*)((Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427*)Castclass((RuntimeObject*)L_2, Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427_il2cpp_TypeInfo_var)));
+		// }
+		return;
+	}
+}
+// System.Void Yodo1.MAS.Yodo1U3dInterstitialAd::remove_OnAdOpeningEvent(System.Action`1<Yodo1.MAS.Yodo1U3dInterstitialAd>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dInterstitialAd_remove_OnAdOpeningEvent_m7BADF4919DEF19AC4E3DBBF96611715D8A4E18F0 (Yodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327* __this, Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// _onInterstitialAdOpeningEvent -= value;
+		Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* L_0 = __this->____onInterstitialAdOpeningEvent_3;
+		Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* L_1 = ___value0;
+		Delegate_t* L_2;
+		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
+		__this->____onInterstitialAdOpeningEvent_3 = ((Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427*)Castclass((RuntimeObject*)L_2, Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onInterstitialAdOpeningEvent_3), (void*)((Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427*)Castclass((RuntimeObject*)L_2, Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427_il2cpp_TypeInfo_var)));
+		// }
+		return;
+	}
+}
 // System.Void Yodo1.MAS.Yodo1U3dInterstitialAd::add_OnAdOpenedEvent(System.Action`1<Yodo1.MAS.Yodo1U3dInterstitialAd>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dInterstitialAd_add_OnAdOpenedEvent_m48405DBE5CFCDD7F24472572728BBE5206AB68FF (Yodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327* __this, Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* ___value0, const RuntimeMethod* method) 
 {
@@ -18659,12 +18948,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dInterstitialAd_add_OnAdOpenedEve
 	}
 	{
 		// _onInterstitialAdOpenedEvent += value;
-		Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* L_0 = __this->____onInterstitialAdOpenedEvent_3;
+		Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* L_0 = __this->____onInterstitialAdOpenedEvent_4;
 		Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
-		__this->____onInterstitialAdOpenedEvent_3 = ((Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427*)Castclass((RuntimeObject*)L_2, Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onInterstitialAdOpenedEvent_3), (void*)((Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427*)Castclass((RuntimeObject*)L_2, Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427_il2cpp_TypeInfo_var)));
+		__this->____onInterstitialAdOpenedEvent_4 = ((Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427*)Castclass((RuntimeObject*)L_2, Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onInterstitialAdOpenedEvent_4), (void*)((Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427*)Castclass((RuntimeObject*)L_2, Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -18680,12 +18969,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dInterstitialAd_remove_OnAdOpened
 	}
 	{
 		// _onInterstitialAdOpenedEvent -= value;
-		Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* L_0 = __this->____onInterstitialAdOpenedEvent_3;
+		Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* L_0 = __this->____onInterstitialAdOpenedEvent_4;
 		Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
-		__this->____onInterstitialAdOpenedEvent_3 = ((Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427*)Castclass((RuntimeObject*)L_2, Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onInterstitialAdOpenedEvent_3), (void*)((Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427*)Castclass((RuntimeObject*)L_2, Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427_il2cpp_TypeInfo_var)));
+		__this->____onInterstitialAdOpenedEvent_4 = ((Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427*)Castclass((RuntimeObject*)L_2, Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onInterstitialAdOpenedEvent_4), (void*)((Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427*)Castclass((RuntimeObject*)L_2, Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -18701,12 +18990,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dInterstitialAd_add_OnAdOpenFaile
 	}
 	{
 		// _onInterstitialAdOpenFailedEvent += value;
-		Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B* L_0 = __this->____onInterstitialAdOpenFailedEvent_4;
+		Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B* L_0 = __this->____onInterstitialAdOpenFailedEvent_5;
 		Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
-		__this->____onInterstitialAdOpenFailedEvent_4 = ((Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B*)Castclass((RuntimeObject*)L_2, Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onInterstitialAdOpenFailedEvent_4), (void*)((Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B*)Castclass((RuntimeObject*)L_2, Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B_il2cpp_TypeInfo_var)));
+		__this->____onInterstitialAdOpenFailedEvent_5 = ((Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B*)Castclass((RuntimeObject*)L_2, Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onInterstitialAdOpenFailedEvent_5), (void*)((Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B*)Castclass((RuntimeObject*)L_2, Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -18722,12 +19011,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dInterstitialAd_remove_OnAdOpenFa
 	}
 	{
 		// _onInterstitialAdOpenFailedEvent -= value;
-		Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B* L_0 = __this->____onInterstitialAdOpenFailedEvent_4;
+		Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B* L_0 = __this->____onInterstitialAdOpenFailedEvent_5;
 		Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
-		__this->____onInterstitialAdOpenFailedEvent_4 = ((Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B*)Castclass((RuntimeObject*)L_2, Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onInterstitialAdOpenFailedEvent_4), (void*)((Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B*)Castclass((RuntimeObject*)L_2, Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B_il2cpp_TypeInfo_var)));
+		__this->____onInterstitialAdOpenFailedEvent_5 = ((Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B*)Castclass((RuntimeObject*)L_2, Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onInterstitialAdOpenFailedEvent_5), (void*)((Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B*)Castclass((RuntimeObject*)L_2, Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -18743,12 +19032,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dInterstitialAd_add_OnAdClosedEve
 	}
 	{
 		// _onInterstitialAdClosedEvent += value;
-		Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* L_0 = __this->____onInterstitialAdClosedEvent_5;
+		Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* L_0 = __this->____onInterstitialAdClosedEvent_6;
 		Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
-		__this->____onInterstitialAdClosedEvent_5 = ((Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427*)Castclass((RuntimeObject*)L_2, Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onInterstitialAdClosedEvent_5), (void*)((Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427*)Castclass((RuntimeObject*)L_2, Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427_il2cpp_TypeInfo_var)));
+		__this->____onInterstitialAdClosedEvent_6 = ((Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427*)Castclass((RuntimeObject*)L_2, Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onInterstitialAdClosedEvent_6), (void*)((Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427*)Castclass((RuntimeObject*)L_2, Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -18764,12 +19053,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dInterstitialAd_remove_OnAdClosed
 	}
 	{
 		// _onInterstitialAdClosedEvent -= value;
-		Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* L_0 = __this->____onInterstitialAdClosedEvent_5;
+		Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* L_0 = __this->____onInterstitialAdClosedEvent_6;
 		Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
-		__this->____onInterstitialAdClosedEvent_5 = ((Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427*)Castclass((RuntimeObject*)L_2, Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onInterstitialAdClosedEvent_5), (void*)((Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427*)Castclass((RuntimeObject*)L_2, Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427_il2cpp_TypeInfo_var)));
+		__this->____onInterstitialAdClosedEvent_6 = ((Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427*)Castclass((RuntimeObject*)L_2, Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onInterstitialAdClosedEvent_6), (void*)((Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427*)Castclass((RuntimeObject*)L_2, Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -18822,23 +19111,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dInterstitialAd_Callbacks_mBE5F62
 		{
 			case 0:
 			{
-				goto IL_003c;
+				goto IL_004d;
 			}
 			case 1:
 			{
-				goto IL_006b;
+				goto IL_007c;
 			}
 			case 2:
 			{
-				goto IL_0021;
+				goto IL_0025;
 			}
 			case 3:
 			{
-				goto IL_002e;
+				goto IL_0032;
 			}
 			case 4:
 			{
-				goto IL_0053;
+				goto IL_0064;
+			}
+			case 5:
+			{
+				goto IL_0040;
 			}
 		}
 	}
@@ -18846,7 +19139,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dInterstitialAd_Callbacks_mBE5F62
 		return;
 	}
 
-IL_0021:
+IL_0025:
 	{
 		// Yodo1U3dMasCallback.InvokeEvent(_onInterstitialAdLoadedEvent, this);
 		Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* L_1 = __this->____onInterstitialAdLoadedEvent_1;
@@ -18856,7 +19149,7 @@ IL_0021:
 		return;
 	}
 
-IL_002e:
+IL_0032:
 	{
 		// Yodo1U3dMasCallback.InvokeEvent(_onInterstitialAdLoadFailedEvent, this, adError);
 		Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B* L_2 = __this->____onInterstitialAdLoadFailedEvent_2;
@@ -18867,48 +19160,58 @@ IL_002e:
 		return;
 	}
 
-IL_003c:
+IL_0040:
+	{
+		// Yodo1U3dMasCallback.InvokeEvent(_onInterstitialAdOpeningEvent, this);
+		Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* L_4 = __this->____onInterstitialAdOpeningEvent_3;
+		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
+		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327_m1BA6F9EE9EF0B3353C1E334C5B3A7A04C23B90C4(L_4, __this, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327_m1BA6F9EE9EF0B3353C1E334C5B3A7A04C23B90C4_RuntimeMethod_var);
+		// break;
+		return;
+	}
+
+IL_004d:
 	{
 		// Yodo1U3dMasCallback.Instance.Pause();
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_4;
-		L_4 = Yodo1U3dMasCallback_get_Instance_m1E883E5DB6D874121295675A89D705D0C69D06EC_inline(NULL);
-		NullCheck(L_4);
-		Yodo1U3dMasCallback_Pause_m9D7A1DA7B925D5632A261C3274476C5103D53015(L_4, NULL);
+		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_5;
+		L_5 = Yodo1U3dMasCallback_get_Instance_m1E883E5DB6D874121295675A89D705D0C69D06EC_inline(NULL);
+		NullCheck(L_5);
+		Yodo1U3dMasCallback_Pause_m9D7A1DA7B925D5632A261C3274476C5103D53015(L_5, NULL);
 		// Yodo1U3dMasCallback.InvokeEvent(_onInterstitialAdOpenedEvent, this);
-		Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* L_5 = __this->____onInterstitialAdOpenedEvent_3;
-		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327_m1BA6F9EE9EF0B3353C1E334C5B3A7A04C23B90C4(L_5, __this, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327_m1BA6F9EE9EF0B3353C1E334C5B3A7A04C23B90C4_RuntimeMethod_var);
+		Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* L_6 = __this->____onInterstitialAdOpenedEvent_4;
+		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327_m1BA6F9EE9EF0B3353C1E334C5B3A7A04C23B90C4(L_6, __this, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327_m1BA6F9EE9EF0B3353C1E334C5B3A7A04C23B90C4_RuntimeMethod_var);
 		// break;
 		return;
 	}
 
-IL_0053:
+IL_0064:
 	{
 		// Yodo1U3dMasCallback.Instance.UnPause();
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_6;
-		L_6 = Yodo1U3dMasCallback_get_Instance_m1E883E5DB6D874121295675A89D705D0C69D06EC_inline(NULL);
-		NullCheck(L_6);
-		Yodo1U3dMasCallback_UnPause_mA6E98AA61B4A8B597EDB43EAA9411C4007597C47(L_6, NULL);
+		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_7;
+		L_7 = Yodo1U3dMasCallback_get_Instance_m1E883E5DB6D874121295675A89D705D0C69D06EC_inline(NULL);
+		NullCheck(L_7);
+		Yodo1U3dMasCallback_UnPause_mA6E98AA61B4A8B597EDB43EAA9411C4007597C47(L_7, NULL);
 		// Yodo1U3dMasCallback.InvokeEvent(_onInterstitialAdOpenFailedEvent, this, adError);
-		Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B* L_7 = __this->____onInterstitialAdOpenFailedEvent_4;
-		Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* L_8 = ___adError1;
-		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m6D429C655587D9F4F388D7815A8411B2BD93008E(L_7, __this, L_8, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m6D429C655587D9F4F388D7815A8411B2BD93008E_RuntimeMethod_var);
+		Action_2_t8763ADAC8F7171302823C18AD3CE0D4B6B5AB40B* L_8 = __this->____onInterstitialAdOpenFailedEvent_5;
+		Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* L_9 = ___adError1;
+		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m6D429C655587D9F4F388D7815A8411B2BD93008E(L_8, __this, L_9, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m6D429C655587D9F4F388D7815A8411B2BD93008E_RuntimeMethod_var);
 		// break;
 		return;
 	}
 
-IL_006b:
+IL_007c:
 	{
 		// Yodo1U3dMasCallback.Instance.UnPause();
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_9;
-		L_9 = Yodo1U3dMasCallback_get_Instance_m1E883E5DB6D874121295675A89D705D0C69D06EC_inline(NULL);
-		NullCheck(L_9);
-		Yodo1U3dMasCallback_UnPause_mA6E98AA61B4A8B597EDB43EAA9411C4007597C47(L_9, NULL);
+		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_10;
+		L_10 = Yodo1U3dMasCallback_get_Instance_m1E883E5DB6D874121295675A89D705D0C69D06EC_inline(NULL);
+		NullCheck(L_10);
+		Yodo1U3dMasCallback_UnPause_mA6E98AA61B4A8B597EDB43EAA9411C4007597C47(L_10, NULL);
 		// Yodo1U3dMasCallback.InvokeEvent(_onInterstitialAdClosedEvent, this);
-		Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* L_10 = __this->____onInterstitialAdClosedEvent_5;
-		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327_m1BA6F9EE9EF0B3353C1E334C5B3A7A04C23B90C4(L_10, __this, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327_m1BA6F9EE9EF0B3353C1E334C5B3A7A04C23B90C4_RuntimeMethod_var);
+		Action_1_t5FA329AF2ACD4BA9BEE5A23655BDBF504E8B9427* L_11 = __this->____onInterstitialAdClosedEvent_6;
+		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327_m1BA6F9EE9EF0B3353C1E334C5B3A7A04C23B90C4(L_11, __this, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327_m1BA6F9EE9EF0B3353C1E334C5B3A7A04C23B90C4_RuntimeMethod_var);
 		// }
 		return;
 	}
@@ -19071,6 +19374,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dInterstitialAd_ShowAd_m7CCA8BDC1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		// handleOpningEvent();
+		Yodo1U3dInterstitialAd_handleOpningEvent_mA61560158053580E693F19F50DE940EF508EC57A(__this, NULL);
 		// SetAdPlacement(string.Empty);
 		String_t* L_0 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty_6;
 		Yodo1U3dInterstitialAd_SetAdPlacement_m7A1830AC4E61EE338DC20FA8ECF0134A5BF1BC64_inline(__this, L_0, NULL);
@@ -19090,11 +19395,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dInterstitialAd_ShowAd_m07BDEB993
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		// handleOpningEvent();
+		Yodo1U3dInterstitialAd_handleOpningEvent_mA61560158053580E693F19F50DE940EF508EC57A(__this, NULL);
 		// SetAdPlacement(placement);
 		String_t* L_0 = ___placement0;
 		Yodo1U3dInterstitialAd_SetAdPlacement_m7A1830AC4E61EE338DC20FA8ECF0134A5BF1BC64_inline(__this, L_0, NULL);
 		// InterstitialV2("showInterstitialAdV2");
 		Yodo1U3dInterstitialAd_InterstitialV2_m03AAE0529DF7FB495F31B0AE7E8A8D99D157EC71(__this, _stringLiteral8185AB3A74B060025CE232B376D21C4333CDCE8D, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Yodo1.MAS.Yodo1U3dInterstitialAd::handleOpningEvent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dInterstitialAd_handleOpningEvent_mA61560158053580E693F19F50DE940EF508EC57A (Yodo1U3dInterstitialAd_t9B7E36BDEADA8BF4E692C9715F0C5F5D0C47A327* __this, const RuntimeMethod* method) 
+{
+	{
+		// if (IsLoaded())
+		bool L_0;
+		L_0 = Yodo1U3dInterstitialAd_IsLoaded_m9D484A05C621C36FF5F22608BC77733C5416790F(__this, NULL);
+		if (!L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// CallbcksEvent(Yodo1U3dAdEvent.AdOpening, null);
+		Yodo1U3dInterstitialAd_CallbcksEvent_mF86A86F14AA9745A6827A6CA51870486C548351C(((int32_t)1006), (Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B*)NULL, NULL);
+	}
+
+IL_0013:
+	{
 		// }
 		return;
 	}
@@ -19125,7 +19455,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Yodo1U3dInterstitialAd_ToJsonString
 		Dictionary_2_Add_m5875DF2ACE933D734119C088B2E7C9C63F49B443(L_1, _stringLiteral11B253593231B96144DF33EEAC720BABB870424D, L_2, Dictionary_2_Add_m5875DF2ACE933D734119C088B2E7C9C63F49B443_RuntimeMethod_var);
 		// dic.Add("autoDelayIfLoadFail", this.autoDelayIfLoadFail);
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_3 = L_1;
-		bool L_4 = __this->___autoDelayIfLoadFail_6;
+		bool L_4 = __this->___autoDelayIfLoadFail_7;
 		bool L_5 = L_4;
 		RuntimeObject* L_6 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_5);
 		NullCheck(L_3);
@@ -23346,7 +23676,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E
 	{
 		// public static Yodo1U3dMasCallback Instance { get; private set; }
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField_9;
+		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField_11;
 		return L_0;
 	}
 }
@@ -23363,8 +23693,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dMasCallback_set_Instance_m833A4A
 		// public static Yodo1U3dMasCallback Instance { get; private set; }
 		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_0 = ___value0;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField_9 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField_9), (void*)L_0);
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField_11 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField_11), (void*)L_0);
 		return;
 	}
 }
@@ -23407,7 +23737,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Yodo1U3dMasCallback_isInitialized_m73F9A
 	{
 		// return _initialized;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		bool L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____initialized_8;
+		bool L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____initialized_10;
 		return L_0;
 	}
 }
@@ -23424,8 +23754,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dMasCallback_SetInitializeDelegat
 		// _initializeDelegate = initializeDelegate;
 		InitializeDelegate_tDB367E899DE21E679559F5F9B1A728BA926C9DAF* L_0 = ___initializeDelegate0;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____initializeDelegate_10 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____initializeDelegate_10), (void*)L_0);
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____initializeDelegate_12 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____initializeDelegate_12), (void*)L_0);
 		// }
 		return;
 	}
@@ -23442,7 +23772,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InitializeDelegate_tDB367E899DE21E679559F5F9B
 	{
 		// return _initializeDelegate;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		InitializeDelegate_tDB367E899DE21E679559F5F9B1A728BA926C9DAF* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____initializeDelegate_10;
+		InitializeDelegate_tDB367E899DE21E679559F5F9B1A728BA926C9DAF* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____initializeDelegate_12;
 		return L_0;
 	}
 }
@@ -23459,8 +23789,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dMasCallback_SetInterstitialAdDel
 		// _interstitialAdDelegate = interstitialAdDelegate;
 		InterstitialAdDelegate_t9A58C80EFA634B99C1042C5A636AAD8FC5B74BE2* L_0 = ___interstitialAdDelegate0;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____interstitialAdDelegate_11 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____interstitialAdDelegate_11), (void*)L_0);
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____interstitialAdDelegate_13 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____interstitialAdDelegate_13), (void*)L_0);
 		// }
 		return;
 	}
@@ -23478,8 +23808,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dMasCallback_SetBannerAdDelegate_
 		// _bannerDelegate = bannerDelegate;
 		BannerdAdDelegate_t351AD8A5885B2463C615B4D8C92471491162C44C* L_0 = ___bannerDelegate0;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____bannerDelegate_12 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____bannerDelegate_12), (void*)L_0);
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____bannerDelegate_14 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____bannerDelegate_14), (void*)L_0);
 		// }
 		return;
 	}
@@ -23497,8 +23827,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dMasCallback_SetRewardedAdDelegat
 		// _rewardedAdDelegate = rewardedAdDelegate;
 		RewardedAdDelegate_t5F177772172D2BB2EA6F2505DF4398547127ABD4* L_0 = ___rewardedAdDelegate0;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____rewardedAdDelegate_13 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____rewardedAdDelegate_13), (void*)L_0);
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____rewardedAdDelegate_15 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____rewardedAdDelegate_15), (void*)L_0);
 		// }
 		return;
 	}
@@ -23579,12 +23909,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dMasCallback_add_OnSdkInitialized
 	{
 		// _onSdkInitializedEvent += value;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onSdkInitializedEvent_14;
+		Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onSdkInitializedEvent_16;
 		Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onSdkInitializedEvent_14 = ((Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB*)Castclass((RuntimeObject*)L_2, Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onSdkInitializedEvent_14), (void*)((Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB*)Castclass((RuntimeObject*)L_2, Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB_il2cpp_TypeInfo_var)));
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onSdkInitializedEvent_16 = ((Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB*)Castclass((RuntimeObject*)L_2, Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onSdkInitializedEvent_16), (void*)((Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB*)Castclass((RuntimeObject*)L_2, Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -23602,12 +23932,58 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dMasCallback_remove_OnSdkInitiali
 	{
 		// _onSdkInitializedEvent -= value;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onSdkInitializedEvent_14;
+		Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onSdkInitializedEvent_16;
 		Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onSdkInitializedEvent_14 = ((Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB*)Castclass((RuntimeObject*)L_2, Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onSdkInitializedEvent_14), (void*)((Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB*)Castclass((RuntimeObject*)L_2, Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB_il2cpp_TypeInfo_var)));
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onSdkInitializedEvent_16 = ((Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB*)Castclass((RuntimeObject*)L_2, Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onSdkInitializedEvent_16), (void*)((Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB*)Castclass((RuntimeObject*)L_2, Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB_il2cpp_TypeInfo_var)));
+		// }
+		return;
+	}
+}
+// System.Void Yodo1.MAS.Yodo1U3dMasCallback::add_OnAppEnterForegroundEvent(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dMasCallback_add_OnAppEnterForegroundEvent_mA6AA6A843220C49CECF46AF076A38F09175CA129 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// _onAppEnterForegroundEvent += value;
+		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onAppEnterForegroundEvent_17;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___value0;
+		Delegate_t* L_2;
+		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onAppEnterForegroundEvent_17 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onAppEnterForegroundEvent_17), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
+		// }
+		return;
+	}
+}
+// System.Void Yodo1.MAS.Yodo1U3dMasCallback::remove_OnAppEnterForegroundEvent(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dMasCallback_remove_OnAppEnterForegroundEvent_mE96C397803620AA1D8B0E1D0CB7802CD16331D6A (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// _onAppEnterForegroundEvent -= value;
+		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onAppEnterForegroundEvent_17;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___value0;
+		Delegate_t* L_2;
+		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onAppEnterForegroundEvent_17 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onAppEnterForegroundEvent_17), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -23665,7 +24041,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dMasCallback_SetAutoPauseGame_m85
 		// _autoPauseGame = autoPauseGame;
 		bool L_0 = ___autoPauseGame0;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____autoPauseGame_25 = L_0;
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____autoPauseGame_29 = L_0;
 		// PrintAutoGameInfo();
 		Yodo1U3dMasCallback_PrintAutoGameInfo_m9D2333821CD8F009842A0D963AE481E0E427163B(NULL);
 		// }
@@ -23688,7 +24064,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dMasCallback_PrintAutoGameInfo_m9
 	{
 		// if (_autoPauseGame)
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		bool L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____autoPauseGame_25;
+		bool L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____autoPauseGame_29;
 		if (!L_0)
 		{
 			goto IL_001c;
@@ -23730,7 +24106,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dMasCallback_Pause_m9D7A1DA7B925D
 	{
 		// if (!_autoPauseGame)
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		bool L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____autoPauseGame_25;
+		bool L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____autoPauseGame_29;
 		if (L_0)
 		{
 			goto IL_0008;
@@ -23763,7 +24139,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dMasCallback_UnPause_mA6E98AA61B4
 	{
 		// if (!_autoPauseGame)
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		bool L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____autoPauseGame_25;
+		bool L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____autoPauseGame_29;
 		if (L_0)
 		{
 			goto IL_0008;
@@ -23811,6 +24187,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dMasCallback_Yodo1U3dMasCallbackR
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD559C6D97E819D8E4EF7ACDC34C4E8D3DD314964);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF3C6C902DBF80139640F6554F0C3392016A8ADF7);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFCA74A9060DDEE6A3ECAE73E6AB96086770BE7E2);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFD4706B02823C71252FBF63A74CF03433A8DADF0);
 		s_Il2CppMethodInitialized = true;
 	}
 	Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* V_0 = NULL;
@@ -23993,9 +24370,9 @@ IL_00d8:
 		// _initialized = success;
 		bool L_33 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____initialized_8 = L_33;
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____initialized_10 = L_33;
 		// if (_initializeDelegate != null)
-		InitializeDelegate_tDB367E899DE21E679559F5F9B1A728BA926C9DAF* L_34 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____initializeDelegate_10;
+		InitializeDelegate_tDB367E899DE21E679559F5F9B1A728BA926C9DAF* L_34 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____initializeDelegate_12;
 		if (!L_34)
 		{
 			goto IL_00f2;
@@ -24004,7 +24381,7 @@ IL_00d8:
 	{
 		// _initializeDelegate(success, error);
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		InitializeDelegate_tDB367E899DE21E679559F5F9B1A728BA926C9DAF* L_35 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____initializeDelegate_10;
+		InitializeDelegate_tDB367E899DE21E679559F5F9B1A728BA926C9DAF* L_35 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____initializeDelegate_12;
 		bool L_36 = V_3;
 		Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* L_37 = V_4;
 		NullCheck(L_35);
@@ -24015,7 +24392,7 @@ IL_00f2:
 	{
 		// InvokeEvent(_onSdkInitializedEvent, success, error);
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB* L_38 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onSdkInitializedEvent_14;
+		Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB* L_38 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onSdkInitializedEvent_16;
 		bool L_39 = V_3;
 		Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* L_40 = V_4;
 		Yodo1U3dMasCallback_InvokeEvent_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m30A177B9B62D5CA468AA9764F9FE1A4527CB33B1(L_38, L_39, L_40, Yodo1U3dMasCallback_InvokeEvent_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m30A177B9B62D5CA468AA9764F9FE1A4527CB33B1_RuntimeMethod_var);
@@ -24028,7 +24405,7 @@ IL_0100:
 		int32_t L_41 = V_2;
 		if ((!(((uint32_t)L_41) == ((uint32_t)1))))
 		{
-			goto IL_028a;
+			goto IL_028b;
 		}
 	}
 	{
@@ -24219,7 +24596,7 @@ IL_01ee:
 	{
 		// if (_rewardedAdDelegate != null)
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		RewardedAdDelegate_t5F177772172D2BB2EA6F2505DF4398547127ABD4* L_73 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____rewardedAdDelegate_13;
+		RewardedAdDelegate_t5F177772172D2BB2EA6F2505DF4398547127ABD4* L_73 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____rewardedAdDelegate_15;
 		if (!L_73)
 		{
 			goto IL_0203;
@@ -24228,7 +24605,7 @@ IL_01ee:
 	{
 		// _rewardedAdDelegate(adEvent, adError);
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		RewardedAdDelegate_t5F177772172D2BB2EA6F2505DF4398547127ABD4* L_74 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____rewardedAdDelegate_13;
+		RewardedAdDelegate_t5F177772172D2BB2EA6F2505DF4398547127ABD4* L_74 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____rewardedAdDelegate_15;
 		int32_t L_75 = V_6;
 		Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* L_76 = V_7;
 		NullCheck(L_74);
@@ -24253,7 +24630,7 @@ IL_0217:
 	{
 		// if (_interstitialAdDelegate != null)
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		InterstitialAdDelegate_t9A58C80EFA634B99C1042C5A636AAD8FC5B74BE2* L_81 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____interstitialAdDelegate_11;
+		InterstitialAdDelegate_t9A58C80EFA634B99C1042C5A636AAD8FC5B74BE2* L_81 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____interstitialAdDelegate_13;
 		if (!L_81)
 		{
 			goto IL_022c;
@@ -24262,7 +24639,7 @@ IL_0217:
 	{
 		// _interstitialAdDelegate(adEvent, adError);
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		InterstitialAdDelegate_t9A58C80EFA634B99C1042C5A636AAD8FC5B74BE2* L_82 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____interstitialAdDelegate_11;
+		InterstitialAdDelegate_t9A58C80EFA634B99C1042C5A636AAD8FC5B74BE2* L_82 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____interstitialAdDelegate_13;
 		int32_t L_83 = V_6;
 		Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* L_84 = V_7;
 		NullCheck(L_82);
@@ -24287,7 +24664,7 @@ IL_0240:
 	{
 		// if (_bannerDelegate != null)
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		BannerdAdDelegate_t351AD8A5885B2463C615B4D8C92471491162C44C* L_89 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____bannerDelegate_12;
+		BannerdAdDelegate_t351AD8A5885B2463C615B4D8C92471491162C44C* L_89 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____bannerDelegate_14;
 		if (!L_89)
 		{
 			goto IL_0255;
@@ -24296,7 +24673,7 @@ IL_0240:
 	{
 		// _bannerDelegate(adEvent, adError);
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		BannerdAdDelegate_t351AD8A5885B2463C615B4D8C92471491162C44C* L_90 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____bannerDelegate_12;
+		BannerdAdDelegate_t351AD8A5885B2463C615B4D8C92471491162C44C* L_90 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____bannerDelegate_14;
 		int32_t L_91 = V_6;
 		Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* L_92 = V_7;
 		NullCheck(L_90);
@@ -24347,9 +24724,55 @@ IL_0281:
 		int32_t L_103 = V_6;
 		Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* L_104 = V_7;
 		Yodo1U3dAppOpenAd_CallbcksEvent_mC88D3B10086419DF626F5D02E2188E484943437E(L_103, L_104, NULL);
+		// break;
+		return;
 	}
 
-IL_028a:
+IL_028b:
+	{
+		// } else if (flag == FLAG_APP_EVENT)
+		int32_t L_105 = V_2;
+		if ((!(((uint32_t)L_105) == ((uint32_t)2))))
+		{
+			goto IL_02be;
+		}
+	}
+	{
+		// if (dataDic.ContainsKey("status"))
+		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_106 = V_1;
+		NullCheck(L_106);
+		bool L_107;
+		L_107 = Dictionary_2_ContainsKey_m1A594D39FA446EBD9EA6FFBA95D3AB82D16565CC(L_106, _stringLiteralFD4706B02823C71252FBF63A74CF03433A8DADF0, Dictionary_2_ContainsKey_m1A594D39FA446EBD9EA6FFBA95D3AB82D16565CC_RuntimeMethod_var);
+		if (!L_107)
+		{
+			goto IL_02be;
+		}
+	}
+	{
+		// int status = int.Parse(dataDic["status"].ToString());
+		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_108 = V_1;
+		NullCheck(L_108);
+		RuntimeObject* L_109;
+		L_109 = Dictionary_2_get_Item_m371FC5B3D39406E297F2626B159BA1A3E32917B5(L_108, _stringLiteralFD4706B02823C71252FBF63A74CF03433A8DADF0, Dictionary_2_get_Item_m371FC5B3D39406E297F2626B159BA1A3E32917B5_RuntimeMethod_var);
+		NullCheck(L_109);
+		String_t* L_110;
+		L_110 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_109);
+		int32_t L_111;
+		L_111 = Int32_Parse_m59B9CC9D5E5B6C99C14251E57FB43BE6AB658767(L_110, NULL);
+		// if (status == EVENT_APP_FOREGROUND)
+		if ((!(((uint32_t)L_111) == ((uint32_t)1))))
+		{
+			goto IL_02be;
+		}
+	}
+	{
+		// InvokeEvent(_onAppEnterForegroundEvent);
+		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_112 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onAppEnterForegroundEvent_17;
+		Yodo1U3dMasCallback_InvokeEvent_m2ECDE734AE0194AFDA83E9EE37D8749B121F2126(L_112, NULL);
+	}
+
+IL_02be:
 	{
 		// }
 		return;
@@ -24394,7 +24817,7 @@ IL_0015:
 	{
 		// InvokeEvent(_onBannerAdErrorEvent, adError);
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* L_3 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdErrorEvent_16;
+		Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* L_3 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdErrorEvent_19;
 		Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* L_4 = ___adError1;
 		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m32C30FFE93145447AF7F02E485E2DAF912CD7AFB(L_3, L_4, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m32C30FFE93145447AF7F02E485E2DAF912CD7AFB_RuntimeMethod_var);
 		// break;
@@ -24405,7 +24828,7 @@ IL_0021:
 	{
 		// InvokeEvent(_onBannerAdOpenedEvent);
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdOpenedEvent_15;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdOpenedEvent_18;
 		Yodo1U3dMasCallback_InvokeEvent_m2ECDE734AE0194AFDA83E9EE37D8749B121F2126(L_5, NULL);
 		// break;
 		return;
@@ -24415,7 +24838,7 @@ IL_002c:
 	{
 		// InvokeEvent(_onBannerAdClosedEvent);
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdClosedEvent_17;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdClosedEvent_20;
 		Yodo1U3dMasCallback_InvokeEvent_m2ECDE734AE0194AFDA83E9EE37D8749B121F2126(L_6, NULL);
 		// }
 		return;
@@ -24433,23 +24856,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dMasCallback_InterstitialCallback
 	}
 	{
 		int32_t L_0 = ___adEvent0;
-		if ((((int32_t)L_0) == ((int32_t)(-1))))
+		if ((((int32_t)L_0) > ((int32_t)((int32_t)1001))))
 		{
 			goto IL_0015;
 		}
 	}
 	{
 		int32_t L_1 = ___adEvent0;
-		if ((((int32_t)L_1) == ((int32_t)((int32_t)1001))))
+		if ((((int32_t)L_1) == ((int32_t)(-1))))
 		{
-			goto IL_0034;
+			goto IL_0026;
 		}
 	}
 	{
 		int32_t L_2 = ___adEvent0;
-		if ((((int32_t)L_2) == ((int32_t)((int32_t)1002))))
+		if ((((int32_t)L_2) == ((int32_t)((int32_t)1001))))
 		{
-			goto IL_0045;
+			goto IL_0050;
 		}
 	}
 	{
@@ -24458,14 +24881,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dMasCallback_InterstitialCallback
 
 IL_0015:
 	{
-		// if (adError.Code == -600201)
-		Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* L_3 = ___adError1;
-		NullCheck(L_3);
-		int32_t L_4;
-		L_4 = Yodo1U3dAdError_get_Code_m6272C4A86C9377536347D565E3ACE9B0FF736FB4_inline(L_3, NULL);
-		if ((!(((uint32_t)L_4) == ((uint32_t)((int32_t)-600201)))))
+		int32_t L_3 = ___adEvent0;
+		if ((((int32_t)L_3) == ((int32_t)((int32_t)1002))))
 		{
-			goto IL_0028;
+			goto IL_0061;
+		}
+	}
+	{
+		int32_t L_4 = ___adEvent0;
+		if ((((int32_t)L_4) == ((int32_t)((int32_t)1006))))
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0026:
+	{
+		// if (adError.Code == -600201)
+		Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* L_5 = ___adError1;
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = Yodo1U3dAdError_get_Code_m6272C4A86C9377536347D565E3ACE9B0FF736FB4_inline(L_5, NULL);
+		if ((!(((uint32_t)L_6) == ((uint32_t)((int32_t)-600201)))))
+		{
+			goto IL_0039;
 		}
 	}
 	{
@@ -24473,37 +24915,47 @@ IL_0015:
 		Yodo1U3dMasCallback_UnPause_mA6E98AA61B4A8B597EDB43EAA9411C4007597C47(__this, NULL);
 	}
 
-IL_0028:
+IL_0039:
 	{
 		// InvokeEvent(_onInterstitialAdErrorEvent, adError);
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* L_5 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdErrorEvent_20;
-		Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* L_6 = ___adError1;
-		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m32C30FFE93145447AF7F02E485E2DAF912CD7AFB(L_5, L_6, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m32C30FFE93145447AF7F02E485E2DAF912CD7AFB_RuntimeMethod_var);
-		// break;
-		return;
-	}
-
-IL_0034:
-	{
-		// Pause();
-		Yodo1U3dMasCallback_Pause_m9D7A1DA7B925D5632A261C3274476C5103D53015(__this, NULL);
-		// InvokeEvent(_onInterstitialAdOpenedEvent);
-		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdOpenedEvent_18;
-		Yodo1U3dMasCallback_InvokeEvent_m2ECDE734AE0194AFDA83E9EE37D8749B121F2126(L_7, NULL);
+		Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* L_7 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdErrorEvent_24;
+		Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* L_8 = ___adError1;
+		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m32C30FFE93145447AF7F02E485E2DAF912CD7AFB(L_7, L_8, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m32C30FFE93145447AF7F02E485E2DAF912CD7AFB_RuntimeMethod_var);
 		// break;
 		return;
 	}
 
 IL_0045:
 	{
+		// InvokeEvent(_onInterstitialAdOpeningEvent);
+		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdOpeningEvent_21;
+		Yodo1U3dMasCallback_InvokeEvent_m2ECDE734AE0194AFDA83E9EE37D8749B121F2126(L_9, NULL);
+		// break;
+		return;
+	}
+
+IL_0050:
+	{
+		// Pause();
+		Yodo1U3dMasCallback_Pause_m9D7A1DA7B925D5632A261C3274476C5103D53015(__this, NULL);
+		// InvokeEvent(_onInterstitialAdOpenedEvent);
+		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdOpenedEvent_22;
+		Yodo1U3dMasCallback_InvokeEvent_m2ECDE734AE0194AFDA83E9EE37D8749B121F2126(L_10, NULL);
+		// break;
+		return;
+	}
+
+IL_0061:
+	{
 		// UnPause();
 		Yodo1U3dMasCallback_UnPause_mA6E98AA61B4A8B597EDB43EAA9411C4007597C47(__this, NULL);
 		// InvokeEvent(_onInterstitialAdClosedEvent);
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdClosedEvent_19;
-		Yodo1U3dMasCallback_InvokeEvent_m2ECDE734AE0194AFDA83E9EE37D8749B121F2126(L_8, NULL);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_11 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdClosedEvent_23;
+		Yodo1U3dMasCallback_InvokeEvent_m2ECDE734AE0194AFDA83E9EE37D8749B121F2126(L_11, NULL);
 		// }
 		return;
 	}
@@ -24583,7 +25035,7 @@ IL_0039:
 	{
 		// InvokeEvent(_onRewardedAdErrorEvent, adError);
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* L_7 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdErrorEvent_24;
+		Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* L_7 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdErrorEvent_28;
 		Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* L_8 = ___adError1;
 		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m32C30FFE93145447AF7F02E485E2DAF912CD7AFB(L_7, L_8, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m32C30FFE93145447AF7F02E485E2DAF912CD7AFB_RuntimeMethod_var);
 		// break;
@@ -24596,7 +25048,7 @@ IL_0045:
 		Yodo1U3dMasCallback_Pause_m9D7A1DA7B925D5632A261C3274476C5103D53015(__this, NULL);
 		// InvokeEvent(_onRewardedAdOpenedEvent);
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdOpenedEvent_21;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdOpenedEvent_25;
 		Yodo1U3dMasCallback_InvokeEvent_m2ECDE734AE0194AFDA83E9EE37D8749B121F2126(L_9, NULL);
 		// break;
 		return;
@@ -24606,7 +25058,7 @@ IL_0056:
 	{
 		// InvokeEvent(_onRewardedAdReceivedRewardEvent);
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdReceivedRewardEvent_23;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdReceivedRewardEvent_27;
 		Yodo1U3dMasCallback_InvokeEvent_m2ECDE734AE0194AFDA83E9EE37D8749B121F2126(L_10, NULL);
 		// break;
 		return;
@@ -24618,7 +25070,7 @@ IL_0061:
 		Yodo1U3dMasCallback_UnPause_mA6E98AA61B4A8B597EDB43EAA9411C4007597C47(__this, NULL);
 		// InvokeEvent(_onRewardedAdClosedEvent);
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_11 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdClosedEvent_22;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_11 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdClosedEvent_26;
 		Yodo1U3dMasCallback_InvokeEvent_m2ECDE734AE0194AFDA83E9EE37D8749B121F2126(L_11, NULL);
 		// }
 		return;
@@ -24695,9 +25147,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dMasCallback_ForwardEvent_m9E745D
 		Yodo1U3dAdError_set_Message_m8381F6E08E2F966507B2101E4623FE99A639EB13_inline(L_3, _stringLiteral01FBA733B5F6A466E74241EBD7BB98757E3A7BB1, NULL);
 		// _initialized = true;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____initialized_8 = (bool)1;
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____initialized_10 = (bool)1;
 		// InvokeEvent(_onSdkInitializedEvent, true, error);
-		Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB* L_4 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onSdkInitializedEvent_14;
+		Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB* L_4 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onSdkInitializedEvent_16;
 		Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* L_5 = V_0;
 		Yodo1U3dMasCallback_InvokeEvent_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m30A177B9B62D5CA468AA9764F9FE1A4527CB33B1(L_4, (bool)1, L_5, Yodo1U3dMasCallback_InvokeEvent_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m30A177B9B62D5CA468AA9764F9FE1A4527CB33B1_RuntimeMethod_var);
 		return;
@@ -24766,7 +25218,7 @@ IL_0074:
 		NullCheck(L_15);
 		Yodo1U3dMasCallback_Pause_m9D7A1DA7B925D5632A261C3274476C5103D53015(L_15, NULL);
 		// InvokeEvent(_onRewardedAdOpenedEvent);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_16 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdOpenedEvent_21;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_16 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdOpenedEvent_25;
 		Yodo1U3dMasCallback_InvokeEvent_m2ECDE734AE0194AFDA83E9EE37D8749B121F2126(L_16, NULL);
 		// Yodo1U3dRewardAd.CallbcksEvent(Yodo1U3dAdEvent.AdOpened, null);
 		Yodo1U3dRewardAd_CallbcksEvent_m1BD8EFCE7812202746F3F74E14D0BF3FBBA33C0D(((int32_t)1001), (Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B*)NULL, NULL);
@@ -24819,7 +25271,7 @@ IL_00cb:
 		NullCheck(L_24);
 		Yodo1U3dMasCallback_UnPause_mA6E98AA61B4A8B597EDB43EAA9411C4007597C47(L_24, NULL);
 		// InvokeEvent(_onRewardedAdClosedEvent);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_25 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdClosedEvent_22;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_25 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdClosedEvent_26;
 		Yodo1U3dMasCallback_InvokeEvent_m2ECDE734AE0194AFDA83E9EE37D8749B121F2126(L_25, NULL);
 		// Yodo1U3dRewardAd.CallbcksEvent(Yodo1U3dAdEvent.AdClosed, null);
 		Yodo1U3dRewardAd_CallbcksEvent_m1BD8EFCE7812202746F3F74E14D0BF3FBBA33C0D(((int32_t)1002), (Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B*)NULL, NULL);
@@ -24840,7 +25292,7 @@ IL_00f8:
 	{
 		// InvokeEvent(_onRewardedAdReceivedRewardEvent);
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_28 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdReceivedRewardEvent_23;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_28 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdReceivedRewardEvent_27;
 		Yodo1U3dMasCallback_InvokeEvent_m2ECDE734AE0194AFDA83E9EE37D8749B121F2126(L_28, NULL);
 		// Yodo1U3dRewardAd.CallbcksEvent(Yodo1U3dAdEvent.AdReward, null);
 		Yodo1U3dRewardAd_CallbcksEvent_m1BD8EFCE7812202746F3F74E14D0BF3FBBA33C0D(((int32_t)2001), (Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B*)NULL, NULL);
@@ -24910,7 +25362,7 @@ IL_015e:
 		NullCheck(L_38);
 		Yodo1U3dMasCallback_Pause_m9D7A1DA7B925D5632A261C3274476C5103D53015(L_38, NULL);
 		// InvokeEvent(_onInterstitialAdOpenedEvent);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_39 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdOpenedEvent_18;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_39 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdOpenedEvent_22;
 		Yodo1U3dMasCallback_InvokeEvent_m2ECDE734AE0194AFDA83E9EE37D8749B121F2126(L_39, NULL);
 		// Yodo1U3dInterstitialAd.CallbcksEvent(Yodo1U3dAdEvent.AdOpened, null);
 		Yodo1U3dInterstitialAd_CallbcksEvent_mF86A86F14AA9745A6827A6CA51870486C548351C(((int32_t)1001), (Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B*)NULL, NULL);
@@ -24963,7 +25415,7 @@ IL_01b8:
 		NullCheck(L_47);
 		Yodo1U3dMasCallback_UnPause_mA6E98AA61B4A8B597EDB43EAA9411C4007597C47(L_47, NULL);
 		// InvokeEvent(_onInterstitialAdClosedEvent);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_48 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdClosedEvent_19;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_48 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdClosedEvent_23;
 		Yodo1U3dMasCallback_InvokeEvent_m2ECDE734AE0194AFDA83E9EE37D8749B121F2126(L_48, NULL);
 		// Yodo1U3dInterstitialAd.CallbcksEvent(Yodo1U3dAdEvent.AdClosed, null);
 		Yodo1U3dInterstitialAd_CallbcksEvent_mF86A86F14AA9745A6827A6CA51870486C548351C(((int32_t)1002), (Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B*)NULL, NULL);
@@ -25033,7 +25485,7 @@ IL_022b:
 		NullCheck(L_58);
 		Yodo1U3dMasCallback_Pause_m9D7A1DA7B925D5632A261C3274476C5103D53015(L_58, NULL);
 		// InvokeEvent(_onRewardedAdOpenedEvent);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_59 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdOpenedEvent_21;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_59 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdOpenedEvent_25;
 		Yodo1U3dMasCallback_InvokeEvent_m2ECDE734AE0194AFDA83E9EE37D8749B121F2126(L_59, NULL);
 		// Yodo1U3dRewardedInterstitialAd.CallbcksEvent(Yodo1U3dAdEvent.AdOpened, null);
 		Yodo1U3dRewardedInterstitialAd_CallbcksEvent_mAB896EBA7D01F2076A77E2A2EE555473F07E2012(((int32_t)1001), (Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B*)NULL, NULL);
@@ -25086,7 +25538,7 @@ IL_0285:
 		NullCheck(L_67);
 		Yodo1U3dMasCallback_UnPause_mA6E98AA61B4A8B597EDB43EAA9411C4007597C47(L_67, NULL);
 		// InvokeEvent(_onRewardedAdClosedEvent);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_68 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdClosedEvent_22;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_68 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdClosedEvent_26;
 		Yodo1U3dMasCallback_InvokeEvent_m2ECDE734AE0194AFDA83E9EE37D8749B121F2126(L_68, NULL);
 		// Yodo1U3dRewardedInterstitialAd.CallbcksEvent(Yodo1U3dAdEvent.AdClosed, null);
 		Yodo1U3dRewardedInterstitialAd_CallbcksEvent_mAB896EBA7D01F2076A77E2A2EE555473F07E2012(((int32_t)1002), (Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B*)NULL, NULL);
@@ -25107,7 +25559,7 @@ IL_02b2:
 	{
 		// InvokeEvent(_onRewardedAdReceivedRewardEvent);
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_71 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdReceivedRewardEvent_23;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_71 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdReceivedRewardEvent_27;
 		Yodo1U3dMasCallback_InvokeEvent_m2ECDE734AE0194AFDA83E9EE37D8749B121F2126(L_71, NULL);
 		// Yodo1U3dRewardedInterstitialAd.CallbcksEvent(Yodo1U3dAdEvent.AdReward, null);
 		Yodo1U3dRewardedInterstitialAd_CallbcksEvent_mAB896EBA7D01F2076A77E2A2EE555473F07E2012(((int32_t)2001), (Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B*)NULL, NULL);
@@ -25177,7 +25629,7 @@ IL_031b:
 		NullCheck(L_81);
 		Yodo1U3dMasCallback_Pause_m9D7A1DA7B925D5632A261C3274476C5103D53015(L_81, NULL);
 		// InvokeEvent(_onRewardedAdOpenedEvent);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_82 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdOpenedEvent_21;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_82 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdOpenedEvent_25;
 		Yodo1U3dMasCallback_InvokeEvent_m2ECDE734AE0194AFDA83E9EE37D8749B121F2126(L_82, NULL);
 		// Yodo1U3dAppOpenAd.CallbcksEvent(Yodo1U3dAdEvent.AdOpened, null);
 		Yodo1U3dAppOpenAd_CallbcksEvent_mC88D3B10086419DF626F5D02E2188E484943437E(((int32_t)1001), (Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B*)NULL, NULL);
@@ -25230,7 +25682,7 @@ IL_0375:
 		NullCheck(L_90);
 		Yodo1U3dMasCallback_UnPause_mA6E98AA61B4A8B597EDB43EAA9411C4007597C47(L_90, NULL);
 		// InvokeEvent(_onRewardedAdClosedEvent);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_91 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdClosedEvent_22;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_91 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdClosedEvent_26;
 		Yodo1U3dMasCallback_InvokeEvent_m2ECDE734AE0194AFDA83E9EE37D8749B121F2126(L_91, NULL);
 		// Yodo1U3dAppOpenAd.CallbcksEvent(Yodo1U3dAdEvent.AdClosed, null);
 		Yodo1U3dAppOpenAd_CallbcksEvent_mC88D3B10086419DF626F5D02E2188E484943437E(((int32_t)1002), (Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B*)NULL, NULL);
@@ -25251,7 +25703,7 @@ IL_03a2:
 	{
 		// InvokeEvent(_onBannerAdOpenedEvent);
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_94 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdOpenedEvent_15;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_94 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdOpenedEvent_18;
 		Yodo1U3dMasCallback_InvokeEvent_m2ECDE734AE0194AFDA83E9EE37D8749B121F2126(L_94, NULL);
 		return;
 	}
@@ -25270,7 +25722,7 @@ IL_03ba:
 	{
 		// InvokeEvent(_onBannerAdClosedEvent);
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_97 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdClosedEvent_17;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_97 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdClosedEvent_20;
 		Yodo1U3dMasCallback_InvokeEvent_m2ECDE734AE0194AFDA83E9EE37D8749B121F2126(L_97, NULL);
 	}
 
@@ -25299,9 +25751,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dMasCallback__cctor_m5BDC2016AF4B
 	}
 	{
 		// static bool _initialized = false;
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____initialized_8 = (bool)0;
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____initialized_10 = (bool)0;
 		// private static bool _autoPauseGame = true;
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____autoPauseGame_25 = (bool)1;
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____autoPauseGame_29 = (bool)1;
 		return;
 	}
 }
@@ -25326,12 +25778,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Banner_add_OnAdOpenedEvent_m00AA6157D115
 	{
 		// _onBannerAdOpenedEvent += value;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdOpenedEvent_15;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdOpenedEvent_18;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdOpenedEvent_15 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdOpenedEvent_15), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdOpenedEvent_18 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdOpenedEvent_18), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -25349,12 +25801,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Banner_remove_OnAdOpenedEvent_mF6314BEC1
 	{
 		// _onBannerAdOpenedEvent -= value;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdOpenedEvent_15;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdOpenedEvent_18;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdOpenedEvent_15 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdOpenedEvent_15), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdOpenedEvent_18 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdOpenedEvent_18), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -25372,12 +25824,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Banner_add_OnAdErrorEvent_mD342AE7F494C3
 	{
 		// _onBannerAdErrorEvent += value;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdErrorEvent_16;
+		Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdErrorEvent_19;
 		Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdErrorEvent_16 = ((Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552*)Castclass((RuntimeObject*)L_2, Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdErrorEvent_16), (void*)((Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552*)Castclass((RuntimeObject*)L_2, Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552_il2cpp_TypeInfo_var)));
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdErrorEvent_19 = ((Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552*)Castclass((RuntimeObject*)L_2, Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdErrorEvent_19), (void*)((Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552*)Castclass((RuntimeObject*)L_2, Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -25395,12 +25847,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Banner_remove_OnAdErrorEvent_m711CC4F92A
 	{
 		// _onBannerAdErrorEvent -= value;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdErrorEvent_16;
+		Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdErrorEvent_19;
 		Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdErrorEvent_16 = ((Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552*)Castclass((RuntimeObject*)L_2, Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdErrorEvent_16), (void*)((Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552*)Castclass((RuntimeObject*)L_2, Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552_il2cpp_TypeInfo_var)));
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdErrorEvent_19 = ((Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552*)Castclass((RuntimeObject*)L_2, Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdErrorEvent_19), (void*)((Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552*)Castclass((RuntimeObject*)L_2, Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -25418,12 +25870,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Banner_add_OnAdClosedEvent_m230DA0162E82
 	{
 		// _onBannerAdClosedEvent += value;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdClosedEvent_17;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdClosedEvent_20;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdClosedEvent_17 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdClosedEvent_17), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdClosedEvent_20 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdClosedEvent_20), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -25441,12 +25893,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Banner_remove_OnAdClosedEvent_m4C405E3F5
 	{
 		// _onBannerAdClosedEvent -= value;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdClosedEvent_17;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdClosedEvent_20;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdClosedEvent_17 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdClosedEvent_17), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdClosedEvent_20 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onBannerAdClosedEvent_20), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -25467,6 +25919,52 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Banner__ctor_m6313706ABC86899BA9949F705A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void Yodo1.MAS.Yodo1U3dMasCallback/Interstitial::add_OnAdOpeningEvent(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Interstitial_add_OnAdOpeningEvent_m8D46620366F0AC5246CFA34B168410151B102975 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// _onInterstitialAdOpeningEvent += value;
+		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdOpeningEvent_21;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___value0;
+		Delegate_t* L_2;
+		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdOpeningEvent_21 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdOpeningEvent_21), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
+		// }
+		return;
+	}
+}
+// System.Void Yodo1.MAS.Yodo1U3dMasCallback/Interstitial::remove_OnAdOpeningEvent(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Interstitial_remove_OnAdOpeningEvent_mB225E2AAD20833FE9C7A67EBB9D2F5C14560D0FA (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// _onInterstitialAdOpeningEvent -= value;
+		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdOpeningEvent_21;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___value0;
+		Delegate_t* L_2;
+		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdOpeningEvent_21 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdOpeningEvent_21), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
+		// }
+		return;
+	}
+}
 // System.Void Yodo1.MAS.Yodo1U3dMasCallback/Interstitial::add_OnAdOpenedEvent(System.Action)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Interstitial_add_OnAdOpenedEvent_mBDF5820E6EB9C7D433D88A1AED401F686ECDFB7F (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
 {
@@ -25480,12 +25978,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Interstitial_add_OnAdOpenedEvent_mBDF582
 	{
 		// _onInterstitialAdOpenedEvent += value;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdOpenedEvent_18;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdOpenedEvent_22;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdOpenedEvent_18 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdOpenedEvent_18), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdOpenedEvent_22 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdOpenedEvent_22), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -25503,12 +26001,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Interstitial_remove_OnAdOpenedEvent_m035
 	{
 		// _onInterstitialAdOpenedEvent -= value;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdOpenedEvent_18;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdOpenedEvent_22;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdOpenedEvent_18 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdOpenedEvent_18), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdOpenedEvent_22 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdOpenedEvent_22), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -25526,12 +26024,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Interstitial_add_OnAdClosedEvent_mE2BF5B
 	{
 		// _onInterstitialAdClosedEvent += value;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdClosedEvent_19;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdClosedEvent_23;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdClosedEvent_19 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdClosedEvent_19), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdClosedEvent_23 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdClosedEvent_23), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -25549,12 +26047,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Interstitial_remove_OnAdClosedEvent_mB1C
 	{
 		// _onInterstitialAdClosedEvent -= value;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdClosedEvent_19;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdClosedEvent_23;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdClosedEvent_19 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdClosedEvent_19), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdClosedEvent_23 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdClosedEvent_23), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -25572,12 +26070,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Interstitial_add_OnAdErrorEvent_m699F757
 	{
 		// _onInterstitialAdErrorEvent += value;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdErrorEvent_20;
+		Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdErrorEvent_24;
 		Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdErrorEvent_20 = ((Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552*)Castclass((RuntimeObject*)L_2, Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdErrorEvent_20), (void*)((Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552*)Castclass((RuntimeObject*)L_2, Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552_il2cpp_TypeInfo_var)));
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdErrorEvent_24 = ((Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552*)Castclass((RuntimeObject*)L_2, Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdErrorEvent_24), (void*)((Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552*)Castclass((RuntimeObject*)L_2, Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -25595,12 +26093,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Interstitial_remove_OnAdErrorEvent_mC95E
 	{
 		// _onInterstitialAdErrorEvent -= value;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdErrorEvent_20;
+		Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdErrorEvent_24;
 		Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdErrorEvent_20 = ((Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552*)Castclass((RuntimeObject*)L_2, Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdErrorEvent_20), (void*)((Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552*)Castclass((RuntimeObject*)L_2, Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552_il2cpp_TypeInfo_var)));
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdErrorEvent_24 = ((Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552*)Castclass((RuntimeObject*)L_2, Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onInterstitialAdErrorEvent_24), (void*)((Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552*)Castclass((RuntimeObject*)L_2, Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -25634,12 +26132,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rewarded_add_OnAdOpenedEvent_mE61F1AEFC9
 	{
 		// _onRewardedAdOpenedEvent += value;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdOpenedEvent_21;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdOpenedEvent_25;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdOpenedEvent_21 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdOpenedEvent_21), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdOpenedEvent_25 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdOpenedEvent_25), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -25657,12 +26155,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rewarded_remove_OnAdOpenedEvent_m8548502
 	{
 		// _onRewardedAdOpenedEvent -= value;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdOpenedEvent_21;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdOpenedEvent_25;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdOpenedEvent_21 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdOpenedEvent_21), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdOpenedEvent_25 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdOpenedEvent_25), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -25680,12 +26178,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rewarded_add_OnAdClosedEvent_m6FE602F5AF
 	{
 		// _onRewardedAdClosedEvent += value;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdClosedEvent_22;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdClosedEvent_26;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdClosedEvent_22 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdClosedEvent_22), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdClosedEvent_26 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdClosedEvent_26), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -25703,12 +26201,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rewarded_remove_OnAdClosedEvent_mA747AC7
 	{
 		// _onRewardedAdClosedEvent -= value;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdClosedEvent_22;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdClosedEvent_26;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdClosedEvent_22 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdClosedEvent_22), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdClosedEvent_26 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdClosedEvent_26), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -25726,12 +26224,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rewarded_add_OnAdReceivedRewardEvent_mAF
 	{
 		// _onRewardedAdReceivedRewardEvent += value;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdReceivedRewardEvent_23;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdReceivedRewardEvent_27;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdReceivedRewardEvent_23 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdReceivedRewardEvent_23), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdReceivedRewardEvent_27 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdReceivedRewardEvent_27), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -25749,12 +26247,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rewarded_remove_OnAdReceivedRewardEvent_
 	{
 		// _onRewardedAdReceivedRewardEvent -= value;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdReceivedRewardEvent_23;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdReceivedRewardEvent_27;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdReceivedRewardEvent_23 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdReceivedRewardEvent_23), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdReceivedRewardEvent_27 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdReceivedRewardEvent_27), (void*)((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_2, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -25772,12 +26270,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rewarded_add_OnAdErrorEvent_mF312F4500D9
 	{
 		// _onRewardedAdErrorEvent += value;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdErrorEvent_24;
+		Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdErrorEvent_28;
 		Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdErrorEvent_24 = ((Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552*)Castclass((RuntimeObject*)L_2, Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdErrorEvent_24), (void*)((Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552*)Castclass((RuntimeObject*)L_2, Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552_il2cpp_TypeInfo_var)));
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdErrorEvent_28 = ((Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552*)Castclass((RuntimeObject*)L_2, Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdErrorEvent_28), (void*)((Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552*)Castclass((RuntimeObject*)L_2, Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -25795,12 +26293,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rewarded_remove_OnAdErrorEvent_m9BF50BD1
 	{
 		// _onRewardedAdErrorEvent -= value;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdErrorEvent_24;
+		Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdErrorEvent_28;
 		Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdErrorEvent_24 = ((Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552*)Castclass((RuntimeObject*)L_2, Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdErrorEvent_24), (void*)((Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552*)Castclass((RuntimeObject*)L_2, Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552_il2cpp_TypeInfo_var)));
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdErrorEvent_28 = ((Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552*)Castclass((RuntimeObject*)L_2, Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____onRewardedAdErrorEvent_28), (void*)((Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552*)Castclass((RuntimeObject*)L_2, Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -26740,6 +27238,48 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardAd_remove_OnAdLoadFailedEv
 		return;
 	}
 }
+// System.Void Yodo1.MAS.Yodo1U3dRewardAd::add_OnAdOpeningEvent(System.Action`1<Yodo1.MAS.Yodo1U3dRewardAd>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardAd_add_OnAdOpeningEvent_mEF1948C650A7216AC3A8F76B7D4C4F76C32E8636 (Yodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF* __this, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// _onRewardAdOpeningEvent += value;
+		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_0 = __this->____onRewardAdOpeningEvent_3;
+		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_1 = ___value0;
+		Delegate_t* L_2;
+		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
+		__this->____onRewardAdOpeningEvent_3 = ((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardAdOpeningEvent_3), (void*)((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var)));
+		// }
+		return;
+	}
+}
+// System.Void Yodo1.MAS.Yodo1U3dRewardAd::remove_OnAdOpeningEvent(System.Action`1<Yodo1.MAS.Yodo1U3dRewardAd>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardAd_remove_OnAdOpeningEvent_mD3A7B4441C3267F64D5D35566D7CA7BA72C3E0C4 (Yodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF* __this, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// _onRewardAdOpeningEvent -= value;
+		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_0 = __this->____onRewardAdOpeningEvent_3;
+		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_1 = ___value0;
+		Delegate_t* L_2;
+		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
+		__this->____onRewardAdOpeningEvent_3 = ((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardAdOpeningEvent_3), (void*)((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var)));
+		// }
+		return;
+	}
+}
 // System.Void Yodo1.MAS.Yodo1U3dRewardAd::add_OnAdOpenedEvent(System.Action`1<Yodo1.MAS.Yodo1U3dRewardAd>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardAd_add_OnAdOpenedEvent_m7B1E250847128953135717CF164E67403C399541 (Yodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF* __this, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* ___value0, const RuntimeMethod* method) 
 {
@@ -26751,12 +27291,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardAd_add_OnAdOpenedEvent_m7B
 	}
 	{
 		// _onRewardAdOpenedEvent += value;
-		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_0 = __this->____onRewardAdOpenedEvent_3;
+		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_0 = __this->____onRewardAdOpenedEvent_4;
 		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
-		__this->____onRewardAdOpenedEvent_3 = ((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardAdOpenedEvent_3), (void*)((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var)));
+		__this->____onRewardAdOpenedEvent_4 = ((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardAdOpenedEvent_4), (void*)((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -26772,12 +27312,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardAd_remove_OnAdOpenedEvent_
 	}
 	{
 		// _onRewardAdOpenedEvent -= value;
-		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_0 = __this->____onRewardAdOpenedEvent_3;
+		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_0 = __this->____onRewardAdOpenedEvent_4;
 		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
-		__this->____onRewardAdOpenedEvent_3 = ((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardAdOpenedEvent_3), (void*)((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var)));
+		__this->____onRewardAdOpenedEvent_4 = ((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardAdOpenedEvent_4), (void*)((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -26793,12 +27333,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardAd_add_OnAdOpenFailedEvent
 	}
 	{
 		// _onRewardAdOpenFailedEvent += value;
-		Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0* L_0 = __this->____onRewardAdOpenFailedEvent_4;
+		Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0* L_0 = __this->____onRewardAdOpenFailedEvent_5;
 		Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
-		__this->____onRewardAdOpenFailedEvent_4 = ((Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0*)Castclass((RuntimeObject*)L_2, Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardAdOpenFailedEvent_4), (void*)((Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0*)Castclass((RuntimeObject*)L_2, Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0_il2cpp_TypeInfo_var)));
+		__this->____onRewardAdOpenFailedEvent_5 = ((Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0*)Castclass((RuntimeObject*)L_2, Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardAdOpenFailedEvent_5), (void*)((Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0*)Castclass((RuntimeObject*)L_2, Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -26814,12 +27354,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardAd_remove_OnAdOpenFailedEv
 	}
 	{
 		// _onRewardAdOpenFailedEvent -= value;
-		Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0* L_0 = __this->____onRewardAdOpenFailedEvent_4;
+		Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0* L_0 = __this->____onRewardAdOpenFailedEvent_5;
 		Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
-		__this->____onRewardAdOpenFailedEvent_4 = ((Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0*)Castclass((RuntimeObject*)L_2, Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardAdOpenFailedEvent_4), (void*)((Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0*)Castclass((RuntimeObject*)L_2, Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0_il2cpp_TypeInfo_var)));
+		__this->____onRewardAdOpenFailedEvent_5 = ((Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0*)Castclass((RuntimeObject*)L_2, Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardAdOpenFailedEvent_5), (void*)((Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0*)Castclass((RuntimeObject*)L_2, Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -26835,12 +27375,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardAd_add_OnAdClosedEvent_m9E
 	}
 	{
 		// _onRewardAdClosedEvent += value;
-		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_0 = __this->____onRewardAdClosedEvent_5;
+		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_0 = __this->____onRewardAdClosedEvent_6;
 		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
-		__this->____onRewardAdClosedEvent_5 = ((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardAdClosedEvent_5), (void*)((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var)));
+		__this->____onRewardAdClosedEvent_6 = ((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardAdClosedEvent_6), (void*)((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -26856,12 +27396,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardAd_remove_OnAdClosedEvent_
 	}
 	{
 		// _onRewardAdClosedEvent -= value;
-		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_0 = __this->____onRewardAdClosedEvent_5;
+		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_0 = __this->____onRewardAdClosedEvent_6;
 		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
-		__this->____onRewardAdClosedEvent_5 = ((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardAdClosedEvent_5), (void*)((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var)));
+		__this->____onRewardAdClosedEvent_6 = ((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardAdClosedEvent_6), (void*)((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -26877,12 +27417,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardAd_add_OnAdEarnedEvent_mCD
 	}
 	{
 		// _onRewardAdEarnedEvent += value;
-		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_0 = __this->____onRewardAdEarnedEvent_6;
+		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_0 = __this->____onRewardAdEarnedEvent_7;
 		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
-		__this->____onRewardAdEarnedEvent_6 = ((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardAdEarnedEvent_6), (void*)((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var)));
+		__this->____onRewardAdEarnedEvent_7 = ((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardAdEarnedEvent_7), (void*)((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -26898,12 +27438,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardAd_remove_OnAdEarnedEvent_
 	}
 	{
 		// _onRewardAdEarnedEvent -= value;
-		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_0 = __this->____onRewardAdEarnedEvent_6;
+		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_0 = __this->____onRewardAdEarnedEvent_7;
 		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
-		__this->____onRewardAdEarnedEvent_6 = ((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardAdEarnedEvent_6), (void*)((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var)));
+		__this->____onRewardAdEarnedEvent_7 = ((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardAdEarnedEvent_7), (void*)((Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782*)Castclass((RuntimeObject*)L_2, Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -26956,23 +27496,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardAd_Callbacks_m282372197B3A
 		{
 			case 0:
 			{
-				goto IL_0044;
+				goto IL_0055;
 			}
 			case 1:
 			{
-				goto IL_0073;
+				goto IL_0084;
 			}
 			case 2:
 			{
-				goto IL_0029;
+				goto IL_002d;
 			}
 			case 3:
 			{
-				goto IL_0036;
+				goto IL_003a;
 			}
 			case 4:
 			{
-				goto IL_005b;
+				goto IL_006c;
+			}
+			case 5:
+			{
+				goto IL_0048;
 			}
 		}
 	}
@@ -26980,14 +27524,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardAd_Callbacks_m282372197B3A
 		int32_t L_1 = ___adEvent0;
 		if ((((int32_t)L_1) == ((int32_t)((int32_t)2001))))
 		{
-			goto IL_008a;
+			goto IL_009b;
 		}
 	}
 	{
 		return;
 	}
 
-IL_0029:
+IL_002d:
 	{
 		// Yodo1U3dMasCallback.InvokeEvent(_onRewardAdLoadedEvent, this);
 		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_2 = __this->____onRewardAdLoadedEvent_1;
@@ -26997,7 +27541,7 @@ IL_0029:
 		return;
 	}
 
-IL_0036:
+IL_003a:
 	{
 		// Yodo1U3dMasCallback.InvokeEvent(_onRewardAdLoadFailedEvent, this, adError);
 		Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0* L_3 = __this->____onRewardAdLoadFailedEvent_2;
@@ -27008,58 +27552,68 @@ IL_0036:
 		return;
 	}
 
-IL_0044:
+IL_0048:
+	{
+		// Yodo1U3dMasCallback.InvokeEvent(_onRewardAdOpeningEvent, this);
+		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_5 = __this->____onRewardAdOpeningEvent_3;
+		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
+		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF_m969447A6D4AA51B9FE2071BBDF84D567F1A60CE4(L_5, __this, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF_m969447A6D4AA51B9FE2071BBDF84D567F1A60CE4_RuntimeMethod_var);
+		// break;
+		return;
+	}
+
+IL_0055:
 	{
 		// Yodo1U3dMasCallback.Instance.Pause();
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_5;
-		L_5 = Yodo1U3dMasCallback_get_Instance_m1E883E5DB6D874121295675A89D705D0C69D06EC_inline(NULL);
-		NullCheck(L_5);
-		Yodo1U3dMasCallback_Pause_m9D7A1DA7B925D5632A261C3274476C5103D53015(L_5, NULL);
+		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_6;
+		L_6 = Yodo1U3dMasCallback_get_Instance_m1E883E5DB6D874121295675A89D705D0C69D06EC_inline(NULL);
+		NullCheck(L_6);
+		Yodo1U3dMasCallback_Pause_m9D7A1DA7B925D5632A261C3274476C5103D53015(L_6, NULL);
 		// Yodo1U3dMasCallback.InvokeEvent(_onRewardAdOpenedEvent, this);
-		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_6 = __this->____onRewardAdOpenedEvent_3;
-		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF_m969447A6D4AA51B9FE2071BBDF84D567F1A60CE4(L_6, __this, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF_m969447A6D4AA51B9FE2071BBDF84D567F1A60CE4_RuntimeMethod_var);
+		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_7 = __this->____onRewardAdOpenedEvent_4;
+		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF_m969447A6D4AA51B9FE2071BBDF84D567F1A60CE4(L_7, __this, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF_m969447A6D4AA51B9FE2071BBDF84D567F1A60CE4_RuntimeMethod_var);
 		// break;
 		return;
 	}
 
-IL_005b:
+IL_006c:
 	{
 		// Yodo1U3dMasCallback.Instance.UnPause();
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_7;
-		L_7 = Yodo1U3dMasCallback_get_Instance_m1E883E5DB6D874121295675A89D705D0C69D06EC_inline(NULL);
-		NullCheck(L_7);
-		Yodo1U3dMasCallback_UnPause_mA6E98AA61B4A8B597EDB43EAA9411C4007597C47(L_7, NULL);
+		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_8;
+		L_8 = Yodo1U3dMasCallback_get_Instance_m1E883E5DB6D874121295675A89D705D0C69D06EC_inline(NULL);
+		NullCheck(L_8);
+		Yodo1U3dMasCallback_UnPause_mA6E98AA61B4A8B597EDB43EAA9411C4007597C47(L_8, NULL);
 		// Yodo1U3dMasCallback.InvokeEvent(_onRewardAdOpenFailedEvent, this, adError);
-		Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0* L_8 = __this->____onRewardAdOpenFailedEvent_4;
-		Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* L_9 = ___adError1;
-		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m4A2311175E732C3ECAFD40ED074817B2ED0E9526(L_8, __this, L_9, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m4A2311175E732C3ECAFD40ED074817B2ED0E9526_RuntimeMethod_var);
+		Action_2_t25AB0DC89E7D75E1A041524E33FB5F49FC24F5B0* L_9 = __this->____onRewardAdOpenFailedEvent_5;
+		Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* L_10 = ___adError1;
+		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m4A2311175E732C3ECAFD40ED074817B2ED0E9526(L_9, __this, L_10, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m4A2311175E732C3ECAFD40ED074817B2ED0E9526_RuntimeMethod_var);
 		// break;
 		return;
 	}
 
-IL_0073:
+IL_0084:
 	{
 		// Yodo1U3dMasCallback.Instance.UnPause();
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_10;
-		L_10 = Yodo1U3dMasCallback_get_Instance_m1E883E5DB6D874121295675A89D705D0C69D06EC_inline(NULL);
-		NullCheck(L_10);
-		Yodo1U3dMasCallback_UnPause_mA6E98AA61B4A8B597EDB43EAA9411C4007597C47(L_10, NULL);
+		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_11;
+		L_11 = Yodo1U3dMasCallback_get_Instance_m1E883E5DB6D874121295675A89D705D0C69D06EC_inline(NULL);
+		NullCheck(L_11);
+		Yodo1U3dMasCallback_UnPause_mA6E98AA61B4A8B597EDB43EAA9411C4007597C47(L_11, NULL);
 		// Yodo1U3dMasCallback.InvokeEvent(_onRewardAdClosedEvent, this);
-		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_11 = __this->____onRewardAdClosedEvent_5;
-		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF_m969447A6D4AA51B9FE2071BBDF84D567F1A60CE4(L_11, __this, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF_m969447A6D4AA51B9FE2071BBDF84D567F1A60CE4_RuntimeMethod_var);
+		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_12 = __this->____onRewardAdClosedEvent_6;
+		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF_m969447A6D4AA51B9FE2071BBDF84D567F1A60CE4(L_12, __this, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF_m969447A6D4AA51B9FE2071BBDF84D567F1A60CE4_RuntimeMethod_var);
 		// break;
 		return;
 	}
 
-IL_008a:
+IL_009b:
 	{
 		// Yodo1U3dMasCallback.InvokeEvent(_onRewardAdEarnedEvent, this);
-		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_12 = __this->____onRewardAdEarnedEvent_6;
+		Action_1_tA583E3DF6A99F7929C5A2A85D5021992F3AD7782* L_13 = __this->____onRewardAdEarnedEvent_7;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF_m969447A6D4AA51B9FE2071BBDF84D567F1A60CE4(L_12, __this, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF_m969447A6D4AA51B9FE2071BBDF84D567F1A60CE4_RuntimeMethod_var);
+		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF_m969447A6D4AA51B9FE2071BBDF84D567F1A60CE4(L_13, __this, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF_m969447A6D4AA51B9FE2071BBDF84D567F1A60CE4_RuntimeMethod_var);
 		// }
 		return;
 	}
@@ -27223,6 +27777,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardAd_ShowAd_m99DC496FF139D29
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		// handleOpningEvent();
+		Yodo1U3dRewardAd_handleOpningEvent_mE055E9E6933351E5C64F5EA84B5BAA88AE636340(__this, NULL);
 		// this.adPlacement = string.Empty;
 		String_t* L_0 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty_6;
 		__this->___adPlacement_0 = L_0;
@@ -27243,12 +27799,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardAd_ShowAd_mA5941F951C0EBB3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		// handleOpningEvent();
+		Yodo1U3dRewardAd_handleOpningEvent_mE055E9E6933351E5C64F5EA84B5BAA88AE636340(__this, NULL);
 		// this.adPlacement = placement;
 		String_t* L_0 = ___placement0;
 		__this->___adPlacement_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___adPlacement_0), (void*)L_0);
 		// RewardV2("showRewardAdV2");
 		Yodo1U3dRewardAd_RewardV2_m4313543BAE785B3B59CBD01E194BFB66D231088A(__this, _stringLiteral0A4398ACB4FFC7ED635CFD45A3A2AD745A11EF38, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Yodo1.MAS.Yodo1U3dRewardAd::handleOpningEvent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardAd_handleOpningEvent_mE055E9E6933351E5C64F5EA84B5BAA88AE636340 (Yodo1U3dRewardAd_tE976C7C9BAD21451569D5F41E6F2D0B1BC4D72DF* __this, const RuntimeMethod* method) 
+{
+	{
+		// if (IsLoaded())
+		bool L_0;
+		L_0 = Yodo1U3dRewardAd_IsLoaded_mC63AEDB51E17E8035D2FB76D73A35BF79075312A(__this, NULL);
+		if (!L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// CallbcksEvent(Yodo1U3dAdEvent.AdOpening, null);
+		Yodo1U3dRewardAd_CallbcksEvent_m1BD8EFCE7812202746F3F74E14D0BF3FBBA33C0D(((int32_t)1006), (Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B*)NULL, NULL);
+	}
+
+IL_0013:
+	{
 		// }
 		return;
 	}
@@ -27279,7 +27860,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Yodo1U3dRewardAd_ToJsonString_mB493
 		Dictionary_2_Add_m5875DF2ACE933D734119C088B2E7C9C63F49B443(L_1, _stringLiteral11B253593231B96144DF33EEAC720BABB870424D, L_2, Dictionary_2_Add_m5875DF2ACE933D734119C088B2E7C9C63F49B443_RuntimeMethod_var);
 		// dic.Add("autoDelayIfLoadFail", this.autoDelayIfLoadFail);
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_3 = L_1;
-		bool L_4 = __this->___autoDelayIfLoadFail_7;
+		bool L_4 = __this->___autoDelayIfLoadFail_8;
 		bool L_5 = L_4;
 		RuntimeObject* L_6 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_5);
 		NullCheck(L_3);
@@ -27410,6 +27991,48 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardedInterstitialAd_remove_On
 		return;
 	}
 }
+// System.Void Yodo1.MAS.Yodo1U3dRewardedInterstitialAd::add_OnAdOpeningEvent(System.Action`1<Yodo1.MAS.Yodo1U3dRewardedInterstitialAd>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardedInterstitialAd_add_OnAdOpeningEvent_mD09A88BBBCD475B5AA912E32598BDCE5A8967E76 (Yodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524* __this, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// _onRewardedInterstitialAdOpeningEvent += value;
+		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_0 = __this->____onRewardedInterstitialAdOpeningEvent_3;
+		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_1 = ___value0;
+		Delegate_t* L_2;
+		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
+		__this->____onRewardedInterstitialAdOpeningEvent_3 = ((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardedInterstitialAdOpeningEvent_3), (void*)((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var)));
+		// }
+		return;
+	}
+}
+// System.Void Yodo1.MAS.Yodo1U3dRewardedInterstitialAd::remove_OnAdOpeningEvent(System.Action`1<Yodo1.MAS.Yodo1U3dRewardedInterstitialAd>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardedInterstitialAd_remove_OnAdOpeningEvent_m00CD995008D4056BB36A3B45A5DD5F5A589E5184 (Yodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524* __this, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// _onRewardedInterstitialAdOpeningEvent -= value;
+		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_0 = __this->____onRewardedInterstitialAdOpeningEvent_3;
+		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_1 = ___value0;
+		Delegate_t* L_2;
+		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
+		__this->____onRewardedInterstitialAdOpeningEvent_3 = ((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardedInterstitialAdOpeningEvent_3), (void*)((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var)));
+		// }
+		return;
+	}
+}
 // System.Void Yodo1.MAS.Yodo1U3dRewardedInterstitialAd::add_OnAdOpenedEvent(System.Action`1<Yodo1.MAS.Yodo1U3dRewardedInterstitialAd>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardedInterstitialAd_add_OnAdOpenedEvent_m84AD39579138C10093CC58E5CB9B3E4FBE25D174 (Yodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524* __this, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* ___value0, const RuntimeMethod* method) 
 {
@@ -27421,12 +28044,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardedInterstitialAd_add_OnAdO
 	}
 	{
 		// _onRewardedInterstitialAdOpenedEvent += value;
-		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_0 = __this->____onRewardedInterstitialAdOpenedEvent_3;
+		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_0 = __this->____onRewardedInterstitialAdOpenedEvent_4;
 		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
-		__this->____onRewardedInterstitialAdOpenedEvent_3 = ((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardedInterstitialAdOpenedEvent_3), (void*)((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var)));
+		__this->____onRewardedInterstitialAdOpenedEvent_4 = ((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardedInterstitialAdOpenedEvent_4), (void*)((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -27442,12 +28065,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardedInterstitialAd_remove_On
 	}
 	{
 		// _onRewardedInterstitialAdOpenedEvent -= value;
-		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_0 = __this->____onRewardedInterstitialAdOpenedEvent_3;
+		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_0 = __this->____onRewardedInterstitialAdOpenedEvent_4;
 		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
-		__this->____onRewardedInterstitialAdOpenedEvent_3 = ((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardedInterstitialAdOpenedEvent_3), (void*)((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var)));
+		__this->____onRewardedInterstitialAdOpenedEvent_4 = ((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardedInterstitialAdOpenedEvent_4), (void*)((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -27463,12 +28086,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardedInterstitialAd_add_OnAdO
 	}
 	{
 		// _onRewardedInterstitialAdOpenFailedEvent += value;
-		Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2* L_0 = __this->____onRewardedInterstitialAdOpenFailedEvent_4;
+		Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2* L_0 = __this->____onRewardedInterstitialAdOpenFailedEvent_5;
 		Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
-		__this->____onRewardedInterstitialAdOpenFailedEvent_4 = ((Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2*)Castclass((RuntimeObject*)L_2, Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardedInterstitialAdOpenFailedEvent_4), (void*)((Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2*)Castclass((RuntimeObject*)L_2, Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2_il2cpp_TypeInfo_var)));
+		__this->____onRewardedInterstitialAdOpenFailedEvent_5 = ((Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2*)Castclass((RuntimeObject*)L_2, Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardedInterstitialAdOpenFailedEvent_5), (void*)((Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2*)Castclass((RuntimeObject*)L_2, Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -27484,12 +28107,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardedInterstitialAd_remove_On
 	}
 	{
 		// _onRewardedInterstitialAdOpenFailedEvent -= value;
-		Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2* L_0 = __this->____onRewardedInterstitialAdOpenFailedEvent_4;
+		Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2* L_0 = __this->____onRewardedInterstitialAdOpenFailedEvent_5;
 		Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
-		__this->____onRewardedInterstitialAdOpenFailedEvent_4 = ((Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2*)Castclass((RuntimeObject*)L_2, Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardedInterstitialAdOpenFailedEvent_4), (void*)((Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2*)Castclass((RuntimeObject*)L_2, Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2_il2cpp_TypeInfo_var)));
+		__this->____onRewardedInterstitialAdOpenFailedEvent_5 = ((Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2*)Castclass((RuntimeObject*)L_2, Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardedInterstitialAdOpenFailedEvent_5), (void*)((Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2*)Castclass((RuntimeObject*)L_2, Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -27505,12 +28128,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardedInterstitialAd_add_OnAdC
 	}
 	{
 		// _onRewardedInterstitialAdClosedEvent += value;
-		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_0 = __this->____onRewardedInterstitialAdClosedEvent_5;
+		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_0 = __this->____onRewardedInterstitialAdClosedEvent_6;
 		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
-		__this->____onRewardedInterstitialAdClosedEvent_5 = ((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardedInterstitialAdClosedEvent_5), (void*)((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var)));
+		__this->____onRewardedInterstitialAdClosedEvent_6 = ((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardedInterstitialAdClosedEvent_6), (void*)((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -27526,12 +28149,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardedInterstitialAd_remove_On
 	}
 	{
 		// _onRewardedInterstitialAdClosedEvent -= value;
-		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_0 = __this->____onRewardedInterstitialAdClosedEvent_5;
+		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_0 = __this->____onRewardedInterstitialAdClosedEvent_6;
 		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
-		__this->____onRewardedInterstitialAdClosedEvent_5 = ((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardedInterstitialAdClosedEvent_5), (void*)((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var)));
+		__this->____onRewardedInterstitialAdClosedEvent_6 = ((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardedInterstitialAdClosedEvent_6), (void*)((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -27547,12 +28170,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardedInterstitialAd_add_OnAdE
 	}
 	{
 		// _onRewardedInterstitialAdEarnedEvent += value;
-		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_0 = __this->____onRewardedInterstitialAdEarnedEvent_6;
+		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_0 = __this->____onRewardedInterstitialAdEarnedEvent_7;
 		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_0, L_1, NULL);
-		__this->____onRewardedInterstitialAdEarnedEvent_6 = ((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardedInterstitialAdEarnedEvent_6), (void*)((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var)));
+		__this->____onRewardedInterstitialAdEarnedEvent_7 = ((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardedInterstitialAdEarnedEvent_7), (void*)((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -27568,12 +28191,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardedInterstitialAd_remove_On
 	}
 	{
 		// _onRewardedInterstitialAdEarnedEvent -= value;
-		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_0 = __this->____onRewardedInterstitialAdEarnedEvent_6;
+		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_0 = __this->____onRewardedInterstitialAdEarnedEvent_7;
 		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_1 = ___value0;
 		Delegate_t* L_2;
 		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
-		__this->____onRewardedInterstitialAdEarnedEvent_6 = ((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardedInterstitialAdEarnedEvent_6), (void*)((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var)));
+		__this->____onRewardedInterstitialAdEarnedEvent_7 = ((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onRewardedInterstitialAdEarnedEvent_7), (void*)((Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF*)Castclass((RuntimeObject*)L_2, Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF_il2cpp_TypeInfo_var)));
 		// }
 		return;
 	}
@@ -27626,23 +28249,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardedInterstitialAd_Callbacks
 		{
 			case 0:
 			{
-				goto IL_0044;
+				goto IL_0055;
 			}
 			case 1:
 			{
-				goto IL_0073;
+				goto IL_0084;
 			}
 			case 2:
 			{
-				goto IL_0029;
+				goto IL_002d;
 			}
 			case 3:
 			{
-				goto IL_0036;
+				goto IL_003a;
 			}
 			case 4:
 			{
-				goto IL_005b;
+				goto IL_006c;
+			}
+			case 5:
+			{
+				goto IL_0048;
 			}
 		}
 	}
@@ -27650,14 +28277,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardedInterstitialAd_Callbacks
 		int32_t L_1 = ___adEvent0;
 		if ((((int32_t)L_1) == ((int32_t)((int32_t)2001))))
 		{
-			goto IL_008a;
+			goto IL_009b;
 		}
 	}
 	{
 		return;
 	}
 
-IL_0029:
+IL_002d:
 	{
 		// Yodo1U3dMasCallback.InvokeEvent(_onRewardedInterstitialAdLoadedEvent, this);
 		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_2 = __this->____onRewardedInterstitialAdLoadedEvent_1;
@@ -27667,7 +28294,7 @@ IL_0029:
 		return;
 	}
 
-IL_0036:
+IL_003a:
 	{
 		// Yodo1U3dMasCallback.InvokeEvent(_onRewardedInterstitialAdLoadFailedEvent, this, adError);
 		Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2* L_3 = __this->____onRewardedInterstitialAdLoadFailedEvent_2;
@@ -27678,58 +28305,68 @@ IL_0036:
 		return;
 	}
 
-IL_0044:
+IL_0048:
+	{
+		// Yodo1U3dMasCallback.InvokeEvent(_onRewardedInterstitialAdOpeningEvent, this);
+		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_5 = __this->____onRewardedInterstitialAdOpeningEvent_3;
+		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
+		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524_m307AD37DA6AF30B419CC83963A8DB1DB3D8C3A23(L_5, __this, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524_m307AD37DA6AF30B419CC83963A8DB1DB3D8C3A23_RuntimeMethod_var);
+		// break;
+		return;
+	}
+
+IL_0055:
 	{
 		// Yodo1U3dMasCallback.Instance.Pause();
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_5;
-		L_5 = Yodo1U3dMasCallback_get_Instance_m1E883E5DB6D874121295675A89D705D0C69D06EC_inline(NULL);
-		NullCheck(L_5);
-		Yodo1U3dMasCallback_Pause_m9D7A1DA7B925D5632A261C3274476C5103D53015(L_5, NULL);
+		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_6;
+		L_6 = Yodo1U3dMasCallback_get_Instance_m1E883E5DB6D874121295675A89D705D0C69D06EC_inline(NULL);
+		NullCheck(L_6);
+		Yodo1U3dMasCallback_Pause_m9D7A1DA7B925D5632A261C3274476C5103D53015(L_6, NULL);
 		// Yodo1U3dMasCallback.InvokeEvent(_onRewardedInterstitialAdOpenedEvent, this);
-		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_6 = __this->____onRewardedInterstitialAdOpenedEvent_3;
-		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524_m307AD37DA6AF30B419CC83963A8DB1DB3D8C3A23(L_6, __this, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524_m307AD37DA6AF30B419CC83963A8DB1DB3D8C3A23_RuntimeMethod_var);
+		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_7 = __this->____onRewardedInterstitialAdOpenedEvent_4;
+		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524_m307AD37DA6AF30B419CC83963A8DB1DB3D8C3A23(L_7, __this, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524_m307AD37DA6AF30B419CC83963A8DB1DB3D8C3A23_RuntimeMethod_var);
 		// break;
 		return;
 	}
 
-IL_005b:
+IL_006c:
 	{
 		// Yodo1U3dMasCallback.Instance.UnPause();
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_7;
-		L_7 = Yodo1U3dMasCallback_get_Instance_m1E883E5DB6D874121295675A89D705D0C69D06EC_inline(NULL);
-		NullCheck(L_7);
-		Yodo1U3dMasCallback_UnPause_mA6E98AA61B4A8B597EDB43EAA9411C4007597C47(L_7, NULL);
+		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_8;
+		L_8 = Yodo1U3dMasCallback_get_Instance_m1E883E5DB6D874121295675A89D705D0C69D06EC_inline(NULL);
+		NullCheck(L_8);
+		Yodo1U3dMasCallback_UnPause_mA6E98AA61B4A8B597EDB43EAA9411C4007597C47(L_8, NULL);
 		// Yodo1U3dMasCallback.InvokeEvent(_onRewardedInterstitialAdOpenFailedEvent, this, adError);
-		Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2* L_8 = __this->____onRewardedInterstitialAdOpenFailedEvent_4;
-		Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* L_9 = ___adError1;
-		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m1A62BB4B3FFA6108B98C78491E425FE8FBDC0672(L_8, __this, L_9, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m1A62BB4B3FFA6108B98C78491E425FE8FBDC0672_RuntimeMethod_var);
+		Action_2_tFA44171D03224F0A0B543D083CAD9D13A10905A2* L_9 = __this->____onRewardedInterstitialAdOpenFailedEvent_5;
+		Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B* L_10 = ___adError1;
+		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m1A62BB4B3FFA6108B98C78491E425FE8FBDC0672(L_9, __this, L_10, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524_TisYodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B_m1A62BB4B3FFA6108B98C78491E425FE8FBDC0672_RuntimeMethod_var);
 		// break;
 		return;
 	}
 
-IL_0073:
+IL_0084:
 	{
 		// Yodo1U3dMasCallback.Instance.UnPause();
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_10;
-		L_10 = Yodo1U3dMasCallback_get_Instance_m1E883E5DB6D874121295675A89D705D0C69D06EC_inline(NULL);
-		NullCheck(L_10);
-		Yodo1U3dMasCallback_UnPause_mA6E98AA61B4A8B597EDB43EAA9411C4007597C47(L_10, NULL);
+		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_11;
+		L_11 = Yodo1U3dMasCallback_get_Instance_m1E883E5DB6D874121295675A89D705D0C69D06EC_inline(NULL);
+		NullCheck(L_11);
+		Yodo1U3dMasCallback_UnPause_mA6E98AA61B4A8B597EDB43EAA9411C4007597C47(L_11, NULL);
 		// Yodo1U3dMasCallback.InvokeEvent(_onRewardedInterstitialAdClosedEvent, this);
-		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_11 = __this->____onRewardedInterstitialAdClosedEvent_5;
-		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524_m307AD37DA6AF30B419CC83963A8DB1DB3D8C3A23(L_11, __this, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524_m307AD37DA6AF30B419CC83963A8DB1DB3D8C3A23_RuntimeMethod_var);
+		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_12 = __this->____onRewardedInterstitialAdClosedEvent_6;
+		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524_m307AD37DA6AF30B419CC83963A8DB1DB3D8C3A23(L_12, __this, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524_m307AD37DA6AF30B419CC83963A8DB1DB3D8C3A23_RuntimeMethod_var);
 		// break;
 		return;
 	}
 
-IL_008a:
+IL_009b:
 	{
 		// Yodo1U3dMasCallback.InvokeEvent(_onRewardedInterstitialAdEarnedEvent, this);
-		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_12 = __this->____onRewardedInterstitialAdEarnedEvent_6;
+		Action_1_t2A9BF8B6C35D68D4AD616C529C439C3E436DF4DF* L_13 = __this->____onRewardedInterstitialAdEarnedEvent_7;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524_m307AD37DA6AF30B419CC83963A8DB1DB3D8C3A23(L_12, __this, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524_m307AD37DA6AF30B419CC83963A8DB1DB3D8C3A23_RuntimeMethod_var);
+		Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524_m307AD37DA6AF30B419CC83963A8DB1DB3D8C3A23(L_13, __this, Yodo1U3dMasCallback_InvokeEvent_TisYodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524_m307AD37DA6AF30B419CC83963A8DB1DB3D8C3A23_RuntimeMethod_var);
 		// }
 		return;
 	}
@@ -27893,6 +28530,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardedInterstitialAd_ShowAd_m7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		// handleOpningEvent();
+		Yodo1U3dRewardedInterstitialAd_handleOpningEvent_mACFD78E820CB8981E76FD9227F648FDAAE57BE61(__this, NULL);
 		// this.adPlacement = string.Empty;
 		String_t* L_0 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty_6;
 		__this->___adPlacement_0 = L_0;
@@ -27913,12 +28552,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardedInterstitialAd_ShowAd_m4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		// handleOpningEvent();
+		Yodo1U3dRewardedInterstitialAd_handleOpningEvent_mACFD78E820CB8981E76FD9227F648FDAAE57BE61(__this, NULL);
 		// this.adPlacement = placement;
 		String_t* L_0 = ___placement0;
 		__this->___adPlacement_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___adPlacement_0), (void*)L_0);
 		// RewardedInterstitial("showRewardedInterstitialAd");
 		Yodo1U3dRewardedInterstitialAd_RewardedInterstitial_m4AEBEA1B90B6993A3D1B0095612EA0B8014F9B29(__this, _stringLiteral17B7B5D608F2E828AED2362AB5D1213534BD1CF1, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Yodo1.MAS.Yodo1U3dRewardedInterstitialAd::handleOpningEvent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Yodo1U3dRewardedInterstitialAd_handleOpningEvent_mACFD78E820CB8981E76FD9227F648FDAAE57BE61 (Yodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524* __this, const RuntimeMethod* method) 
+{
+	{
+		// if (IsLoaded())
+		bool L_0;
+		L_0 = Yodo1U3dRewardedInterstitialAd_IsLoaded_m97D82BF6349030C6A6F4A7208E0D917481E006FC(__this, NULL);
+		if (!L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// CallbcksEvent(Yodo1U3dAdEvent.AdOpening, null);
+		Yodo1U3dRewardedInterstitialAd_CallbcksEvent_mAB896EBA7D01F2076A77E2A2EE555473F07E2012(((int32_t)1006), (Yodo1U3dAdError_t95F0E8D17930B5E13FE784D5AF1FFBA9B175704B*)NULL, NULL);
+	}
+
+IL_0013:
+	{
 		// }
 		return;
 	}
@@ -27949,7 +28613,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Yodo1U3dRewardedInterstitialAd_ToJs
 		Dictionary_2_Add_m5875DF2ACE933D734119C088B2E7C9C63F49B443(L_1, _stringLiteral11B253593231B96144DF33EEAC720BABB870424D, L_2, Dictionary_2_Add_m5875DF2ACE933D734119C088B2E7C9C63F49B443_RuntimeMethod_var);
 		// dic.Add("autoDelayIfLoadFail", this.autoDelayIfLoadFail);
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_3 = L_1;
-		bool L_4 = __this->___autoDelayIfLoadFail_7;
+		bool L_4 = __this->___autoDelayIfLoadFail_8;
 		bool L_5 = L_4;
 		RuntimeObject* L_6 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_5);
 		NullCheck(L_3);
@@ -27958,226 +28622,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Yodo1U3dRewardedInterstitialAd_ToJs
 		String_t* L_7;
 		L_7 = Yodo1JSON_Serialize_mBED689A79C514EDB9A7BE1E988F75473AEFA3EE7(L_3, NULL);
 		return L_7;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Yodo1.MAS.Yodo1U3dRewardedInterstitialAd/HelperHolder::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HelperHolder__cctor_mD5793B9E9D2C16938BFFC9429470E8D9F559C004 (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HelperHolder_t153C166E629497E63B2B07817396E8061E94BEF1_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Yodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// public static Yodo1U3dRewardedInterstitialAd Helper = new Yodo1U3dRewardedInterstitialAd();
-		Yodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524* L_0 = (Yodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524*)il2cpp_codegen_object_new(Yodo1U3dRewardedInterstitialAd_t883338A9DDD4C62852F50B8A5670CB7DFDFF9524_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		Yodo1U3dRewardedInterstitialAd__ctor_m43A20FA9326BE453F346B7B664B62D818120D7CA(L_0, NULL);
-		((HelperHolder_t153C166E629497E63B2B07817396E8061E94BEF1_StaticFields*)il2cpp_codegen_static_fields_for(HelperHolder_t153C166E629497E63B2B07817396E8061E94BEF1_il2cpp_TypeInfo_var))->___Helper_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&((HelperHolder_t153C166E629497E63B2B07817396E8061E94BEF1_StaticFields*)il2cpp_codegen_static_fields_for(HelperHolder_t153C166E629497E63B2B07817396E8061E94BEF1_il2cpp_TypeInfo_var))->___Helper_0), (void*)L_0);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Assets.SimpleAndroidNotifications.NotificationExample::Rate()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationExample_Rate_m936AC99E8BE493C6B231BDE52F72B0E5D76DEE0B (NotificationExample_tB7891619176E47307219AC9DB1866E7EEB654B35* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFCDD2B74D05B6F82B1EBE6231E7F207CED0623F8);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// Application.OpenURL("http://u3d.as/y6r");
-		Application_OpenURL_m9F74228B576891156330C84B72218C08BEB9F564(_stringLiteralFCDD2B74D05B6F82B1EBE6231E7F207CED0623F8, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Assets.SimpleAndroidNotifications.NotificationExample::OpenWiki()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationExample_OpenWiki_m3CD307BF37AE3EE0B0C251C8CD74FBD8E4B626EC (NotificationExample_tB7891619176E47307219AC9DB1866E7EEB654B35* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral08AF3FC9A97D6ECB916A0568BBBE8173CD484EB7);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// Application.OpenURL("https://github.com/hippogamesunity/SimpleAndroidNotificationsPublic/wiki");
-		Application_OpenURL_m9F74228B576891156330C84B72218C08BEB9F564(_stringLiteral08AF3FC9A97D6ECB916A0568BBBE8173CD484EB7, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Assets.SimpleAndroidNotifications.NotificationExample::ScheduleSimple()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationExample_ScheduleSimple_mF937BE4A88AB7D59940E2FBBB0E08B3C4E28C85C (NotificationExample_tB7891619176E47307219AC9DB1866E7EEB654B35* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2ED5EA7EB05BCF56C07D3201BB3B444646B3BC70);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral911AF9541126A842E768DC536E6C3514A6DA3E3A);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// NotificationManager.Send(TimeSpan.FromSeconds(5), "Simple notification", "Customize icon and color", new Color(1, 0.3f, 0.15f));
-		il2cpp_codegen_runtime_class_init_inline(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var);
-		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_0;
-		L_0 = TimeSpan_FromSeconds_mE585CC8180040ED064DC8B6546E6C94A129BFFC5((5.0), NULL);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
-		memset((&L_1), 0, sizeof(L_1));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_1), (1.0f), (0.300000012f), (0.150000006f), /*hidden argument*/NULL);
-		int32_t L_2;
-		L_2 = NotificationManager_Send_m2F055CA2CA22B20DC6B667E98DE3430659969DAD(L_0, _stringLiteral2ED5EA7EB05BCF56C07D3201BB3B444646B3BC70, _stringLiteral911AF9541126A842E768DC536E6C3514A6DA3E3A, L_1, 0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Assets.SimpleAndroidNotifications.NotificationExample::ScheduleNormal()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationExample_ScheduleNormal_mBB6BFE1E0BE2751746673B80349D421881623C9D (NotificationExample_tB7891619176E47307219AC9DB1866E7EEB654B35* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3828858EDDADFB2AEC895F54A3E3F0586C7AC85C);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral95EDAA0E0E7E735C8AAC91DBD728C6D66D4E5090);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// NotificationManager.SendWithAppIcon(TimeSpan.FromSeconds(5), "Notification", "Notification with app icon", new Color(0, 0.6f, 1), NotificationIcon.Message);
-		il2cpp_codegen_runtime_class_init_inline(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var);
-		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_0;
-		L_0 = TimeSpan_FromSeconds_mE585CC8180040ED064DC8B6546E6C94A129BFFC5((5.0), NULL);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
-		memset((&L_1), 0, sizeof(L_1));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_1), (0.0f), (0.600000024f), (1.0f), /*hidden argument*/NULL);
-		int32_t L_2;
-		L_2 = NotificationManager_SendWithAppIcon_m91C27E567E89A417D7214B8AD755ABF3E8564DBF(L_0, _stringLiteral3828858EDDADFB2AEC895F54A3E3F0586C7AC85C, _stringLiteral95EDAA0E0E7E735C8AAC91DBD728C6D66D4E5090, L_1, 4, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Assets.SimpleAndroidNotifications.NotificationExample::ScheduleCustom()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationExample_ScheduleCustom_m2A707F4EC8C2790E5D43E27BE24E647D0846D8A3 (NotificationExample_tB7891619176E47307219AC9DB1866E7EEB654B35* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NotificationParams_t76A96CCA32DDCA13DBF660FE91F14B5CFDE6E0DD_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral23740F0179D5AD3FCD79D44AAD0D2FE852CA5BAD);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral31D935CF336AAD2678C47B313F4809E59BD9B7AF);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9B850A03952CDBCC170C393B2A85CCA5764E310C);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDD69906C033EAE593802B1DFCC0F21B39DE44AC7);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// var notificationParams = new NotificationParams
-		// {
-		//     Id = UnityEngine.Random.Range(0, int.MaxValue),
-		//     Delay = TimeSpan.FromSeconds(5),
-		//     Title = "Custom notification",
-		//     Message = "Message",
-		//     Ticker = "Ticker",
-		//     Sound = true,
-		//     Vibrate = true,
-		//     Light = true,
-		//     SmallIcon = NotificationIcon.Heart,
-		//     SmallIconColor = new Color(0, 0.5f, 0),
-		//     LargeIcon = "app_icon"
-		// };
-		NotificationParams_t76A96CCA32DDCA13DBF660FE91F14B5CFDE6E0DD* L_0 = (NotificationParams_t76A96CCA32DDCA13DBF660FE91F14B5CFDE6E0DD*)il2cpp_codegen_object_new(NotificationParams_t76A96CCA32DDCA13DBF660FE91F14B5CFDE6E0DD_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		NotificationParams__ctor_m210BCC63F4CD6F1055F8A15A6F8200ECBB2FC029(L_0, NULL);
-		NotificationParams_t76A96CCA32DDCA13DBF660FE91F14B5CFDE6E0DD* L_1 = L_0;
-		int32_t L_2;
-		L_2 = Random_Range_mD4D2DEE3D2E75D07740C9A6F93B3088B03BBB8F8(0, ((int32_t)2147483647LL), NULL);
-		NullCheck(L_1);
-		L_1->___Id_0 = L_2;
-		NotificationParams_t76A96CCA32DDCA13DBF660FE91F14B5CFDE6E0DD* L_3 = L_1;
-		il2cpp_codegen_runtime_class_init_inline(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var);
-		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_4;
-		L_4 = TimeSpan_FromSeconds_mE585CC8180040ED064DC8B6546E6C94A129BFFC5((5.0), NULL);
-		NullCheck(L_3);
-		L_3->___Delay_1 = L_4;
-		NotificationParams_t76A96CCA32DDCA13DBF660FE91F14B5CFDE6E0DD* L_5 = L_3;
-		NullCheck(L_5);
-		L_5->___Title_2 = _stringLiteralDD69906C033EAE593802B1DFCC0F21B39DE44AC7;
-		Il2CppCodeGenWriteBarrier((void**)(&L_5->___Title_2), (void*)_stringLiteralDD69906C033EAE593802B1DFCC0F21B39DE44AC7);
-		NotificationParams_t76A96CCA32DDCA13DBF660FE91F14B5CFDE6E0DD* L_6 = L_5;
-		NullCheck(L_6);
-		L_6->___Message_3 = _stringLiteral9B850A03952CDBCC170C393B2A85CCA5764E310C;
-		Il2CppCodeGenWriteBarrier((void**)(&L_6->___Message_3), (void*)_stringLiteral9B850A03952CDBCC170C393B2A85CCA5764E310C);
-		NotificationParams_t76A96CCA32DDCA13DBF660FE91F14B5CFDE6E0DD* L_7 = L_6;
-		NullCheck(L_7);
-		L_7->___Ticker_4 = _stringLiteral23740F0179D5AD3FCD79D44AAD0D2FE852CA5BAD;
-		Il2CppCodeGenWriteBarrier((void**)(&L_7->___Ticker_4), (void*)_stringLiteral23740F0179D5AD3FCD79D44AAD0D2FE852CA5BAD);
-		NotificationParams_t76A96CCA32DDCA13DBF660FE91F14B5CFDE6E0DD* L_8 = L_7;
-		NullCheck(L_8);
-		L_8->___Sound_5 = (bool)1;
-		NotificationParams_t76A96CCA32DDCA13DBF660FE91F14B5CFDE6E0DD* L_9 = L_8;
-		NullCheck(L_9);
-		L_9->___Vibrate_6 = (bool)1;
-		NotificationParams_t76A96CCA32DDCA13DBF660FE91F14B5CFDE6E0DD* L_10 = L_9;
-		NullCheck(L_10);
-		L_10->___Light_7 = (bool)1;
-		NotificationParams_t76A96CCA32DDCA13DBF660FE91F14B5CFDE6E0DD* L_11 = L_10;
-		NullCheck(L_11);
-		L_11->___SmallIcon_8 = 3;
-		NotificationParams_t76A96CCA32DDCA13DBF660FE91F14B5CFDE6E0DD* L_12 = L_11;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_13;
-		memset((&L_13), 0, sizeof(L_13));
-		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_13), (0.0f), (0.5f), (0.0f), /*hidden argument*/NULL);
-		NullCheck(L_12);
-		L_12->___SmallIconColor_9 = L_13;
-		NotificationParams_t76A96CCA32DDCA13DBF660FE91F14B5CFDE6E0DD* L_14 = L_12;
-		NullCheck(L_14);
-		L_14->___LargeIcon_10 = _stringLiteral31D935CF336AAD2678C47B313F4809E59BD9B7AF;
-		Il2CppCodeGenWriteBarrier((void**)(&L_14->___LargeIcon_10), (void*)_stringLiteral31D935CF336AAD2678C47B313F4809E59BD9B7AF);
-		// NotificationManager.SendCustom(notificationParams);
-		int32_t L_15;
-		L_15 = NotificationManager_SendCustom_m88883723190696CEB5CE5C35C644D0D06EFE56CE(L_14, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Assets.SimpleAndroidNotifications.NotificationExample::CancelAll()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationExample_CancelAll_m75BAFCE07949CB189A230B0F8D807D948AE2A57B (NotificationExample_tB7891619176E47307219AC9DB1866E7EEB654B35* __this, const RuntimeMethod* method) 
-{
-	{
-		// NotificationManager.CancelAll();
-		NotificationManager_CancelAll_m5C1EA4F421D2C7CB53A7F9AAE0A5B0188E3F5AF5(NULL);
-		// }
-		return;
-	}
-}
-// System.Void Assets.SimpleAndroidNotifications.NotificationExample::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotificationExample__ctor_m76C69D4204D0209F896B70A61080F2F07B8C7B5F (NotificationExample_tB7891619176E47307219AC9DB1866E7EEB654B35* __this, const RuntimeMethod* method) 
-{
-	{
-		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		return;
 	}
 }
 #ifdef __clang__
@@ -28505,7 +28949,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Yodo1U3dMasCallback_t744168CEA8F7
 	{
 		// public static Yodo1U3dMasCallback Instance { get; private set; }
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField_9;
+		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField_11;
 		return L_0;
 	}
 }
@@ -28577,8 +29021,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Yodo1U3dMasCallback_SetIniti
 		// _initializeDelegate = initializeDelegate;
 		InitializeDelegate_tDB367E899DE21E679559F5F9B1A728BA926C9DAF* L_0 = ___initializeDelegate0;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____initializeDelegate_10 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____initializeDelegate_10), (void*)L_0);
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____initializeDelegate_12 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____initializeDelegate_12), (void*)L_0);
 		// }
 		return;
 	}
@@ -28595,8 +29039,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Yodo1U3dMasCallback_SetInter
 		// _interstitialAdDelegate = interstitialAdDelegate;
 		InterstitialAdDelegate_t9A58C80EFA634B99C1042C5A636AAD8FC5B74BE2* L_0 = ___interstitialAdDelegate0;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____interstitialAdDelegate_11 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____interstitialAdDelegate_11), (void*)L_0);
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____interstitialAdDelegate_13 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____interstitialAdDelegate_13), (void*)L_0);
 		// }
 		return;
 	}
@@ -28613,8 +29057,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Yodo1U3dMasCallback_SetBanne
 		// _bannerDelegate = bannerDelegate;
 		BannerdAdDelegate_t351AD8A5885B2463C615B4D8C92471491162C44C* L_0 = ___bannerDelegate0;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____bannerDelegate_12 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____bannerDelegate_12), (void*)L_0);
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____bannerDelegate_14 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____bannerDelegate_14), (void*)L_0);
 		// }
 		return;
 	}
@@ -28631,8 +29075,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Yodo1U3dMasCallback_SetRewar
 		// _rewardedAdDelegate = rewardedAdDelegate;
 		RewardedAdDelegate_t5F177772172D2BB2EA6F2505DF4398547127ABD4* L_0 = ___rewardedAdDelegate0;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____rewardedAdDelegate_13 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____rewardedAdDelegate_13), (void*)L_0);
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____rewardedAdDelegate_15 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____rewardedAdDelegate_15), (void*)L_0);
 		// }
 		return;
 	}
@@ -28648,7 +29092,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Yodo1U3dMasCallback_isInitia
 	{
 		// return _initialized;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		bool L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____initialized_8;
+		bool L_0 = ((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->____initialized_10;
 		return L_0;
 	}
 }
@@ -28669,8 +29113,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Yodo1U3dMasCallback_set_Inst
 		// public static Yodo1U3dMasCallback Instance { get; private set; }
 		Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* L_0 = ___value0;
 		il2cpp_codegen_runtime_class_init_inline(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var);
-		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField_9 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField_9), (void*)L_0);
+		((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField_11 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields*)il2cpp_codegen_static_fields_for(Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField_11), (void*)L_0);
 		return;
 	}
 }
@@ -28710,19 +29154,6 @@ IL_001d:
 	{
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = V_0;
 		return L_1;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___r0, float ___g1, float ___b2, const RuntimeMethod* method) 
-{
-	{
-		float L_0 = ___r0;
-		__this->___r_0 = L_0;
-		float L_1 = ___g1;
-		__this->___g_1 = L_1;
-		float L_2 = ___b2;
-		__this->___b_2 = L_2;
-		__this->___a_3 = (1.0f);
-		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_gshared_inline (const RuntimeMethod* method) 

@@ -347,6 +347,30 @@ namespace Yodo1.MAS
         }
 #endif
 
+        protected static bool IsFamily()
+        {
+            bool family = false;
+            string dependencyFilePath = Path.Combine("Assets/Yodo1/MAS/Editor/Dependencies", "Yodo1MasAndroidDependencies.xml");
+
+            XmlReaderSettings settings = new XmlReaderSettings();
+            settings.IgnoreComments = true;//忽略文档里面的注释
+            XmlReader reader = XmlReader.Create(dependencyFilePath, settings);
+
+            XmlDocument xmlReadDoc = new XmlDocument();
+            xmlReadDoc.Load(dependencyFilePath);
+            XmlNode dependenciesRead = xmlReadDoc.SelectSingleNode("dependencies");
+            XmlNode androidPackagesRead = dependenciesRead.SelectSingleNode("androidPackages");
+            XmlElement specNode = (XmlElement)androidPackagesRead.SelectSingleNode("androidPackage");
+            string spec = specNode.GetAttribute("spec").ToString();
+            if (!string.IsNullOrEmpty(spec) && spec.Contains("com.yodo1.mas:google"))
+            {
+                family = true;
+            }
+            reader.Close();
+
+            return family;
+        }
+
 #if UNITY_2019_3_OR_NEWER
         /// <summary>
         /// Adds the necessary AppLovin Quality Service dependency and maven repo lines to the provided root build.gradle file.

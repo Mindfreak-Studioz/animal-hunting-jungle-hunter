@@ -21,9 +21,11 @@ namespace Yodo1.MAS
 #if UNITY_2019_1_OR_NEWER
 #else
                     ValidateManifest(settings);
-#endif
-
-                    string GradleTemplatePath = Path.Combine("Assets/Plugins/Android", "mainTemplate.gradle");
+#endif              
+                }
+                string GradleTemplatePath = Path.Combine("Assets/Plugins/Android", "mainTemplate.gradle");
+                if (File.Exists(GradleTemplatePath) && !IsFamily())
+                {
 #if UNITY_2019_3_OR_NEWER
                     // The publisher could be migrating from older Unity versions to 2019_3 or newer.
                     // If so, we should delete the plugin from the template. The plugin will be added to the project's application module in the post processing script (Yodo1PostProcessGradleProject).

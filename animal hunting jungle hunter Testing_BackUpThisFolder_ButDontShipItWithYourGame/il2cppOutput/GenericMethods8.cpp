@@ -6709,41 +6709,45 @@ struct Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66  : public M
 struct Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66_StaticFields
 {
 	// System.Boolean Yodo1.MAS.Yodo1U3dMasCallback::_initialized
-	bool ____initialized_8;
+	bool ____initialized_10;
 	// Yodo1.MAS.Yodo1U3dMasCallback Yodo1.MAS.Yodo1U3dMasCallback::<Instance>k__BackingField
-	Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* ___U3CInstanceU3Ek__BackingField_9;
+	Yodo1U3dMasCallback_t744168CEA8F765EDEEFB4E1E8533F8BB21E15F66* ___U3CInstanceU3Ek__BackingField_11;
 	// Yodo1.MAS.Yodo1U3dMas/InitializeDelegate Yodo1.MAS.Yodo1U3dMasCallback::_initializeDelegate
-	InitializeDelegate_tDB367E899DE21E679559F5F9B1A728BA926C9DAF* ____initializeDelegate_10;
+	InitializeDelegate_tDB367E899DE21E679559F5F9B1A728BA926C9DAF* ____initializeDelegate_12;
 	// Yodo1.MAS.Yodo1U3dMas/InterstitialAdDelegate Yodo1.MAS.Yodo1U3dMasCallback::_interstitialAdDelegate
-	InterstitialAdDelegate_t9A58C80EFA634B99C1042C5A636AAD8FC5B74BE2* ____interstitialAdDelegate_11;
+	InterstitialAdDelegate_t9A58C80EFA634B99C1042C5A636AAD8FC5B74BE2* ____interstitialAdDelegate_13;
 	// Yodo1.MAS.Yodo1U3dMas/BannerdAdDelegate Yodo1.MAS.Yodo1U3dMasCallback::_bannerDelegate
-	BannerdAdDelegate_t351AD8A5885B2463C615B4D8C92471491162C44C* ____bannerDelegate_12;
+	BannerdAdDelegate_t351AD8A5885B2463C615B4D8C92471491162C44C* ____bannerDelegate_14;
 	// Yodo1.MAS.Yodo1U3dMas/RewardedAdDelegate Yodo1.MAS.Yodo1U3dMasCallback::_rewardedAdDelegate
-	RewardedAdDelegate_t5F177772172D2BB2EA6F2505DF4398547127ABD4* ____rewardedAdDelegate_13;
+	RewardedAdDelegate_t5F177772172D2BB2EA6F2505DF4398547127ABD4* ____rewardedAdDelegate_15;
 	// System.Action`2<System.Boolean,Yodo1.MAS.Yodo1U3dAdError> Yodo1.MAS.Yodo1U3dMasCallback::_onSdkInitializedEvent
-	Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB* ____onSdkInitializedEvent_14;
+	Action_2_t65ECF75753DAC83070E0258FAA1026F3BA13A0EB* ____onSdkInitializedEvent_16;
+	// System.Action Yodo1.MAS.Yodo1U3dMasCallback::_onAppEnterForegroundEvent
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onAppEnterForegroundEvent_17;
 	// System.Action Yodo1.MAS.Yodo1U3dMasCallback::_onBannerAdOpenedEvent
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onBannerAdOpenedEvent_15;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onBannerAdOpenedEvent_18;
 	// System.Action`1<Yodo1.MAS.Yodo1U3dAdError> Yodo1.MAS.Yodo1U3dMasCallback::_onBannerAdErrorEvent
-	Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* ____onBannerAdErrorEvent_16;
+	Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* ____onBannerAdErrorEvent_19;
 	// System.Action Yodo1.MAS.Yodo1U3dMasCallback::_onBannerAdClosedEvent
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onBannerAdClosedEvent_17;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onBannerAdClosedEvent_20;
+	// System.Action Yodo1.MAS.Yodo1U3dMasCallback::_onInterstitialAdOpeningEvent
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onInterstitialAdOpeningEvent_21;
 	// System.Action Yodo1.MAS.Yodo1U3dMasCallback::_onInterstitialAdOpenedEvent
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onInterstitialAdOpenedEvent_18;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onInterstitialAdOpenedEvent_22;
 	// System.Action Yodo1.MAS.Yodo1U3dMasCallback::_onInterstitialAdClosedEvent
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onInterstitialAdClosedEvent_19;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onInterstitialAdClosedEvent_23;
 	// System.Action`1<Yodo1.MAS.Yodo1U3dAdError> Yodo1.MAS.Yodo1U3dMasCallback::_onInterstitialAdErrorEvent
-	Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* ____onInterstitialAdErrorEvent_20;
+	Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* ____onInterstitialAdErrorEvent_24;
 	// System.Action Yodo1.MAS.Yodo1U3dMasCallback::_onRewardedAdOpenedEvent
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onRewardedAdOpenedEvent_21;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onRewardedAdOpenedEvent_25;
 	// System.Action Yodo1.MAS.Yodo1U3dMasCallback::_onRewardedAdClosedEvent
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onRewardedAdClosedEvent_22;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onRewardedAdClosedEvent_26;
 	// System.Action Yodo1.MAS.Yodo1U3dMasCallback::_onRewardedAdReceivedRewardEvent
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onRewardedAdReceivedRewardEvent_23;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ____onRewardedAdReceivedRewardEvent_27;
 	// System.Action`1<Yodo1.MAS.Yodo1U3dAdError> Yodo1.MAS.Yodo1U3dMasCallback::_onRewardedAdErrorEvent
-	Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* ____onRewardedAdErrorEvent_24;
+	Action_1_t0D8F2A3AE8938C4C622D79C236E700FA5782C552* ____onRewardedAdErrorEvent_28;
 	// System.Boolean Yodo1.MAS.Yodo1U3dMasCallback::_autoPauseGame
-	bool ____autoPauseGame_25;
+	bool ____autoPauseGame_29;
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
